@@ -320,4 +320,8 @@ async def main() -> int:
 
 
 if __name__ == "__main__":
+    import sys
+    if "--allow-invalid-legacy" not in sys.argv:
+        raise SystemExit("INVALID LEGACY MODEL: spot fallback cannot establish futures short returns. Use tick_backtest.py.")
+    sys.argv.remove("--allow-invalid-legacy")
     raise SystemExit(asyncio.run(main()))

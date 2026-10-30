@@ -1,0 +1,834 @@
+{
+  "manifest_events": 115,
+  "announcement_timestamps": 74,
+  "unique_symbols": 93,
+  "legacy_tick_events": 2,
+  "legacy_tick_ci_rows": 0,
+  "unmatched_manifest_events": [],
+  "issues": [
+    "legacy_tick_report_does_not_cover_manifest",
+    "legacy_tick_report_has_no_confidence_intervals",
+    "legacy_contract_count_changes_when_cache_is_used"
+  ],
+  "nonempty_minute_cache_entries": 126,
+  "corrected_tick_events": 115,
+  "inputs_sha256": {
+    "events.json": "24956e2f70fa86d9ff92c4463f4eab3b54aedeea20609908c8ad32a73cb3d9d8",
+    "cms_articles.json": "f423079e7379526ec77f4cc3c468a9e617c4177170c182156db2cdc5b55eb7f0",
+    "fut_klines_1m.json": "d8ed994d4590b0d77529397fbeca0d9ffe86068a4f96185ed2f6175c59df8182",
+    "tick_backtest.json": "9dd16ddf32545804286055dfd133f0573bf0db81732a781dfdbd93bc57e52f87"
+  },
+  "minute_model": "v2 closed candles only, gap-aware stops, one position at a time; not executable P&L",
+  "minute_grid": {
+    "lag1_stop0_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.5135135135135135,
+      "median_net_bps": 2.102444568588952,
+      "mean_net_bps": 26.03917611733185,
+      "total_pnl_usd": 34.8,
+      "final_equity": 1034.8,
+      "max_dd_pct": 43.87,
+      "avg_notional": 469.48525652479833,
+      "top5_share_pct": 966.1,
+      "account_blown": false,
+      "lag_s": 1,
+      "stop_bps": 0,
+      "horizon_s": 300
+    },
+    "lag1_stop0_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.47297297297297297,
+      "median_net_bps": -29.058321476028894,
+      "mean_net_bps": -189.77618252337075,
+      "total_pnl_usd": -575.7,
+      "final_equity": 424.3,
+      "max_dd_pct": 65.59,
+      "avg_notional": 318.36319598938206,
+      "top5_share_pct": -36.7,
+      "account_blown": false,
+      "lag_s": 1,
+      "stop_bps": 0,
+      "horizon_s": 900
+    },
+    "lag1_stop100_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.21621621621621623,
+      "median_net_bps": -109.9999999999997,
+      "mean_net_bps": -28.92878848687895,
+      "total_pnl_usd": -187.12,
+      "final_equity": 812.88,
+      "max_dd_pct": 30.97,
+      "avg_notional": 795.958210835485,
+      "top5_share_pct": -107.3,
+      "account_blown": false,
+      "lag_s": 1,
+      "stop_bps": 100,
+      "horizon_s": 300
+    },
+    "lag1_stop100_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.16216216216216217,
+      "median_net_bps": -109.99999999999976,
+      "mean_net_bps": -53.769885324511726,
+      "total_pnl_usd": -309.75,
+      "final_equity": 690.25,
+      "max_dd_pct": 37.95,
+      "avg_notional": 750.5910252558339,
+      "top5_share_pct": -44.9,
+      "account_blown": false,
+      "lag_s": 1,
+      "stop_bps": 100,
+      "horizon_s": 900
+    },
+    "lag1_stop200_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.24324324324324326,
+      "median_net_bps": -209.99999999999974,
+      "mean_net_bps": -60.554662753398134,
+      "total_pnl_usd": -198.7,
+      "final_equity": 801.3,
+      "max_dd_pct": 26.25,
+      "avg_notional": 422.5512114388367,
+      "top5_share_pct": -82.2,
+      "account_blown": false,
+      "lag_s": 1,
+      "stop_bps": 200,
+      "horizon_s": 300
+    },
+    "lag1_stop200_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.20270270270270271,
+      "median_net_bps": -209.99999999999983,
+      "mean_net_bps": -98.37592172285345,
+      "total_pnl_usd": -296.28,
+      "final_equity": 703.72,
+      "max_dd_pct": 33.52,
+      "avg_notional": 407.05126483795004,
+      "top5_share_pct": -33.7,
+      "account_blown": false,
+      "lag_s": 1,
+      "stop_bps": 200,
+      "horizon_s": 900
+    },
+    "lag5_stop0_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.5135135135135135,
+      "median_net_bps": 2.102444568588952,
+      "mean_net_bps": 33.621336707762154,
+      "total_pnl_usd": 63.46,
+      "final_equity": 1063.46,
+      "max_dd_pct": 43.87,
+      "avg_notional": 472.8120448651967,
+      "top5_share_pct": 534.9,
+      "account_blown": false,
+      "lag_s": 5,
+      "stop_bps": 0,
+      "horizon_s": 300
+    },
+    "lag5_stop0_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.47297297297297297,
+      "median_net_bps": -29.058321476028894,
+      "mean_net_bps": -182.00193086635687,
+      "total_pnl_usd": -563.5,
+      "final_equity": 436.5,
+      "max_dd_pct": 65.59,
+      "avg_notional": 320.0024084807807,
+      "top5_share_pct": -37.8,
+      "account_blown": false,
+      "lag_s": 5,
+      "stop_bps": 0,
+      "horizon_s": 900
+    },
+    "lag5_stop100_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.21621621621621623,
+      "median_net_bps": -109.99999999999974,
+      "mean_net_bps": -28.92878848687897,
+      "total_pnl_usd": -187.12,
+      "final_equity": 812.88,
+      "max_dd_pct": 30.97,
+      "avg_notional": 795.958210835485,
+      "top5_share_pct": -107.3,
+      "account_blown": false,
+      "lag_s": 5,
+      "stop_bps": 100,
+      "horizon_s": 300
+    },
+    "lag5_stop100_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.16216216216216217,
+      "median_net_bps": -109.99999999999979,
+      "mean_net_bps": -53.76988532451174,
+      "total_pnl_usd": -309.75,
+      "final_equity": 690.25,
+      "max_dd_pct": 37.95,
+      "avg_notional": 750.5910252558339,
+      "top5_share_pct": -44.9,
+      "account_blown": false,
+      "lag_s": 5,
+      "stop_bps": 100,
+      "horizon_s": 900
+    },
+    "lag5_stop200_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.24324324324324326,
+      "median_net_bps": -209.99999999999974,
+      "mean_net_bps": -60.554662753398134,
+      "total_pnl_usd": -198.7,
+      "final_equity": 801.3,
+      "max_dd_pct": 26.25,
+      "avg_notional": 422.5512114388367,
+      "top5_share_pct": -82.2,
+      "account_blown": false,
+      "lag_s": 5,
+      "stop_bps": 200,
+      "horizon_s": 300
+    },
+    "lag5_stop200_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.20270270270270271,
+      "median_net_bps": -209.99999999999983,
+      "mean_net_bps": -98.37592172285345,
+      "total_pnl_usd": -296.28,
+      "final_equity": 703.72,
+      "max_dd_pct": 33.52,
+      "avg_notional": 407.05126483795004,
+      "top5_share_pct": -33.7,
+      "account_blown": false,
+      "lag_s": 5,
+      "stop_bps": 200,
+      "horizon_s": 900
+    },
+    "lag15_stop0_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.5,
+      "median_net_bps": -2.0668636657270483,
+      "mean_net_bps": 7.019091557459711,
+      "total_pnl_usd": -34.0,
+      "final_equity": 966.0,
+      "max_dd_pct": 42.9,
+      "avg_notional": 460.8043733318526,
+      "top5_share_pct": -923.4,
+      "account_blown": false,
+      "lag_s": 15,
+      "stop_bps": 0,
+      "horizon_s": 300
+    },
+    "lag15_stop0_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.4594594594594595,
+      "median_net_bps": -29.542146834342788,
+      "mean_net_bps": -212.06879068239815,
+      "total_pnl_usd": -610.86,
+      "final_equity": 389.14,
+      "max_dd_pct": 68.48,
+      "avg_notional": 313.09797249129895,
+      "top5_share_pct": -33.9,
+      "account_blown": false,
+      "lag_s": 15,
+      "stop_bps": 0,
+      "horizon_s": 900
+    },
+    "lag15_stop100_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.22972972972972974,
+      "median_net_bps": -109.9999999999997,
+      "mean_net_bps": -3.6976803869283548,
+      "total_pnl_usd": -47.78,
+      "final_equity": 952.22,
+      "max_dd_pct": 19.12,
+      "avg_notional": 838.9233755937981,
+      "top5_share_pct": -709.9,
+      "account_blown": false,
+      "lag_s": 15,
+      "stop_bps": 100,
+      "horizon_s": 300
+    },
+    "lag15_stop100_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.17567567567567569,
+      "median_net_bps": -109.99999999999976,
+      "mean_net_bps": -22.17051227016194,
+      "total_pnl_usd": -161.57,
+      "final_equity": 838.43,
+      "max_dd_pct": 24.62,
+      "avg_notional": 800.6059775308995,
+      "top5_share_pct": -190.8,
+      "account_blown": false,
+      "lag_s": 15,
+      "stop_bps": 100,
+      "horizon_s": 900
+    },
+    "lag15_stop200_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.24324324324324326,
+      "median_net_bps": -209.99999999999974,
+      "mean_net_bps": -59.649910529618886,
+      "total_pnl_usd": -196.35,
+      "final_equity": 803.65,
+      "max_dd_pct": 26.02,
+      "avg_notional": 424.84205521836583,
+      "top5_share_pct": -86.1,
+      "account_blown": false,
+      "lag_s": 15,
+      "stop_bps": 200,
+      "horizon_s": 300
+    },
+    "lag15_stop200_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.20270270270270271,
+      "median_net_bps": -209.99999999999983,
+      "mean_net_bps": -78.027098110935,
+      "total_pnl_usd": -247.51,
+      "final_equity": 752.49,
+      "max_dd_pct": 28.92,
+      "avg_notional": 416.9784497861772,
+      "top5_share_pct": -65.5,
+      "account_blown": false,
+      "lag_s": 15,
+      "stop_bps": 200,
+      "horizon_s": 900
+    },
+    "lag30_stop0_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.5,
+      "median_net_bps": -1.8484729652217693,
+      "mean_net_bps": 0.397470288857281,
+      "total_pnl_usd": -56.55,
+      "final_equity": 943.45,
+      "max_dd_pct": 41.69,
+      "avg_notional": 465.0110630652731,
+      "top5_share_pct": -525.8,
+      "account_blown": false,
+      "lag_s": 30,
+      "stop_bps": 0,
+      "horizon_s": 300
+    },
+    "lag30_stop0_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.47297297297297297,
+      "median_net_bps": -29.058321476028894,
+      "mean_net_bps": -217.27115979506775,
+      "total_pnl_usd": -617.47,
+      "final_equity": 382.53,
+      "max_dd_pct": 67.51,
+      "avg_notional": 317.3000569674975,
+      "top5_share_pct": -32.1,
+      "account_blown": false,
+      "lag_s": 30,
+      "stop_bps": 0,
+      "horizon_s": 900
+    },
+    "lag30_stop100_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.21621621621621623,
+      "median_net_bps": -109.9999999999997,
+      "mean_net_bps": -3.8894333598724966,
+      "total_pnl_usd": -49.01,
+      "final_equity": 950.99,
+      "max_dd_pct": 19.22,
+      "avg_notional": 838.1972191728158,
+      "top5_share_pct": -691.3,
+      "account_blown": false,
+      "lag_s": 30,
+      "stop_bps": 100,
+      "horizon_s": 300
+    },
+    "lag30_stop100_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.17567567567567569,
+      "median_net_bps": -109.99999999999976,
+      "mean_net_bps": -22.362064492224928,
+      "total_pnl_usd": -162.65,
+      "final_equity": 837.35,
+      "max_dd_pct": 24.72,
+      "avg_notional": 799.9183050989178,
+      "top5_share_pct": -189.3,
+      "account_blown": false,
+      "lag_s": 30,
+      "stop_bps": 100,
+      "horizon_s": 900
+    },
+    "lag30_stop200_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.22972972972972974,
+      "median_net_bps": -209.99999999999974,
+      "mean_net_bps": -59.84166350256301,
+      "total_pnl_usd": -196.89,
+      "final_equity": 803.11,
+      "max_dd_pct": 26.07,
+      "avg_notional": 424.65237719739275,
+      "top5_share_pct": -85.8,
+      "account_blown": false,
+      "lag_s": 30,
+      "stop_bps": 200,
+      "horizon_s": 300
+    },
+    "lag30_stop200_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.20270270270270271,
+      "median_net_bps": -209.99999999999983,
+      "mean_net_bps": -78.21865033299798,
+      "total_pnl_usd": -248.02,
+      "final_equity": 751.98,
+      "max_dd_pct": 28.97,
+      "avg_notional": 416.79314183773954,
+      "top5_share_pct": -65.3,
+      "account_blown": false,
+      "lag_s": 30,
+      "stop_bps": 200,
+      "horizon_s": 900
+    },
+    "lag60_stop0_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.5135135135135135,
+      "median_net_bps": 2.997632051193695,
+      "mean_net_bps": 33.493898986187354,
+      "total_pnl_usd": 80.84,
+      "final_equity": 1080.84,
+      "max_dd_pct": 33.04,
+      "avg_notional": 444.6528367580105,
+      "top5_share_pct": 368.2,
+      "account_blown": false,
+      "lag_s": 60,
+      "stop_bps": 0,
+      "horizon_s": 300
+    },
+    "lag60_stop0_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.47297297297297297,
+      "median_net_bps": -5.706566095650257,
+      "mean_net_bps": -190.02317265498226,
+      "total_pnl_usd": -576.62,
+      "final_equity": 423.38,
+      "max_dd_pct": 66.62,
+      "avg_notional": 285.2280662540825,
+      "top5_share_pct": -32.5,
+      "account_blown": false,
+      "lag_s": 60,
+      "stop_bps": 0,
+      "horizon_s": 900
+    },
+    "lag60_stop100_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.28378378378378377,
+      "median_net_bps": -109.99999999999974,
+      "mean_net_bps": 15.049967710226644,
+      "total_pnl_usd": 82.62,
+      "final_equity": 1082.62,
+      "max_dd_pct": 13.25,
+      "avg_notional": 945.9555622853962,
+      "top5_share_pct": 462.5,
+      "account_blown": false,
+      "lag_s": 60,
+      "stop_bps": 100,
+      "horizon_s": 300
+    },
+    "lag60_stop100_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.20270270270270271,
+      "median_net_bps": -109.99999999999991,
+      "mean_net_bps": -2.4871324163631017,
+      "total_pnl_usd": -47.42,
+      "final_equity": 952.58,
+      "max_dd_pct": 22.74,
+      "avg_notional": 980.8959939497894,
+      "top5_share_pct": -928.5,
+      "account_blown": false,
+      "lag_s": 60,
+      "stop_bps": 100,
+      "horizon_s": 900
+    },
+    "lag60_stop200_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.36486486486486486,
+      "median_net_bps": -78.4099503769638,
+      "mean_net_bps": 12.442320020723015,
+      "total_pnl_usd": 34.83,
+      "final_equity": 1034.83,
+      "max_dd_pct": 9.65,
+      "avg_notional": 468.6819818667766,
+      "top5_share_pct": 661.1,
+      "account_blown": false,
+      "lag_s": 60,
+      "stop_bps": 200,
+      "horizon_s": 300
+    },
+    "lag60_stop200_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.25675675675675674,
+      "median_net_bps": -209.9999999999996,
+      "mean_net_bps": -28.566599834899943,
+      "total_pnl_usd": -106.37,
+      "final_equity": 893.63,
+      "max_dd_pct": 18.52,
+      "avg_notional": 463.6416013314101,
+      "top5_share_pct": -232.0,
+      "account_blown": false,
+      "lag_s": 60,
+      "stop_bps": 200,
+      "horizon_s": 900
+    },
+    "lag111_stop0_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.4864864864864865,
+      "median_net_bps": -2.6491651632707063,
+      "mean_net_bps": -25.986852271816975,
+      "total_pnl_usd": -126.51,
+      "final_equity": 873.49,
+      "max_dd_pct": 40.76,
+      "avg_notional": 395.42744023316845,
+      "top5_share_pct": -165.9,
+      "account_blown": false,
+      "lag_s": 111,
+      "stop_bps": 0,
+      "horizon_s": 300
+    },
+    "lag111_stop0_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.4594594594594595,
+      "median_net_bps": -21.060314369580055,
+      "mean_net_bps": -253.5137344555368,
+      "total_pnl_usd": -671.22,
+      "final_equity": 328.78,
+      "max_dd_pct": 72.03,
+      "avg_notional": 247.50413624138417,
+      "top5_share_pct": -16.8,
+      "account_blown": false,
+      "lag_s": 111,
+      "stop_bps": 0,
+      "horizon_s": 900
+    },
+    "lag111_stop100_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.28378378378378377,
+      "median_net_bps": -109.99999999999945,
+      "mean_net_bps": 27.006726218064852,
+      "total_pnl_usd": 170.37,
+      "final_equity": 1170.37,
+      "max_dd_pct": 11.51,
+      "avg_notional": 934.4168840541687,
+      "top5_share_pct": 255.1,
+      "account_blown": false,
+      "lag_s": 111,
+      "stop_bps": 100,
+      "horizon_s": 300
+    },
+    "lag111_stop100_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.21621621621621623,
+      "median_net_bps": -109.99999999999966,
+      "mean_net_bps": -1.2998691214358176,
+      "total_pnl_usd": -37.22,
+      "final_equity": 962.78,
+      "max_dd_pct": 16.52,
+      "avg_notional": 879.69550620634,
+      "top5_share_pct": -1073.3,
+      "account_blown": false,
+      "lag_s": 111,
+      "stop_bps": 100,
+      "horizon_s": 900
+    },
+    "lag111_stop200_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.35135135135135137,
+      "median_net_bps": -34.93638481974274,
+      "mean_net_bps": 16.344648306663956,
+      "total_pnl_usd": 48.98,
+      "final_equity": 1048.98,
+      "max_dd_pct": 10.87,
+      "avg_notional": 459.6989581409185,
+      "top5_share_pct": 498.0,
+      "account_blown": false,
+      "lag_s": 111,
+      "stop_bps": 200,
+      "horizon_s": 300
+    },
+    "lag111_stop200_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.25675675675675674,
+      "median_net_bps": -209.99999999999943,
+      "mean_net_bps": -31.507034683407,
+      "total_pnl_usd": -114.7,
+      "final_equity": 885.3,
+      "max_dd_pct": 16.11,
+      "avg_notional": 434.41678197508656,
+      "top5_share_pct": -193.1,
+      "account_blown": false,
+      "lag_s": 111,
+      "stop_bps": 200,
+      "horizon_s": 900
+    },
+    "lag130_stop0_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.4594594594594595,
+      "median_net_bps": -4.726831549529636,
+      "mean_net_bps": -106.35411568132218,
+      "total_pnl_usd": -363.61,
+      "final_equity": 636.39,
+      "max_dd_pct": 50.99,
+      "avg_notional": 324.2326237592313,
+      "top5_share_pct": -37.0,
+      "account_blown": false,
+      "lag_s": 130,
+      "stop_bps": 0,
+      "horizon_s": 300
+    },
+    "lag130_stop0_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.44594594594594594,
+      "median_net_bps": -21.486380651870512,
+      "mean_net_bps": -344.2192654087592,
+      "total_pnl_usd": -781.57,
+      "final_equity": 218.43,
+      "max_dd_pct": 79.21,
+      "avg_notional": 191.1590052737989,
+      "top5_share_pct": -9.6,
+      "account_blown": false,
+      "lag_s": 130,
+      "stop_bps": 0,
+      "horizon_s": 900
+    },
+    "lag130_stop100_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.33783783783783783,
+      "median_net_bps": -22.252907744060966,
+      "mean_net_bps": 52.163171613456484,
+      "total_pnl_usd": 385.12,
+      "final_equity": 1385.12,
+      "max_dd_pct": 9.48,
+      "avg_notional": 960.7729387077004,
+      "top5_share_pct": 120.2,
+      "account_blown": false,
+      "lag_s": 130,
+      "stop_bps": 100,
+      "horizon_s": 300
+    },
+    "lag130_stop100_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.25675675675675674,
+      "median_net_bps": -109.99999999999947,
+      "mean_net_bps": 22.83363648477958,
+      "total_pnl_usd": 128.56,
+      "final_equity": 1128.56,
+      "max_dd_pct": 19.05,
+      "avg_notional": 885.8784094154737,
+      "top5_share_pct": 381.4,
+      "account_blown": false,
+      "lag_s": 130,
+      "stop_bps": 100,
+      "horizon_s": 900
+    },
+    "lag130_stop200_h300": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.3783783783783784,
+      "median_net_bps": -14.382699655914296,
+      "mean_net_bps": 23.14338174753848,
+      "total_pnl_usd": 76.2,
+      "final_equity": 1076.2,
+      "max_dd_pct": 12.5,
+      "avg_notional": 463.237625885837,
+      "top5_share_pct": 278.0,
+      "account_blown": false,
+      "lag_s": 130,
+      "stop_bps": 200,
+      "horizon_s": 300
+    },
+    "lag130_stop200_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.2972972972972973,
+      "median_net_bps": -141.12513480902544,
+      "mean_net_bps": -16.706604711674224,
+      "total_pnl_usd": -67.16,
+      "final_equity": 932.84,
+      "max_dd_pct": 16.95,
+      "avg_notional": 441.55554886057905,
+      "top5_share_pct": -358.5,
+      "account_blown": false,
+      "lag_s": 130,
+      "stop_bps": 200,
+      "horizon_s": 900
+    },
+    "lag252_stop0_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.3108108108108108,
+      "median_net_bps": -49.97086260053739,
+      "mean_net_bps": -211.04808587906194,
+      "total_pnl_usd": -573.05,
+      "final_equity": 426.95,
+      "max_dd_pct": 58.65,
+      "avg_notional": 339.84810520576866,
+      "top5_share_pct": -26.4,
+      "account_blown": false,
+      "lag_s": 252,
+      "stop_bps": 0,
+      "horizon_s": 900
+    },
+    "lag252_stop100_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.10810810810810811,
+      "median_net_bps": -109.99999999999974,
+      "mean_net_bps": -68.21976996152983,
+      "total_pnl_usd": -370.34,
+      "final_equity": 629.66,
+      "max_dd_pct": 37.06,
+      "avg_notional": 762.3923365713665,
+      "top5_share_pct": -19.4,
+      "account_blown": false,
+      "lag_s": 252,
+      "stop_bps": 100,
+      "horizon_s": 900
+    },
+    "lag252_stop200_h900": {
+      "trades": 74,
+      "skipped": {
+        "overlapping_position": 41
+      },
+      "win_rate": 0.17567567567567569,
+      "median_net_bps": -209.99999999999963,
+      "mean_net_bps": -84.79373710863818,
+      "total_pnl_usd": -261.5,
+      "final_equity": 738.5,
+      "max_dd_pct": 26.17,
+      "avg_notional": 420.33829373434963,
+      "top5_share_pct": -45.3,
+      "account_blown": false,
+      "lag_s": 252,
+      "stop_bps": 200,
+      "horizon_s": 900
+    }
+  }
+}

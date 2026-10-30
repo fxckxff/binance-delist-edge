@@ -1,0 +1,4176 @@
+{
+  "source": "saved CMS + saved minute cache; title extraction requires review",
+  "counts": {
+    "no_pre_announcement_volume": 11,
+    "unknown_empty_legacy_cache": 242,
+    "not_fetched": 227,
+    "has_futures_data": 115
+  },
+  "candidates": [
+    {
+      "symbol": "AXS",
+      "release_ms": 1645495079687,
+      "article_code": "f7af728484fc4e8b82cdecf017d8b18a",
+      "title": "Notice of Removal of AXS/BIDR Trading Pair - 2022-02-25",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BIDR",
+      "release_ms": 1645495079687,
+      "article_code": "f7af728484fc4e8b82cdecf017d8b18a",
+      "title": "Notice of Removal of AXS/BIDR Trading Pair - 2022-02-25",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BCD",
+      "release_ms": 1646107170632,
+      "article_code": "92eea3f48aa04210a454511151f3d362",
+      "title": "Binance Will Delist BCD, CND, MTH, NCASH and YOYO on 2022-03-08",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CND",
+      "release_ms": 1646107170632,
+      "article_code": "92eea3f48aa04210a454511151f3d362",
+      "title": "Binance Will Delist BCD, CND, MTH, NCASH and YOYO on 2022-03-08",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MTH",
+      "release_ms": 1646107170632,
+      "article_code": "92eea3f48aa04210a454511151f3d362",
+      "title": "Binance Will Delist BCD, CND, MTH, NCASH and YOYO on 2022-03-08",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "NCASH",
+      "release_ms": 1646107170632,
+      "article_code": "92eea3f48aa04210a454511151f3d362",
+      "title": "Binance Will Delist BCD, CND, MTH, NCASH and YOYO on 2022-03-08",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "YOYO",
+      "release_ms": 1646107170632,
+      "article_code": "92eea3f48aa04210a454511151f3d362",
+      "title": "Binance Will Delist BCD, CND, MTH, NCASH and YOYO on 2022-03-08",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "YFII",
+      "release_ms": 1649049710096,
+      "article_code": "4baf8d70485c46e38637bd063c58c4d8",
+      "title": "Binance Futures Will Delist 1000BTTC and YFII USDT-Margined Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "HEGIC",
+      "release_ms": 1649066280853,
+      "article_code": "da14a6dce7a64283b8d536ca1c97c026",
+      "title": "Binance Will Delist HEGIC, RENBTC and SUSD on 2022-04-11",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "RENBTC",
+      "release_ms": 1649066280853,
+      "article_code": "da14a6dce7a64283b8d536ca1c97c026",
+      "title": "Binance Will Delist HEGIC, RENBTC and SUSD on 2022-04-11",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SUSD",
+      "release_ms": 1649066280853,
+      "article_code": "da14a6dce7a64283b8d536ca1c97c026",
+      "title": "Binance Will Delist HEGIC, RENBTC and SUSD on 2022-04-11",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LTCDOWN",
+      "release_ms": 1649322306941,
+      "article_code": "81f425fef8774e0a82451fa480b95085",
+      "title": "Binance to Delist and Cease Redemption for XTZUP, XTZDOWN, LTCUP & LTCDOWN Leveraged Tokens (2022-04-07)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "LTCUP",
+      "release_ms": 1649322306941,
+      "article_code": "81f425fef8774e0a82451fa480b95085",
+      "title": "Binance to Delist and Cease Redemption for XTZUP, XTZDOWN, LTCUP & LTCDOWN Leveraged Tokens (2022-04-07)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "XTZDOWN",
+      "release_ms": 1649322306941,
+      "article_code": "81f425fef8774e0a82451fa480b95085",
+      "title": "Binance to Delist and Cease Redemption for XTZUP, XTZDOWN, LTCUP & LTCDOWN Leveraged Tokens (2022-04-07)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "XTZUP",
+      "release_ms": 1649322306941,
+      "article_code": "81f425fef8774e0a82451fa480b95085",
+      "title": "Binance to Delist and Cease Redemption for XTZUP, XTZDOWN, LTCUP & LTCDOWN Leveraged Tokens (2022-04-07)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "FTTBUSD",
+      "release_ms": 1652070302529,
+      "article_code": "7305d3e50f0647838078ded2be975d48",
+      "title": "Binance Futures Will Delist FTTBUSD USDT-Margined Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LUNA",
+      "release_ms": 1652331009976,
+      "article_code": "1b73e64616ee4e769c29e70c66728d1a",
+      "title": "Binance Futures to Delist Coin-Margined LUNA Perpetual Contracts and Update the Leverage & Margin Tiers for USDT-Margined LUNA Perpetual Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "LUNA",
+      "release_ms": 1652353160901,
+      "article_code": "30b94fa12397417ebb75567d525c2ecd",
+      "title": "Binance Margin to Delist LUNA on Cross Margin and Isolated Margin",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "LUNA",
+      "release_ms": 1652367541271,
+      "article_code": "ef3ce76d5c2d45ee9b6dc3f281cde744",
+      "title": "Binance Futures Will Delist LUNA USDT-Margined Contract",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "ANC",
+      "release_ms": 1652408842500,
+      "article_code": "0bfb6cfd10aa4d26926260c0159ef58d",
+      "title": "Binance Futures Will Delist USDT-Margined ANC Perpetual Contract",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "ANC",
+      "release_ms": 1652424609208,
+      "article_code": "70d41dea57454556b68d2a58c70c9cc5",
+      "title": "Binance Margin to Delist ANC and MIR on Cross Margin and Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MIR",
+      "release_ms": 1652424609208,
+      "article_code": "70d41dea57454556b68d2a58c70c9cc5",
+      "title": "Binance Margin to Delist ANC and MIR on Cross Margin and Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AKRO",
+      "release_ms": 1652871565804,
+      "article_code": "d1cb959677034c45b5149f1d998ae2b1",
+      "title": "Binance Futures Will Delist AKRO and DODO USDT-Margined Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "DODO",
+      "release_ms": 1652871565804,
+      "article_code": "d1cb959677034c45b5149f1d998ae2b1",
+      "title": "Binance Futures Will Delist AKRO and DODO USDT-Margined Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "ICP",
+      "release_ms": 1654165095432,
+      "article_code": "af469aeeab074738bb4a276070a9d11b",
+      "title": "Binance Futures Will Delist TLM and ICP USDT-Margined Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TLM",
+      "release_ms": 1654165095432,
+      "article_code": "af469aeeab074738bb4a276070a9d11b",
+      "title": "Binance Futures Will Delist TLM and ICP USDT-Margined Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SC",
+      "release_ms": 1654855342935,
+      "article_code": "6ce355dedc5d438abde7b5dc99b3a56d",
+      "title": "Binance Futures Will Delist USDT-Margined SC Perpetual Contract",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "CRV",
+      "release_ms": 1655953224692,
+      "article_code": "0cc7c656b0704373bb4088fc531f89e0",
+      "title": "Binance Futures Will Delist CRV Coin-Margined Perpetual Contract",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "GO",
+      "release_ms": 1656658181710,
+      "article_code": "d8f6cf77d58b4571a2c4c1ed77572256",
+      "title": "Binance Will Delist GRS, NAS and GO on 2022-07-08",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "GRS",
+      "release_ms": 1656658181710,
+      "article_code": "d8f6cf77d58b4571a2c4c1ed77572256",
+      "title": "Binance Will Delist GRS, NAS and GO on 2022-07-08",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "NAS",
+      "release_ms": 1656658181710,
+      "article_code": "d8f6cf77d58b4571a2c4c1ed77572256",
+      "title": "Binance Will Delist GRS, NAS and GO on 2022-07-08",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ANC",
+      "release_ms": 1657273103633,
+      "article_code": "2c90ba6178524b9e9e19640df1fa2606",
+      "title": "Binance Staking to Delist EZ, TRU, VITE, ANC & MIR",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "EZ",
+      "release_ms": 1657273103633,
+      "article_code": "2c90ba6178524b9e9e19640df1fa2606",
+      "title": "Binance Staking to Delist EZ, TRU, VITE, ANC & MIR",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MIR",
+      "release_ms": 1657273103633,
+      "article_code": "2c90ba6178524b9e9e19640df1fa2606",
+      "title": "Binance Staking to Delist EZ, TRU, VITE, ANC & MIR",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TRU",
+      "release_ms": 1657273103633,
+      "article_code": "2c90ba6178524b9e9e19640df1fa2606",
+      "title": "Binance Staking to Delist EZ, TRU, VITE, ANC & MIR",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "VITE",
+      "release_ms": 1657273103633,
+      "article_code": "2c90ba6178524b9e9e19640df1fa2606",
+      "title": "Binance Staking to Delist EZ, TRU, VITE, ANC & MIR",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BRD",
+      "release_ms": 1659591197638,
+      "article_code": "d5f079935fda4abfb4a5636f01984ec2",
+      "title": "Binance Will Delist EZ, QSP, BRD, NXS, NAV, MDA and SPARTA on 2022-08-11",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "EZ",
+      "release_ms": 1659591197638,
+      "article_code": "d5f079935fda4abfb4a5636f01984ec2",
+      "title": "Binance Will Delist EZ, QSP, BRD, NXS, NAV, MDA and SPARTA on 2022-08-11",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MDA",
+      "release_ms": 1659591197638,
+      "article_code": "d5f079935fda4abfb4a5636f01984ec2",
+      "title": "Binance Will Delist EZ, QSP, BRD, NXS, NAV, MDA and SPARTA on 2022-08-11",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "NAV",
+      "release_ms": 1659591197638,
+      "article_code": "d5f079935fda4abfb4a5636f01984ec2",
+      "title": "Binance Will Delist EZ, QSP, BRD, NXS, NAV, MDA and SPARTA on 2022-08-11",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "NXS",
+      "release_ms": 1659591197638,
+      "article_code": "d5f079935fda4abfb4a5636f01984ec2",
+      "title": "Binance Will Delist EZ, QSP, BRD, NXS, NAV, MDA and SPARTA on 2022-08-11",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "QSP",
+      "release_ms": 1659591197638,
+      "article_code": "d5f079935fda4abfb4a5636f01984ec2",
+      "title": "Binance Will Delist EZ, QSP, BRD, NXS, NAV, MDA and SPARTA on 2022-08-11",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SPARTA",
+      "release_ms": 1659591197638,
+      "article_code": "d5f079935fda4abfb4a5636f01984ec2",
+      "title": "Binance Will Delist EZ, QSP, BRD, NXS, NAV, MDA and SPARTA on 2022-08-11",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BTS",
+      "release_ms": 1660013959306,
+      "article_code": "90498d8e2fec42468ec3d659bdfbb78b",
+      "title": "Binance Futures Will Delist USDT-Margined BTS Perpetual Contract",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BLZ",
+      "release_ms": 1660730127229,
+      "article_code": "b312715afbff4d7493b77089967303b1",
+      "title": "Binance Futures Will Delist USDT-Margined BLZ Perpetual Contract",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "TCT",
+      "release_ms": 1663229120786,
+      "article_code": "02b5d183f4944f18b3b0335f7b7348cc",
+      "title": "Binance Margin Will Delist TCT on Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BTG",
+      "release_ms": 1665633628184,
+      "article_code": "cd7aae08f6a84ad89ca6a2c4d52fa32e",
+      "title": "Binance Will Delist DNT, NBS, BTG and TCT on 2022-10-24",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DNT",
+      "release_ms": 1665633628184,
+      "article_code": "cd7aae08f6a84ad89ca6a2c4d52fa32e",
+      "title": "Binance Will Delist DNT, NBS, BTG and TCT on 2022-10-24",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "NBS",
+      "release_ms": 1665633628184,
+      "article_code": "cd7aae08f6a84ad89ca6a2c4d52fa32e",
+      "title": "Binance Will Delist DNT, NBS, BTG and TCT on 2022-10-24",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TCT",
+      "release_ms": 1665633628184,
+      "article_code": "cd7aae08f6a84ad89ca6a2c4d52fa32e",
+      "title": "Binance Will Delist DNT, NBS, BTG and TCT on 2022-10-24",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "FTT",
+      "release_ms": 1668332838510,
+      "article_code": "3b4c7c08479b48d48189191e37a7adca",
+      "title": "Binance Will Delist FTT Margin Pairs, USDⓈ-M Futures Contracts and Binance Flexible Products",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "RAY",
+      "release_ms": 1668409204880,
+      "article_code": "9a6676662bd5417c92267953f3819dd0",
+      "title": "Binance Futures Will Delist RAYUSDT and SRMUSDT Perpetual Futures Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "SRM",
+      "release_ms": 1668409204880,
+      "article_code": "9a6676662bd5417c92267953f3819dd0",
+      "title": "Binance Futures Will Delist RAYUSDT and SRMUSDT Perpetual Futures Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "RAY",
+      "release_ms": 1668650316774,
+      "article_code": "e0ff4c7020ca4203b49907505bc86809",
+      "title": "Binance Will Delist SRM and RAY Margin Pairs and Binance Earn Products",
+      "status": "no_pre_announcement_volume"
+    },
+    {
+      "symbol": "SRM",
+      "release_ms": 1668650316774,
+      "article_code": "e0ff4c7020ca4203b49907505bc86809",
+      "title": "Binance Will Delist SRM and RAY Margin Pairs and Binance Earn Products",
+      "status": "no_pre_announcement_volume"
+    },
+    {
+      "symbol": "GTO",
+      "release_ms": 1668765625978,
+      "article_code": "b25c54dc95744d5db55e4437c55ce6b5",
+      "title": "Binance Margin Will Delist GTO, TRIBE & More Margin Pairs on Cross Margin & Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TRIBE",
+      "release_ms": 1668765625978,
+      "article_code": "b25c54dc95744d5db55e4437c55ce6b5",
+      "title": "Binance Margin Will Delist GTO, TRIBE & More Margin Pairs on Cross Margin & Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CVC",
+      "release_ms": 1669606227750,
+      "article_code": "3188e26f14a1464b91487abad452c04f",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of CVCUSDT Perpetual Futures Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CVC",
+      "release_ms": 1669617922401,
+      "article_code": "2220f382c1764f84834b1d74a26489a8",
+      "title": "Binance Margin Will Delist CVC & More Margin Pairs on Cross Margin & Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ACA",
+      "release_ms": 1670325826754,
+      "article_code": "9ea990c25dcd474081c2259c85a59325",
+      "title": "Binance Margin Will Delist ACA and More Margin Pairs on Cross Margin & Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BNX",
+      "release_ms": 1670497371715,
+      "article_code": "f4f20b3b72324b3b82c543988f5b2328",
+      "title": "Binance Margin Will Delist BNX, TORN and More Margin Pairs on Cross Margin & Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TORN",
+      "release_ms": 1670497371715,
+      "article_code": "f4f20b3b72324b3b82c543988f5b2328",
+      "title": "Binance Margin Will Delist BNX, TORN and More Margin Pairs on Cross Margin & Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ANCBUSD",
+      "release_ms": 1670912849285,
+      "article_code": "7dcc170b060c4c6a8ade4ded423f726a",
+      "title": "Notice on Updating Leverage & Margin Tiers, and Delisting USDⓈ-M ANCBUSD and AUCTIONBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BTCST",
+      "release_ms": 1671076804887,
+      "article_code": "35a4169422154c838f012331f5f4b425",
+      "title": "Binance Will Delist MITH, TRIBE, REP and BTCST on 2022-12-22",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MITH",
+      "release_ms": 1671076804887,
+      "article_code": "35a4169422154c838f012331f5f4b425",
+      "title": "Binance Will Delist MITH, TRIBE, REP and BTCST on 2022-12-22",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "REP",
+      "release_ms": 1671076804887,
+      "article_code": "35a4169422154c838f012331f5f4b425",
+      "title": "Binance Will Delist MITH, TRIBE, REP and BTCST on 2022-12-22",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TRIBE",
+      "release_ms": 1671076804887,
+      "article_code": "35a4169422154c838f012331f5f4b425",
+      "title": "Binance Will Delist MITH, TRIBE, REP and BTCST on 2022-12-22",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CHESS",
+      "release_ms": 1671085221101,
+      "article_code": "9da748d1d20048beb0fd4e824da4c50e",
+      "title": "Binance Margin Will Delist CHESS, CVP and More Tokens as Borrowable Assets From Cross Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CVP",
+      "release_ms": 1671085221101,
+      "article_code": "9da748d1d20048beb0fd4e824da4c50e",
+      "title": "Binance Margin Will Delist CHESS, CVP and More Tokens as Borrowable Assets From Cross Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AION",
+      "release_ms": 1671710396824,
+      "article_code": "fb10a5286033409fbba06a197a7a2ffc",
+      "title": "Binance Margin Will Delist FET, FORTH, KEY, MBOX, WIN as Borrowable Assets From Cross Margin and AION, BTS From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BTS",
+      "release_ms": 1671710396824,
+      "article_code": "fb10a5286033409fbba06a197a7a2ffc",
+      "title": "Binance Margin Will Delist FET, FORTH, KEY, MBOX, WIN as Borrowable Assets From Cross Margin and AION, BTS From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "FET",
+      "release_ms": 1671710396824,
+      "article_code": "fb10a5286033409fbba06a197a7a2ffc",
+      "title": "Binance Margin Will Delist FET, FORTH, KEY, MBOX, WIN as Borrowable Assets From Cross Margin and AION, BTS From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "FORTH",
+      "release_ms": 1671710396824,
+      "article_code": "fb10a5286033409fbba06a197a7a2ffc",
+      "title": "Binance Margin Will Delist FET, FORTH, KEY, MBOX, WIN as Borrowable Assets From Cross Margin and AION, BTS From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "KEY",
+      "release_ms": 1671710396824,
+      "article_code": "fb10a5286033409fbba06a197a7a2ffc",
+      "title": "Binance Margin Will Delist FET, FORTH, KEY, MBOX, WIN as Borrowable Assets From Cross Margin and AION, BTS From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MBOX",
+      "release_ms": 1671710396824,
+      "article_code": "fb10a5286033409fbba06a197a7a2ffc",
+      "title": "Binance Margin Will Delist FET, FORTH, KEY, MBOX, WIN as Borrowable Assets From Cross Margin and AION, BTS From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "WIN",
+      "release_ms": 1671710396824,
+      "article_code": "fb10a5286033409fbba06a197a7a2ffc",
+      "title": "Binance Margin Will Delist FET, FORTH, KEY, MBOX, WIN as Borrowable Assets From Cross Margin and AION, BTS From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "COIN",
+      "release_ms": 1671768907038,
+      "article_code": "2a7d2f14142646959b101f4254d22340",
+      "title": "Binance Futures Will Delist COIN-M GALAUSD, ZILUSD and VETUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "GALAUSD",
+      "release_ms": 1671768907038,
+      "article_code": "2a7d2f14142646959b101f4254d22340",
+      "title": "Binance Futures Will Delist COIN-M GALAUSD, ZILUSD and VETUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "VETUSD",
+      "release_ms": 1671768907038,
+      "article_code": "2a7d2f14142646959b101f4254d22340",
+      "title": "Binance Futures Will Delist COIN-M GALAUSD, ZILUSD and VETUSD Perpetual Contracts",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ZILUSD",
+      "release_ms": 1671768907038,
+      "article_code": "2a7d2f14142646959b101f4254d22340",
+      "title": "Binance Futures Will Delist COIN-M GALAUSD, ZILUSD and VETUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ATA",
+      "release_ms": 1672290931854,
+      "article_code": "b271dde3a3ea459aadc5369f777d69d4",
+      "title": "Binance Margin Will Delist ATA, DEXE, HIGH, STPT & WAN as Borrowable Assets From Cross Margin",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "DEXE",
+      "release_ms": 1672290931854,
+      "article_code": "b271dde3a3ea459aadc5369f777d69d4",
+      "title": "Binance Margin Will Delist ATA, DEXE, HIGH, STPT & WAN as Borrowable Assets From Cross Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "HIGH",
+      "release_ms": 1672290931854,
+      "article_code": "b271dde3a3ea459aadc5369f777d69d4",
+      "title": "Binance Margin Will Delist ATA, DEXE, HIGH, STPT & WAN as Borrowable Assets From Cross Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "STPT",
+      "release_ms": 1672290931854,
+      "article_code": "b271dde3a3ea459aadc5369f777d69d4",
+      "title": "Binance Margin Will Delist ATA, DEXE, HIGH, STPT & WAN as Borrowable Assets From Cross Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "WAN",
+      "release_ms": 1672290931854,
+      "article_code": "b271dde3a3ea459aadc5369f777d69d4",
+      "title": "Binance Margin Will Delist ATA, DEXE, HIGH, STPT & WAN as Borrowable Assets From Cross Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "AGLD",
+      "release_ms": 1672907126372,
+      "article_code": "4de1611d14ed44d2b9923b0540193f70",
+      "title": "Binance Margin Will Delist AGLD, DATA, ERN, FIO & TROY as Borrowable Assets From Cross Margin and KEY From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DATA",
+      "release_ms": 1672907126372,
+      "article_code": "4de1611d14ed44d2b9923b0540193f70",
+      "title": "Binance Margin Will Delist AGLD, DATA, ERN, FIO & TROY as Borrowable Assets From Cross Margin and KEY From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ERN",
+      "release_ms": 1672907126372,
+      "article_code": "4de1611d14ed44d2b9923b0540193f70",
+      "title": "Binance Margin Will Delist AGLD, DATA, ERN, FIO & TROY as Borrowable Assets From Cross Margin and KEY From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "FIO",
+      "release_ms": 1672907126372,
+      "article_code": "4de1611d14ed44d2b9923b0540193f70",
+      "title": "Binance Margin Will Delist AGLD, DATA, ERN, FIO & TROY as Borrowable Assets From Cross Margin and KEY From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "KEY",
+      "release_ms": 1672907126372,
+      "article_code": "4de1611d14ed44d2b9923b0540193f70",
+      "title": "Binance Margin Will Delist AGLD, DATA, ERN, FIO & TROY as Borrowable Assets From Cross Margin and KEY From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TROY",
+      "release_ms": 1672907126372,
+      "article_code": "4de1611d14ed44d2b9923b0540193f70",
+      "title": "Binance Margin Will Delist AGLD, DATA, ERN, FIO & TROY as Borrowable Assets From Cross Margin and KEY From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "COCOS",
+      "release_ms": 1673592309526,
+      "article_code": "ed7dcc263e6e4f3687f8260340ec96ce",
+      "title": "Binance Margin Will Delist FLM, KMD as Borrowable Assets From Cross Margin and COCOS, CREAM, SCRT From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CREAM",
+      "release_ms": 1673592309526,
+      "article_code": "ed7dcc263e6e4f3687f8260340ec96ce",
+      "title": "Binance Margin Will Delist FLM, KMD as Borrowable Assets From Cross Margin and COCOS, CREAM, SCRT From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "FLM",
+      "release_ms": 1673592309526,
+      "article_code": "ed7dcc263e6e4f3687f8260340ec96ce",
+      "title": "Binance Margin Will Delist FLM, KMD as Borrowable Assets From Cross Margin and COCOS, CREAM, SCRT From Isolated Margin",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "KMD",
+      "release_ms": 1673592309526,
+      "article_code": "ed7dcc263e6e4f3687f8260340ec96ce",
+      "title": "Binance Margin Will Delist FLM, KMD as Borrowable Assets From Cross Margin and COCOS, CREAM, SCRT From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SCRT",
+      "release_ms": 1673592309526,
+      "article_code": "ed7dcc263e6e4f3687f8260340ec96ce",
+      "title": "Binance Margin Will Delist FLM, KMD as Borrowable Assets From Cross Margin and COCOS, CREAM, SCRT From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BEAM",
+      "release_ms": 1674100806617,
+      "article_code": "a80d47617f1046b883b5ba237d2c75a7",
+      "title": "Binance Will Delist BEAM on 2023-01-26",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ALCX",
+      "release_ms": 1674112226735,
+      "article_code": "181e7d0c59b1498f866a1e79b6c499f6",
+      "title": "Binance Margin Will Delist NEXO, POLS, QUICK as Borrowable Assets From Cross Margin and ALCX, NEXO, POLS, TOMO Trading Pairs From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "NEXO",
+      "release_ms": 1674112226735,
+      "article_code": "181e7d0c59b1498f866a1e79b6c499f6",
+      "title": "Binance Margin Will Delist NEXO, POLS, QUICK as Borrowable Assets From Cross Margin and ALCX, NEXO, POLS, TOMO Trading Pairs From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "POLS",
+      "release_ms": 1674112226735,
+      "article_code": "181e7d0c59b1498f866a1e79b6c499f6",
+      "title": "Binance Margin Will Delist NEXO, POLS, QUICK as Borrowable Assets From Cross Margin and ALCX, NEXO, POLS, TOMO Trading Pairs From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "QUICK",
+      "release_ms": 1674112226735,
+      "article_code": "181e7d0c59b1498f866a1e79b6c499f6",
+      "title": "Binance Margin Will Delist NEXO, POLS, QUICK as Borrowable Assets From Cross Margin and ALCX, NEXO, POLS, TOMO Trading Pairs From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TOMO",
+      "release_ms": 1674112226735,
+      "article_code": "181e7d0c59b1498f866a1e79b6c499f6",
+      "title": "Binance Margin Will Delist NEXO, POLS, QUICK as Borrowable Assets From Cross Margin and ALCX, NEXO, POLS, TOMO Trading Pairs From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "JST",
+      "release_ms": 1674799803614,
+      "article_code": "40582b9b67564072a9a3d3cad4f70b00",
+      "title": "Binance Margin Will Delist JST, SNM, SUN as Borrowable Assets From Cross Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SNM",
+      "release_ms": 1674799803614,
+      "article_code": "40582b9b67564072a9a3d3cad4f70b00",
+      "title": "Binance Margin Will Delist JST, SNM, SUN as Borrowable Assets From Cross Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SUN",
+      "release_ms": 1674799803614,
+      "article_code": "40582b9b67564072a9a3d3cad4f70b00",
+      "title": "Binance Margin Will Delist JST, SNM, SUN as Borrowable Assets From Cross Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MINA",
+      "release_ms": 1675653983239,
+      "article_code": "303ab4c96a174d6b80ea7c1884190f3b",
+      "title": "Binance Futures to Suspend Trading on USDT-Margined MINA Perpetual Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "FIO",
+      "release_ms": 1675749621021,
+      "article_code": "fca7186611164299b4456073a9594e2a",
+      "title": "Binance Margin Will Delist FIO, GNO, IRIS, MLN, WTC Trading Pairs From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "GNO",
+      "release_ms": 1675749621021,
+      "article_code": "fca7186611164299b4456073a9594e2a",
+      "title": "Binance Margin Will Delist FIO, GNO, IRIS, MLN, WTC Trading Pairs From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "IRIS",
+      "release_ms": 1675749621021,
+      "article_code": "fca7186611164299b4456073a9594e2a",
+      "title": "Binance Margin Will Delist FIO, GNO, IRIS, MLN, WTC Trading Pairs From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MLN",
+      "release_ms": 1675749621021,
+      "article_code": "fca7186611164299b4456073a9594e2a",
+      "title": "Binance Margin Will Delist FIO, GNO, IRIS, MLN, WTC Trading Pairs From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "WTC",
+      "release_ms": 1675749621021,
+      "article_code": "fca7186611164299b4456073a9594e2a",
+      "title": "Binance Margin Will Delist FIO, GNO, IRIS, MLN, WTC Trading Pairs From Isolated Margin",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "AION",
+      "release_ms": 1676865785355,
+      "article_code": "b461bf1f04d9456ea978f1549a31e174",
+      "title": "Binance Will Delist AION, MIR, ANC on 2023-02-27",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ANC",
+      "release_ms": 1676865785355,
+      "article_code": "b461bf1f04d9456ea978f1549a31e174",
+      "title": "Binance Will Delist AION, MIR, ANC on 2023-02-27",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MIR",
+      "release_ms": 1676865785355,
+      "article_code": "b461bf1f04d9456ea978f1549a31e174",
+      "title": "Binance Will Delist AION, MIR, ANC on 2023-02-27",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LOOM",
+      "release_ms": 1677063603612,
+      "article_code": "5a927cdc26a0401b8bb5f49c5b61f54d",
+      "title": "Binance Margin Will Delist LOOM, STRAX as Borrowable Assets From Cross Margin and OG From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "OG",
+      "release_ms": 1677063603612,
+      "article_code": "5a927cdc26a0401b8bb5f49c5b61f54d",
+      "title": "Binance Margin Will Delist LOOM, STRAX as Borrowable Assets From Cross Margin and OG From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "STRAX",
+      "release_ms": 1677063603612,
+      "article_code": "5a927cdc26a0401b8bb5f49c5b61f54d",
+      "title": "Binance Margin Will Delist LOOM, STRAX as Borrowable Assets From Cross Margin and OG From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CVXBUSD",
+      "release_ms": 1678688117686,
+      "article_code": "edab50e09da64814970d9fb86a740617",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M CVXBUSD, GALBUSD and WAVESBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "GALBUSD",
+      "release_ms": 1678688117686,
+      "article_code": "edab50e09da64814970d9fb86a740617",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M CVXBUSD, GALBUSD and WAVESBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "WAVESBUSD",
+      "release_ms": 1678688117686,
+      "article_code": "edab50e09da64814970d9fb86a740617",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M CVXBUSD, GALBUSD and WAVESBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "HNT",
+      "release_ms": 1679036475726,
+      "article_code": "f1a8aa29692b4442a8f18be2076e14a0",
+      "title": "Binance Will Delist HNT and WABI on 2023-03-24",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "WABI",
+      "release_ms": 1679036475726,
+      "article_code": "f1a8aa29692b4442a8f18be2076e14a0",
+      "title": "Binance Will Delist HNT and WABI on 2023-03-24",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ICPBUSD",
+      "release_ms": 1679296806814,
+      "article_code": "2f5fb73f1b6e411090318ca60a9f47bc",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M ICPBUSD and LUNA2BUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LUNA2BUSD",
+      "release_ms": 1679296806814,
+      "article_code": "2f5fb73f1b6e411090318ca60a9f47bc",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M ICPBUSD and LUNA2BUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DCR",
+      "release_ms": 1679900403355,
+      "article_code": "2bcaff7b39064aa8969bb509d28b90f5",
+      "title": "Binance Margin Will Delist NEBL as a Borrowable Asset From Cross Margin and DCR, NEBL, XVG From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "NEBL",
+      "release_ms": 1679900403355,
+      "article_code": "2bcaff7b39064aa8969bb509d28b90f5",
+      "title": "Binance Margin Will Delist NEBL as a Borrowable Asset From Cross Margin and DCR, NEBL, XVG From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "XVG",
+      "release_ms": 1679900403355,
+      "article_code": "2bcaff7b39064aa8969bb509d28b90f5",
+      "title": "Binance Margin Will Delist NEBL as a Borrowable Asset From Cross Margin and DCR, NEBL, XVG From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AMBBUSD",
+      "release_ms": 1680253507407,
+      "article_code": "7fd48887590649699ad65419023bacfb",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M AMBBUSD, LEVERBUSD and TLMBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LEVERBUSD",
+      "release_ms": 1680253507407,
+      "article_code": "7fd48887590649699ad65419023bacfb",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M AMBBUSD, LEVERBUSD and TLMBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TLMBUSD",
+      "release_ms": 1680253507407,
+      "article_code": "7fd48887590649699ad65419023bacfb",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M AMBBUSD, LEVERBUSD and TLMBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SNM",
+      "release_ms": 1680597004561,
+      "article_code": "8c012ee71d4046699a0025e37c0e3c3d",
+      "title": "Binance Margin Will Delist SNM From Isolated Margin",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "PHBBUSD",
+      "release_ms": 1680776103366,
+      "article_code": "9453bc521ae34d2e8ea22e15c5635a29",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M PHBBUSD, SANDBUSD and UNIBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SANDBUSD",
+      "release_ms": 1680776103366,
+      "article_code": "9453bc521ae34d2e8ea22e15c5635a29",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M PHBBUSD, SANDBUSD and UNIBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "UNIBUSD",
+      "release_ms": 1680776103366,
+      "article_code": "9453bc521ae34d2e8ea22e15c5635a29",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M PHBBUSD, SANDBUSD and UNIBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AUTO",
+      "release_ms": 1681196422114,
+      "article_code": "27933fc8f6c8451fbb18c0189681441a",
+      "title": "Binance Will Delist QLC, NEBL and AUTO on 2023-04-18",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "NEBL",
+      "release_ms": 1681196422114,
+      "article_code": "27933fc8f6c8451fbb18c0189681441a",
+      "title": "Binance Will Delist QLC, NEBL and AUTO on 2023-04-18",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "QLC",
+      "release_ms": 1681196422114,
+      "article_code": "27933fc8f6c8451fbb18c0189681441a",
+      "title": "Binance Will Delist QLC, NEBL and AUTO on 2023-04-18",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AVAXBUSD",
+      "release_ms": 1681466509865,
+      "article_code": "10d9ee3c69584398894526c5dba9e3a6",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M GMTBUSD, NEARBUSD and AVAXBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "GMTBUSD",
+      "release_ms": 1681466509865,
+      "article_code": "10d9ee3c69584398894526c5dba9e3a6",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M GMTBUSD, NEARBUSD and AVAXBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "NEARBUSD",
+      "release_ms": 1681466509865,
+      "article_code": "10d9ee3c69584398894526c5dba9e3a6",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M GMTBUSD, NEARBUSD and AVAXBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ETCBUSD",
+      "release_ms": 1682071224769,
+      "article_code": "084acdd39aae4b1b8660fc3b9ab7efef",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M ETCBUSD Perpetual Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DOTDOWN",
+      "release_ms": 1682577903228,
+      "article_code": "f9ed8900260141bbb2af4bb71741839a",
+      "title": "Binance to Delist and Cease Redemption for TRXUP, TRXDOWN, DOTUP, DOTDOWN, LINKUP & LINKDOWN Leveraged Tokens (2023-04-27)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DOTUP",
+      "release_ms": 1682577903228,
+      "article_code": "f9ed8900260141bbb2af4bb71741839a",
+      "title": "Binance to Delist and Cease Redemption for TRXUP, TRXDOWN, DOTUP, DOTDOWN, LINKUP & LINKDOWN Leveraged Tokens (2023-04-27)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LINKDOWN",
+      "release_ms": 1682577903228,
+      "article_code": "f9ed8900260141bbb2af4bb71741839a",
+      "title": "Binance to Delist and Cease Redemption for TRXUP, TRXDOWN, DOTUP, DOTDOWN, LINKUP & LINKDOWN Leveraged Tokens (2023-04-27)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "LINKUP",
+      "release_ms": 1682577903228,
+      "article_code": "f9ed8900260141bbb2af4bb71741839a",
+      "title": "Binance to Delist and Cease Redemption for TRXUP, TRXDOWN, DOTUP, DOTDOWN, LINKUP & LINKDOWN Leveraged Tokens (2023-04-27)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TRXDOWN",
+      "release_ms": 1682577903228,
+      "article_code": "f9ed8900260141bbb2af4bb71741839a",
+      "title": "Binance to Delist and Cease Redemption for TRXUP, TRXDOWN, DOTUP, DOTDOWN, LINKUP & LINKDOWN Leveraged Tokens (2023-04-27)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TRXUP",
+      "release_ms": 1682577903228,
+      "article_code": "f9ed8900260141bbb2af4bb71741839a",
+      "title": "Binance to Delist and Cease Redemption for TRXUP, TRXDOWN, DOTUP, DOTDOWN, LINKUP & LINKDOWN Leveraged Tokens (2023-04-27)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "FILBUSD",
+      "release_ms": 1682678706662,
+      "article_code": "72ae35cffb8842d5acb8ff22c70f8dd3",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M FILBUSD Perpetual Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DOTBUSD",
+      "release_ms": 1683251412529,
+      "article_code": "4536c9819c5d498a975ae40fcd6ecac4",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M DOTBUSD Perpetual Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BTC",
+      "release_ms": 1683619303518,
+      "article_code": "e47dd8e9f2d84c3aa175bd09fe2f8c94",
+      "title": "Binance Margin Will Delist the WRX/BTC Isolated Margin Pair",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "WRX",
+      "release_ms": 1683619303518,
+      "article_code": "e47dd8e9f2d84c3aa175bd09fe2f8c94",
+      "title": "Binance Margin Will Delist the WRX/BTC Isolated Margin Pair",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "APEBUSD",
+      "release_ms": 1683874532167,
+      "article_code": "575835ebb33346b28cf1dd78a8a50aaa",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M APEBUSD Perpetual Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AMP",
+      "release_ms": 1684299631912,
+      "article_code": "a8e3ce7e46ed46359336e1d48ab8c538",
+      "title": "Binance Margin Will Delist the JASMY/BTC Cross Margin Pair and AMP/BTC, JASMY/BTC, STMX/BTC Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BTC",
+      "release_ms": 1684299631912,
+      "article_code": "a8e3ce7e46ed46359336e1d48ab8c538",
+      "title": "Binance Margin Will Delist the JASMY/BTC Cross Margin Pair and AMP/BTC, JASMY/BTC, STMX/BTC Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "JASMY",
+      "release_ms": 1684299631912,
+      "article_code": "a8e3ce7e46ed46359336e1d48ab8c538",
+      "title": "Binance Margin Will Delist the JASMY/BTC Cross Margin Pair and AMP/BTC, JASMY/BTC, STMX/BTC Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "STMX",
+      "release_ms": 1684299631912,
+      "article_code": "a8e3ce7e46ed46359336e1d48ab8c538",
+      "title": "Binance Margin Will Delist the JASMY/BTC Cross Margin Pair and AMP/BTC, JASMY/BTC, STMX/BTC Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "LINKBUSD",
+      "release_ms": 1684470616021,
+      "article_code": "e7d6bc2aa47c42a28d2e023a7ceb7234",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M LINKBUSD Perpetual Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BNT",
+      "release_ms": 1686550803118,
+      "article_code": "cd599a0f00004f399b03b8077788e39c",
+      "title": "Binance Margin Will Delist the BNT/BUSD, CVX/BTC, POLS/BUSD, POWR/BUSD, STPT/BUSD & STRAX/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BTC",
+      "release_ms": 1686550803118,
+      "article_code": "cd599a0f00004f399b03b8077788e39c",
+      "title": "Binance Margin Will Delist the BNT/BUSD, CVX/BTC, POLS/BUSD, POWR/BUSD, STPT/BUSD & STRAX/BUSD Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "CVX",
+      "release_ms": 1686550803118,
+      "article_code": "cd599a0f00004f399b03b8077788e39c",
+      "title": "Binance Margin Will Delist the BNT/BUSD, CVX/BTC, POLS/BUSD, POWR/BUSD, STPT/BUSD & STRAX/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "POLS",
+      "release_ms": 1686550803118,
+      "article_code": "cd599a0f00004f399b03b8077788e39c",
+      "title": "Binance Margin Will Delist the BNT/BUSD, CVX/BTC, POLS/BUSD, POWR/BUSD, STPT/BUSD & STRAX/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "POWR",
+      "release_ms": 1686550803118,
+      "article_code": "cd599a0f00004f399b03b8077788e39c",
+      "title": "Binance Margin Will Delist the BNT/BUSD, CVX/BTC, POLS/BUSD, POWR/BUSD, STPT/BUSD & STRAX/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "STPT",
+      "release_ms": 1686550803118,
+      "article_code": "cd599a0f00004f399b03b8077788e39c",
+      "title": "Binance Margin Will Delist the BNT/BUSD, CVX/BTC, POLS/BUSD, POWR/BUSD, STPT/BUSD & STRAX/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "STRAX",
+      "release_ms": 1686550803118,
+      "article_code": "cd599a0f00004f399b03b8077788e39c",
+      "title": "Binance Margin Will Delist the BNT/BUSD, CVX/BTC, POLS/BUSD, POWR/BUSD, STPT/BUSD & STRAX/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "FARM",
+      "release_ms": 1686815412709,
+      "article_code": "8915d06693ed49f78262c80b6d54c13a",
+      "title": "Binance Margin Will Delist MBL/BUSD, PUNDIX/BUSD Cross Margin Pairs and FARM/BUSD, LSK/BUSD, MBL/BUSD, PLA/BUSD, PUNDIX/BUSD, SC/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LSK",
+      "release_ms": 1686815412709,
+      "article_code": "8915d06693ed49f78262c80b6d54c13a",
+      "title": "Binance Margin Will Delist MBL/BUSD, PUNDIX/BUSD Cross Margin Pairs and FARM/BUSD, LSK/BUSD, MBL/BUSD, PLA/BUSD, PUNDIX/BUSD, SC/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MBL",
+      "release_ms": 1686815412709,
+      "article_code": "8915d06693ed49f78262c80b6d54c13a",
+      "title": "Binance Margin Will Delist MBL/BUSD, PUNDIX/BUSD Cross Margin Pairs and FARM/BUSD, LSK/BUSD, MBL/BUSD, PLA/BUSD, PUNDIX/BUSD, SC/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "PLA",
+      "release_ms": 1686815412709,
+      "article_code": "8915d06693ed49f78262c80b6d54c13a",
+      "title": "Binance Margin Will Delist MBL/BUSD, PUNDIX/BUSD Cross Margin Pairs and FARM/BUSD, LSK/BUSD, MBL/BUSD, PLA/BUSD, PUNDIX/BUSD, SC/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PUNDIX",
+      "release_ms": 1686815412709,
+      "article_code": "8915d06693ed49f78262c80b6d54c13a",
+      "title": "Binance Margin Will Delist MBL/BUSD, PUNDIX/BUSD Cross Margin Pairs and FARM/BUSD, LSK/BUSD, MBL/BUSD, PLA/BUSD, PUNDIX/BUSD, SC/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SC",
+      "release_ms": 1686815412709,
+      "article_code": "8915d06693ed49f78262c80b6d54c13a",
+      "title": "Binance Margin Will Delist MBL/BUSD, PUNDIX/BUSD Cross Margin Pairs and FARM/BUSD, LSK/BUSD, MBL/BUSD, PLA/BUSD, PUNDIX/BUSD, SC/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ATA",
+      "release_ms": 1688703003727,
+      "article_code": "1b4044db45834ae6b367e12ac776215c",
+      "title": "Binance Margin Will Delist the ATA/BUSD, FORTH/BUSD, JST/BUSD, QTUM/BUSD, SUN/BUSD, ZEN/BUSD & ZRX/BUSD Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "FORTH",
+      "release_ms": 1688703003727,
+      "article_code": "1b4044db45834ae6b367e12ac776215c",
+      "title": "Binance Margin Will Delist the ATA/BUSD, FORTH/BUSD, JST/BUSD, QTUM/BUSD, SUN/BUSD, ZEN/BUSD & ZRX/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "JST",
+      "release_ms": 1688703003727,
+      "article_code": "1b4044db45834ae6b367e12ac776215c",
+      "title": "Binance Margin Will Delist the ATA/BUSD, FORTH/BUSD, JST/BUSD, QTUM/BUSD, SUN/BUSD, ZEN/BUSD & ZRX/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "QTUM",
+      "release_ms": 1688703003727,
+      "article_code": "1b4044db45834ae6b367e12ac776215c",
+      "title": "Binance Margin Will Delist the ATA/BUSD, FORTH/BUSD, JST/BUSD, QTUM/BUSD, SUN/BUSD, ZEN/BUSD & ZRX/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SUN",
+      "release_ms": 1688703003727,
+      "article_code": "1b4044db45834ae6b367e12ac776215c",
+      "title": "Binance Margin Will Delist the ATA/BUSD, FORTH/BUSD, JST/BUSD, QTUM/BUSD, SUN/BUSD, ZEN/BUSD & ZRX/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ZEN",
+      "release_ms": 1688703003727,
+      "article_code": "1b4044db45834ae6b367e12ac776215c",
+      "title": "Binance Margin Will Delist the ATA/BUSD, FORTH/BUSD, JST/BUSD, QTUM/BUSD, SUN/BUSD, ZEN/BUSD & ZRX/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ZRX",
+      "release_ms": 1688703003727,
+      "article_code": "1b4044db45834ae6b367e12ac776215c",
+      "title": "Binance Margin Will Delist the ATA/BUSD, FORTH/BUSD, JST/BUSD, QTUM/BUSD, SUN/BUSD, ZEN/BUSD & ZRX/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "XRPDOWN",
+      "release_ms": 1689066007256,
+      "article_code": "e6764830f1aa468990b3263cd967c655",
+      "title": "Binance to Delist and Cease Redemption for XRPUP and XRPDOWN Leveraged Tokens (2023-07-25)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "XRPUP",
+      "release_ms": 1689066007256,
+      "article_code": "e6764830f1aa468990b3263cd967c655",
+      "title": "Binance to Delist and Cease Redemption for XRPUP and XRPDOWN Leveraged Tokens (2023-07-25)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AGIXBUSD",
+      "release_ms": 1689072303374,
+      "article_code": "3e64fa6aa26c40e0be51e0f8c3a1d9b1",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M AGIXBUSD Perpetual Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ALCX",
+      "release_ms": 1689318001849,
+      "article_code": "64e983b9aebb48998e7ba789aabe3de2",
+      "title": "Binance Margin Will Delist the ALCX/BUSD, ALPACA/BUSD, CVX/BUSD, DOCK/BUSD, LOOM/BUSD, MC/BUSD, MOB/BUSD & TROY/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ALPACA",
+      "release_ms": 1689318001849,
+      "article_code": "64e983b9aebb48998e7ba789aabe3de2",
+      "title": "Binance Margin Will Delist the ALCX/BUSD, ALPACA/BUSD, CVX/BUSD, DOCK/BUSD, LOOM/BUSD, MC/BUSD, MOB/BUSD & TROY/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CVX",
+      "release_ms": 1689318001849,
+      "article_code": "64e983b9aebb48998e7ba789aabe3de2",
+      "title": "Binance Margin Will Delist the ALCX/BUSD, ALPACA/BUSD, CVX/BUSD, DOCK/BUSD, LOOM/BUSD, MC/BUSD, MOB/BUSD & TROY/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DOCK",
+      "release_ms": 1689318001849,
+      "article_code": "64e983b9aebb48998e7ba789aabe3de2",
+      "title": "Binance Margin Will Delist the ALCX/BUSD, ALPACA/BUSD, CVX/BUSD, DOCK/BUSD, LOOM/BUSD, MC/BUSD, MOB/BUSD & TROY/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "LOOM",
+      "release_ms": 1689318001849,
+      "article_code": "64e983b9aebb48998e7ba789aabe3de2",
+      "title": "Binance Margin Will Delist the ALCX/BUSD, ALPACA/BUSD, CVX/BUSD, DOCK/BUSD, LOOM/BUSD, MC/BUSD, MOB/BUSD & TROY/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MC",
+      "release_ms": 1689318001849,
+      "article_code": "64e983b9aebb48998e7ba789aabe3de2",
+      "title": "Binance Margin Will Delist the ALCX/BUSD, ALPACA/BUSD, CVX/BUSD, DOCK/BUSD, LOOM/BUSD, MC/BUSD, MOB/BUSD & TROY/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MOB",
+      "release_ms": 1689318001849,
+      "article_code": "64e983b9aebb48998e7ba789aabe3de2",
+      "title": "Binance Margin Will Delist the ALCX/BUSD, ALPACA/BUSD, CVX/BUSD, DOCK/BUSD, LOOM/BUSD, MC/BUSD, MOB/BUSD & TROY/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TROY",
+      "release_ms": 1689318001849,
+      "article_code": "64e983b9aebb48998e7ba789aabe3de2",
+      "title": "Binance Margin Will Delist the ALCX/BUSD, ALPACA/BUSD, CVX/BUSD, DOCK/BUSD, LOOM/BUSD, MC/BUSD, MOB/BUSD & TROY/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "OGN",
+      "release_ms": 1689760808223,
+      "article_code": "37a510c756cc44ca8948a8a64fddd512",
+      "title": "Binance Margin Will Delist the OGN/BUSD, OSMO/BUSD, REI/BUSD and SPELL/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "OSMO",
+      "release_ms": 1689760808223,
+      "article_code": "37a510c756cc44ca8948a8a64fddd512",
+      "title": "Binance Margin Will Delist the OGN/BUSD, OSMO/BUSD, REI/BUSD and SPELL/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "REI",
+      "release_ms": 1689760808223,
+      "article_code": "37a510c756cc44ca8948a8a64fddd512",
+      "title": "Binance Margin Will Delist the OGN/BUSD, OSMO/BUSD, REI/BUSD and SPELL/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SPELL",
+      "release_ms": 1689760808223,
+      "article_code": "37a510c756cc44ca8948a8a64fddd512",
+      "title": "Binance Margin Will Delist the OGN/BUSD, OSMO/BUSD, REI/BUSD and SPELL/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "GALABUSD",
+      "release_ms": 1689840007070,
+      "article_code": "217d0ff70eac403480b5137e2a90b424",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M LDOBUSD and GALABUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LDOBUSD",
+      "release_ms": 1689840007070,
+      "article_code": "217d0ff70eac403480b5137e2a90b424",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M LDOBUSD and GALABUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CKB",
+      "release_ms": 1690252204237,
+      "article_code": "632aa37b7ce44e4f89f0e917e885ffbf",
+      "title": "Binance Margin Will Delist the CKB/BUSD, CTK/BUSD, ELF/BUSD, FOR/BUSD, PERP/BUSD, SKL/BUSD & UNFI/BUSD Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "CTK",
+      "release_ms": 1690252204237,
+      "article_code": "632aa37b7ce44e4f89f0e917e885ffbf",
+      "title": "Binance Margin Will Delist the CKB/BUSD, CTK/BUSD, ELF/BUSD, FOR/BUSD, PERP/BUSD, SKL/BUSD & UNFI/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ELF",
+      "release_ms": 1690252204237,
+      "article_code": "632aa37b7ce44e4f89f0e917e885ffbf",
+      "title": "Binance Margin Will Delist the CKB/BUSD, CTK/BUSD, ELF/BUSD, FOR/BUSD, PERP/BUSD, SKL/BUSD & UNFI/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "PERP",
+      "release_ms": 1690252204237,
+      "article_code": "632aa37b7ce44e4f89f0e917e885ffbf",
+      "title": "Binance Margin Will Delist the CKB/BUSD, CTK/BUSD, ELF/BUSD, FOR/BUSD, PERP/BUSD, SKL/BUSD & UNFI/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SKL",
+      "release_ms": 1690252204237,
+      "article_code": "632aa37b7ce44e4f89f0e917e885ffbf",
+      "title": "Binance Margin Will Delist the CKB/BUSD, CTK/BUSD, ELF/BUSD, FOR/BUSD, PERP/BUSD, SKL/BUSD & UNFI/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "UNFI",
+      "release_ms": 1690252204237,
+      "article_code": "632aa37b7ce44e4f89f0e917e885ffbf",
+      "title": "Binance Margin Will Delist the CKB/BUSD, CTK/BUSD, ELF/BUSD, FOR/BUSD, PERP/BUSD, SKL/BUSD & UNFI/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "APTBUSD",
+      "release_ms": 1690451103030,
+      "article_code": "584d65bfa49f4f5894d2416e76214dc5",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M APTBUSD and FTMBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "FTMBUSD",
+      "release_ms": 1690451103030,
+      "article_code": "584d65bfa49f4f5894d2416e76214dc5",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M APTBUSD and FTMBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DODOBUSD",
+      "release_ms": 1691055003469,
+      "article_code": "63f3038beda94f3e9a05652f55c4fb75",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M TRXBUSD and DODOBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TRXBUSD",
+      "release_ms": 1691055003469,
+      "article_code": "63f3038beda94f3e9a05652f55c4fb75",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M TRXBUSD and DODOBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ASTR",
+      "release_ms": 1691464207277,
+      "article_code": "8a8c41ad9eac4225b46b7d53d0df8f2c",
+      "title": "Binance Margin Will Delist the ASTR/BUSD, AUDIO/BUSD, BAT/BUSD, BSW/BUSD, NMR/BUSD, PEOPLE/BUSD and RSR/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "AUDIO",
+      "release_ms": 1691464207277,
+      "article_code": "8a8c41ad9eac4225b46b7d53d0df8f2c",
+      "title": "Binance Margin Will Delist the ASTR/BUSD, AUDIO/BUSD, BAT/BUSD, BSW/BUSD, NMR/BUSD, PEOPLE/BUSD and RSR/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BAT",
+      "release_ms": 1691464207277,
+      "article_code": "8a8c41ad9eac4225b46b7d53d0df8f2c",
+      "title": "Binance Margin Will Delist the ASTR/BUSD, AUDIO/BUSD, BAT/BUSD, BSW/BUSD, NMR/BUSD, PEOPLE/BUSD and RSR/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BSW",
+      "release_ms": 1691464207277,
+      "article_code": "8a8c41ad9eac4225b46b7d53d0df8f2c",
+      "title": "Binance Margin Will Delist the ASTR/BUSD, AUDIO/BUSD, BAT/BUSD, BSW/BUSD, NMR/BUSD, PEOPLE/BUSD and RSR/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "NMR",
+      "release_ms": 1691464207277,
+      "article_code": "8a8c41ad9eac4225b46b7d53d0df8f2c",
+      "title": "Binance Margin Will Delist the ASTR/BUSD, AUDIO/BUSD, BAT/BUSD, BSW/BUSD, NMR/BUSD, PEOPLE/BUSD and RSR/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PEOPLE",
+      "release_ms": 1691464207277,
+      "article_code": "8a8c41ad9eac4225b46b7d53d0df8f2c",
+      "title": "Binance Margin Will Delist the ASTR/BUSD, AUDIO/BUSD, BAT/BUSD, BSW/BUSD, NMR/BUSD, PEOPLE/BUSD and RSR/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "RSR",
+      "release_ms": 1691464207277,
+      "article_code": "8a8c41ad9eac4225b46b7d53d0df8f2c",
+      "title": "Binance Margin Will Delist the ASTR/BUSD, AUDIO/BUSD, BAT/BUSD, BSW/BUSD, NMR/BUSD, PEOPLE/BUSD and RSR/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ADADOWN",
+      "release_ms": 1691556806728,
+      "article_code": "94ed7e1b7fcf4588b053c01c2e453fed",
+      "title": "Binance to Cease ADAUP & ADADOWN Trading and Subscription Services (2023-08-09)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ADAUP",
+      "release_ms": 1691556806728,
+      "article_code": "94ed7e1b7fcf4588b053c01c2e453fed",
+      "title": "Binance to Cease ADAUP & ADADOWN Trading and Subscription Services (2023-08-09)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ADABUSD",
+      "release_ms": 1691658004905,
+      "article_code": "63b70cab6d4f482f892f0fd7bda9e05e",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M ADABUSD and MATICBUSD Perpetual Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MATICBUSD",
+      "release_ms": 1691658004905,
+      "article_code": "63b70cab6d4f482f892f0fd7bda9e05e",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M ADABUSD and MATICBUSD Perpetual Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SNM",
+      "release_ms": 1692082868922,
+      "article_code": "f43511a4c1d347a8a2dd1efbdd2fe716",
+      "title": "Binance Will Delist SNM, SRM and YFII on 2023-08-22",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SRM",
+      "release_ms": 1692082868922,
+      "article_code": "f43511a4c1d347a8a2dd1efbdd2fe716",
+      "title": "Binance Will Delist SNM, SRM and YFII on 2023-08-22",
+      "status": "no_pre_announcement_volume"
+    },
+    {
+      "symbol": "YFII",
+      "release_ms": 1692082868922,
+      "article_code": "f43511a4c1d347a8a2dd1efbdd2fe716",
+      "title": "Binance Will Delist SNM, SRM and YFII on 2023-08-22",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "EPX",
+      "release_ms": 1692155138357,
+      "article_code": "0a22f72cdfac479f95393e7b57e6dda1",
+      "title": "Binance Margin Will Delist the EPX/BUSD, GAL/BUSD, GMX/BUSD, HIVE/BUSD, KLAY/BUSD, RAD/BUSD and TVK/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "GAL",
+      "release_ms": 1692155138357,
+      "article_code": "0a22f72cdfac479f95393e7b57e6dda1",
+      "title": "Binance Margin Will Delist the EPX/BUSD, GAL/BUSD, GMX/BUSD, HIVE/BUSD, KLAY/BUSD, RAD/BUSD and TVK/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "GMX",
+      "release_ms": 1692155138357,
+      "article_code": "0a22f72cdfac479f95393e7b57e6dda1",
+      "title": "Binance Margin Will Delist the EPX/BUSD, GAL/BUSD, GMX/BUSD, HIVE/BUSD, KLAY/BUSD, RAD/BUSD and TVK/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "HIVE",
+      "release_ms": 1692155138357,
+      "article_code": "0a22f72cdfac479f95393e7b57e6dda1",
+      "title": "Binance Margin Will Delist the EPX/BUSD, GAL/BUSD, GMX/BUSD, HIVE/BUSD, KLAY/BUSD, RAD/BUSD and TVK/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "KLAY",
+      "release_ms": 1692155138357,
+      "article_code": "0a22f72cdfac479f95393e7b57e6dda1",
+      "title": "Binance Margin Will Delist the EPX/BUSD, GAL/BUSD, GMX/BUSD, HIVE/BUSD, KLAY/BUSD, RAD/BUSD and TVK/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "RAD",
+      "release_ms": 1692155138357,
+      "article_code": "0a22f72cdfac479f95393e7b57e6dda1",
+      "title": "Binance Margin Will Delist the EPX/BUSD, GAL/BUSD, GMX/BUSD, HIVE/BUSD, KLAY/BUSD, RAD/BUSD and TVK/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TVK",
+      "release_ms": 1692155138357,
+      "article_code": "0a22f72cdfac479f95393e7b57e6dda1",
+      "title": "Binance Margin Will Delist the EPX/BUSD, GAL/BUSD, GMX/BUSD, HIVE/BUSD, KLAY/BUSD, RAD/BUSD and TVK/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DOGEBUSD",
+      "release_ms": 1692266704608,
+      "article_code": "f662330259c44f869ea1dd618925677e",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M LTCBUSD and DOGEBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LTCBUSD",
+      "release_ms": 1692266704608,
+      "article_code": "f662330259c44f869ea1dd618925677e",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M LTCBUSD and DOGEBUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SOLBUSD",
+      "release_ms": 1692616803287,
+      "article_code": "6723cf112ab943bb9db7542bf8e107f0",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M SOLBUSD Perpetual Contract",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AMB",
+      "release_ms": 1693375203152,
+      "article_code": "d0f401e56c594069afad13c80f97a356",
+      "title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BTC",
+      "release_ms": 1693375203152,
+      "article_code": "d0f401e56c594069afad13c80f97a356",
+      "title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DASH",
+      "release_ms": 1693375203152,
+      "article_code": "d0f401e56c594069afad13c80f97a356",
+      "title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "FIDA",
+      "release_ms": 1693375203152,
+      "article_code": "d0f401e56c594069afad13c80f97a356",
+      "title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "HARD",
+      "release_ms": 1693375203152,
+      "article_code": "d0f401e56c594069afad13c80f97a356",
+      "title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "HOT",
+      "release_ms": 1693375203152,
+      "article_code": "d0f401e56c594069afad13c80f97a356",
+      "title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "IOST",
+      "release_ms": 1693375203152,
+      "article_code": "d0f401e56c594069afad13c80f97a356",
+      "title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "NULS",
+      "release_ms": 1693375203152,
+      "article_code": "d0f401e56c594069afad13c80f97a356",
+      "title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PORTO",
+      "release_ms": 1693375203152,
+      "article_code": "d0f401e56c594069afad13c80f97a356",
+      "title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "REQ",
+      "release_ms": 1693375203152,
+      "article_code": "d0f401e56c594069afad13c80f97a356",
+      "title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ANT",
+      "release_ms": 1693552182147,
+      "article_code": "19c694ed39f14a9791e0f34a2235def1",
+      "title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BAL",
+      "release_ms": 1693552182147,
+      "article_code": "19c694ed39f14a9791e0f34a2235def1",
+      "title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BTC",
+      "release_ms": 1693552182147,
+      "article_code": "19c694ed39f14a9791e0f34a2235def1",
+      "title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "COS",
+      "release_ms": 1693552182147,
+      "article_code": "19c694ed39f14a9791e0f34a2235def1",
+      "title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DGB",
+      "release_ms": 1693552182147,
+      "article_code": "19c694ed39f14a9791e0f34a2235def1",
+      "title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "FIRO",
+      "release_ms": 1693552182147,
+      "article_code": "19c694ed39f14a9791e0f34a2235def1",
+      "title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "OOKI",
+      "release_ms": 1693552182147,
+      "article_code": "19c694ed39f14a9791e0f34a2235def1",
+      "title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "QI",
+      "release_ms": 1693552182147,
+      "article_code": "19c694ed39f14a9791e0f34a2235def1",
+      "title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "RVN",
+      "release_ms": 1693552182147,
+      "article_code": "19c694ed39f14a9791e0f34a2235def1",
+      "title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TWT",
+      "release_ms": 1693552182147,
+      "article_code": "19c694ed39f14a9791e0f34a2235def1",
+      "title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ADADOWN",
+      "release_ms": 1697623240905,
+      "article_code": "6c95b3a188e140a39108251f72ecbf87",
+      "title": "Binance to Delist and Cease Redemption for ADAUP and ADADOWN Leveraged Tokens (2023-11-01)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ADAUP",
+      "release_ms": 1697623240905,
+      "article_code": "6c95b3a188e140a39108251f72ecbf87",
+      "title": "Binance to Delist and Cease Redemption for ADAUP and ADADOWN Leveraged Tokens (2023-11-01)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SOLBUSD",
+      "release_ms": 1700536504320,
+      "article_code": "cf5269dbdcda433db7065407dd658f4c",
+      "title": "Notice of Removal of SOLBUSD Margin Trading Pair - 2023-11-30",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BTS",
+      "release_ms": 1701064826207,
+      "article_code": "d24dd4a035c443b1ad8cf49f60b9d194",
+      "title": "Binance Will Delist BTS, PERL, TORN, WTC on 2023-12-07",
+      "status": "no_pre_announcement_volume"
+    },
+    {
+      "symbol": "PERL",
+      "release_ms": 1701064826207,
+      "article_code": "d24dd4a035c443b1ad8cf49f60b9d194",
+      "title": "Binance Will Delist BTS, PERL, TORN, WTC on 2023-12-07",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TORN",
+      "release_ms": 1701064826207,
+      "article_code": "d24dd4a035c443b1ad8cf49f60b9d194",
+      "title": "Binance Will Delist BTS, PERL, TORN, WTC on 2023-12-07",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "WTC",
+      "release_ms": 1701064826207,
+      "article_code": "d24dd4a035c443b1ad8cf49f60b9d194",
+      "title": "Binance Will Delist BTS, PERL, TORN, WTC on 2023-12-07",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ANT",
+      "release_ms": 1707202812575,
+      "article_code": "f73b083ba6834771b07dbe5319917ae5",
+      "title": "Binance Will Delist ANT, MULTI, VAI, XMR on 2024-02-20",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "MULTI",
+      "release_ms": 1707202812575,
+      "article_code": "f73b083ba6834771b07dbe5319917ae5",
+      "title": "Binance Will Delist ANT, MULTI, VAI, XMR on 2024-02-20",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "VAI",
+      "release_ms": 1707202812575,
+      "article_code": "f73b083ba6834771b07dbe5319917ae5",
+      "title": "Binance Will Delist ANT, MULTI, VAI, XMR on 2024-02-20",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "XMR",
+      "release_ms": 1707202812575,
+      "article_code": "f73b083ba6834771b07dbe5319917ae5",
+      "title": "Binance Will Delist ANT, MULTI, VAI, XMR on 2024-02-20",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DREP",
+      "release_ms": 1710914407471,
+      "article_code": "1e531578a30c46eebf52c8dae3c56092",
+      "title": "Binance Will Delist DREP, MOB, PNT on 2024-04-03",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MOB",
+      "release_ms": 1710914407471,
+      "article_code": "1e531578a30c46eebf52c8dae3c56092",
+      "title": "Binance Will Delist DREP, MOB, PNT on 2024-04-03",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "PNT",
+      "release_ms": 1710914407471,
+      "article_code": "1e531578a30c46eebf52c8dae3c56092",
+      "title": "Binance Will Delist DREP, MOB, PNT on 2024-04-03",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ANT",
+      "release_ms": 1711341612437,
+      "article_code": "ce74360a3fd444b2b35da7186f8dd0ad",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M ANTUSDT, DGBUSDT and CTKUSDT Perpetual Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "CTK",
+      "release_ms": 1711341612437,
+      "article_code": "ce74360a3fd444b2b35da7186f8dd0ad",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M ANTUSDT, DGBUSDT and CTKUSDT Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DGB",
+      "release_ms": 1711341612437,
+      "article_code": "ce74360a3fd444b2b35da7186f8dd0ad",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M ANTUSDT, DGBUSDT and CTKUSDT Perpetual Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "CVX",
+      "release_ms": 1714971617942,
+      "article_code": "a58cc13f78a34fbba11f00ff7144e9ee",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M STPTUSDT, SNTUSDT, MBLUSDT, RADUSDT and CVXUSDT Perpetual Contracts",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MBL",
+      "release_ms": 1714971617942,
+      "article_code": "a58cc13f78a34fbba11f00ff7144e9ee",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M STPTUSDT, SNTUSDT, MBLUSDT, RADUSDT and CVXUSDT Perpetual Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "RAD",
+      "release_ms": 1714971617942,
+      "article_code": "a58cc13f78a34fbba11f00ff7144e9ee",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M STPTUSDT, SNTUSDT, MBLUSDT, RADUSDT and CVXUSDT Perpetual Contracts",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SNT",
+      "release_ms": 1714971617942,
+      "article_code": "a58cc13f78a34fbba11f00ff7144e9ee",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M STPTUSDT, SNTUSDT, MBLUSDT, RADUSDT and CVXUSDT Perpetual Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "STPT",
+      "release_ms": 1714971617942,
+      "article_code": "a58cc13f78a34fbba11f00ff7144e9ee",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M STPTUSDT, SNTUSDT, MBLUSDT, RADUSDT and CVXUSDT Perpetual Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "AUDIO",
+      "release_ms": 1715144426574,
+      "article_code": "cb525a5fbb954935afc77630fc5bd0cc",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M IDEXUSDT, SLPUSDT, GLMRUSDT, MDTUSDT and AUDIOUSDT Perpetual Contracts",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "GLMR",
+      "release_ms": 1715144426574,
+      "article_code": "cb525a5fbb954935afc77630fc5bd0cc",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M IDEXUSDT, SLPUSDT, GLMRUSDT, MDTUSDT and AUDIOUSDT Perpetual Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "IDEX",
+      "release_ms": 1715144426574,
+      "article_code": "cb525a5fbb954935afc77630fc5bd0cc",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M IDEXUSDT, SLPUSDT, GLMRUSDT, MDTUSDT and AUDIOUSDT Perpetual Contracts",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "MDT",
+      "release_ms": 1715144426574,
+      "article_code": "cb525a5fbb954935afc77630fc5bd0cc",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M IDEXUSDT, SLPUSDT, GLMRUSDT, MDTUSDT and AUDIOUSDT Perpetual Contracts",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SLP",
+      "release_ms": 1715144426574,
+      "article_code": "cb525a5fbb954935afc77630fc5bd0cc",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M IDEXUSDT, SLPUSDT, GLMRUSDT, MDTUSDT and AUDIOUSDT Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "APEUSD",
+      "release_ms": 1715330951658,
+      "article_code": "5150d4f0ee1546d7ae6382ba7cda3ffe",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of COIN-M KNCUSD, ICXUSD, XTZUSD, ROSEUSD and APEUSD Perpetual Contracts",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "COIN",
+      "release_ms": 1715330951658,
+      "article_code": "5150d4f0ee1546d7ae6382ba7cda3ffe",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of COIN-M KNCUSD, ICXUSD, XTZUSD, ROSEUSD and APEUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ICXUSD",
+      "release_ms": 1715330951658,
+      "article_code": "5150d4f0ee1546d7ae6382ba7cda3ffe",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of COIN-M KNCUSD, ICXUSD, XTZUSD, ROSEUSD and APEUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "KNCUSD",
+      "release_ms": 1715330951658,
+      "article_code": "5150d4f0ee1546d7ae6382ba7cda3ffe",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of COIN-M KNCUSD, ICXUSD, XTZUSD, ROSEUSD and APEUSD Perpetual Contracts",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ROSEUSD",
+      "release_ms": 1715330951658,
+      "article_code": "5150d4f0ee1546d7ae6382ba7cda3ffe",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of COIN-M KNCUSD, ICXUSD, XTZUSD, ROSEUSD and APEUSD Perpetual Contracts",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "XTZUSD",
+      "release_ms": 1715330951658,
+      "article_code": "5150d4f0ee1546d7ae6382ba7cda3ffe",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of COIN-M KNCUSD, ICXUSD, XTZUSD, ROSEUSD and APEUSD Perpetual Contracts",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "OMG",
+      "release_ms": 1717383620294,
+      "article_code": "f65faeeefe07417a8b6dd2900ba8da7e",
+      "title": "Binance Will Delist OMG, WAVES, WNXM, XEM on 2024-06-17",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "WAVES",
+      "release_ms": 1717383620294,
+      "article_code": "f65faeeefe07417a8b6dd2900ba8da7e",
+      "title": "Binance Will Delist OMG, WAVES, WNXM, XEM on 2024-06-17",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "WNXM",
+      "release_ms": 1717383620294,
+      "article_code": "f65faeeefe07417a8b6dd2900ba8da7e",
+      "title": "Binance Will Delist OMG, WAVES, WNXM, XEM on 2024-06-17",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "XEM",
+      "release_ms": 1717383620294,
+      "article_code": "f65faeeefe07417a8b6dd2900ba8da7e",
+      "title": "Binance Will Delist OMG, WAVES, WNXM, XEM on 2024-06-17",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BOND",
+      "release_ms": 1720422069631,
+      "article_code": "4ffb7170f2f84ce3a06cc0cf1a788c23",
+      "title": "Binance Will Delist BOND, DOCK, MDX, POLS on 2024-07-22",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "DOCK",
+      "release_ms": 1720422069631,
+      "article_code": "4ffb7170f2f84ce3a06cc0cf1a788c23",
+      "title": "Binance Will Delist BOND, DOCK, MDX, POLS on 2024-07-22",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MDX",
+      "release_ms": 1720422069631,
+      "article_code": "4ffb7170f2f84ce3a06cc0cf1a788c23",
+      "title": "Binance Will Delist BOND, DOCK, MDX, POLS on 2024-07-22",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "POLS",
+      "release_ms": 1720422069631,
+      "article_code": "4ffb7170f2f84ce3a06cc0cf1a788c23",
+      "title": "Binance Will Delist BOND, DOCK, MDX, POLS on 2024-07-22",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "CVP",
+      "release_ms": 1723446011329,
+      "article_code": "e2fcd2c945654c8d832395335429403e",
+      "title": "Binance Will Delist CVP, EPX, FOR, LOOM, REEF, VGX on 2024-08-26",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "EPX",
+      "release_ms": 1723446011329,
+      "article_code": "e2fcd2c945654c8d832395335429403e",
+      "title": "Binance Will Delist CVP, EPX, FOR, LOOM, REEF, VGX on 2024-08-26",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LOOM",
+      "release_ms": 1723446011329,
+      "article_code": "e2fcd2c945654c8d832395335429403e",
+      "title": "Binance Will Delist CVP, EPX, FOR, LOOM, REEF, VGX on 2024-08-26",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "REEF",
+      "release_ms": 1723446011329,
+      "article_code": "e2fcd2c945654c8d832395335429403e",
+      "title": "Binance Will Delist CVP, EPX, FOR, LOOM, REEF, VGX on 2024-08-26",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "VGX",
+      "release_ms": 1723446011329,
+      "article_code": "e2fcd2c945654c8d832395335429403e",
+      "title": "Binance Will Delist CVP, EPX, FOR, LOOM, REEF, VGX on 2024-08-26",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "IDRT",
+      "release_ms": 1729666837062,
+      "article_code": "043c8407bb904652a428573a50d07e07",
+      "title": "Binance Will Delist IDRT, KP3R, OOKI, UNFI on 2024-11-06",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "KP3R",
+      "release_ms": 1729666837062,
+      "article_code": "043c8407bb904652a428573a50d07e07",
+      "title": "Binance Will Delist IDRT, KP3R, OOKI, UNFI on 2024-11-06",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "OOKI",
+      "release_ms": 1729666837062,
+      "article_code": "043c8407bb904652a428573a50d07e07",
+      "title": "Binance Will Delist IDRT, KP3R, OOKI, UNFI on 2024-11-06",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "UNFI",
+      "release_ms": 1729666837062,
+      "article_code": "043c8407bb904652a428573a50d07e07",
+      "title": "Binance Will Delist IDRT, KP3R, OOKI, UNFI on 2024-11-06",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "GFT",
+      "release_ms": 1732609814278,
+      "article_code": "131b75b63a71490393034f36de70c92c",
+      "title": "Binance Will Delist GFT, IRIS, KEY, OAX, REN on 2024-12-10",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "IRIS",
+      "release_ms": 1732609814278,
+      "article_code": "131b75b63a71490393034f36de70c92c",
+      "title": "Binance Will Delist GFT, IRIS, KEY, OAX, REN on 2024-12-10",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "KEY",
+      "release_ms": 1732609814278,
+      "article_code": "131b75b63a71490393034f36de70c92c",
+      "title": "Binance Will Delist GFT, IRIS, KEY, OAX, REN on 2024-12-10",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "OAX",
+      "release_ms": 1732609814278,
+      "article_code": "131b75b63a71490393034f36de70c92c",
+      "title": "Binance Will Delist GFT, IRIS, KEY, OAX, REN on 2024-12-10",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "REN",
+      "release_ms": 1732609814278,
+      "article_code": "131b75b63a71490393034f36de70c92c",
+      "title": "Binance Will Delist GFT, IRIS, KEY, OAX, REN on 2024-12-10",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "LOOM",
+      "release_ms": 1732852801809,
+      "article_code": "cfe97d52a8c840d3ba631835b637e9e7",
+      "title": "Binance Futures Will Delist USDⓈ-M XEMUSDT, ORBSUSDT and LOOMUSDT Perpetual Contracts (2024-12-09)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "ORBS",
+      "release_ms": 1732852801809,
+      "article_code": "cfe97d52a8c840d3ba631835b637e9e7",
+      "title": "Binance Futures Will Delist USDⓈ-M XEMUSDT, ORBSUSDT and LOOMUSDT Perpetual Contracts (2024-12-09)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "XEM",
+      "release_ms": 1732852801809,
+      "article_code": "cfe97d52a8c840d3ba631835b637e9e7",
+      "title": "Binance Futures Will Delist USDⓈ-M XEMUSDT, ORBSUSDT and LOOMUSDT Perpetual Contracts (2024-12-09)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BOND",
+      "release_ms": 1733454004185,
+      "article_code": "27eac260521b4f40ab331e1a345887a7",
+      "title": "Binance Futures Will Delist USDⓈ-M MAVIAUSDT, OMGUSDT, and BONDUSDT Perpetual Contracts (2024-12-16)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "MAVIA",
+      "release_ms": 1733454004185,
+      "article_code": "27eac260521b4f40ab331e1a345887a7",
+      "title": "Binance Futures Will Delist USDⓈ-M MAVIAUSDT, OMGUSDT, and BONDUSDT Perpetual Contracts (2024-12-16)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "OMG",
+      "release_ms": 1733454004185,
+      "article_code": "27eac260521b4f40ab331e1a345887a7",
+      "title": "Binance Futures Will Delist USDⓈ-M MAVIAUSDT, OMGUSDT, and BONDUSDT Perpetual Contracts (2024-12-16)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "OMG",
+      "release_ms": 1734184414273,
+      "article_code": "eedac7aff5b849d58efda6c4b3cec01b",
+      "title": "Delisting of USDⓈ-M OMGUSDT Perpetual Contract Postponed",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "AKRO",
+      "release_ms": 1734508872939,
+      "article_code": "b140faee7cf9482cb10257308abda245",
+      "title": "Binance Will Delist AKRO, BLZ, WRX on 2024-12-25",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BLZ",
+      "release_ms": 1734508872939,
+      "article_code": "b140faee7cf9482cb10257308abda245",
+      "title": "Binance Will Delist AKRO, BLZ, WRX on 2024-12-25",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "WRX",
+      "release_ms": 1734508872939,
+      "article_code": "b140faee7cf9482cb10257308abda245",
+      "title": "Binance Will Delist AKRO, BLZ, WRX on 2024-12-25",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "OMG",
+      "release_ms": 1734678000929,
+      "article_code": "1e43c128806544018d3cc537a8add3f6",
+      "title": "Delisting of USDⓈ-M OMGUSDT Perpetual Contract Will Be Further Postponed",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "REEF",
+      "release_ms": 1736928006723,
+      "article_code": "572715f2d96e47769ebbb967c2a6e445",
+      "title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M REEFUSDT Perpetual Contract (2025-01-22)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "AMB",
+      "release_ms": 1739775624287,
+      "article_code": "f3cc64a8758d4bb394e0830e5b31da97",
+      "title": "Binance Will Delist AMB, CLV, STMX, VITE on 2025-02-24",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "CLV",
+      "release_ms": 1739775624287,
+      "article_code": "f3cc64a8758d4bb394e0830e5b31da97",
+      "title": "Binance Will Delist AMB, CLV, STMX, VITE on 2025-02-24",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "STMX",
+      "release_ms": 1739775624287,
+      "article_code": "f3cc64a8758d4bb394e0830e5b31da97",
+      "title": "Binance Will Delist AMB, CLV, STMX, VITE on 2025-02-24",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "VITE",
+      "release_ms": 1739775624287,
+      "article_code": "f3cc64a8758d4bb394e0830e5b31da97",
+      "title": "Binance Will Delist AMB, CLV, STMX, VITE on 2025-02-24",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "AERGO",
+      "release_ms": 1742536220352,
+      "article_code": "db7ad1c7aa6248cda735102cdcdc4b8d",
+      "title": "Binance Will Delist AERGO, AST, BURGER, COMBO, LINA on 2025-03-28",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AST",
+      "release_ms": 1742536220352,
+      "article_code": "db7ad1c7aa6248cda735102cdcdc4b8d",
+      "title": "Binance Will Delist AERGO, AST, BURGER, COMBO, LINA on 2025-03-28",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BURGER",
+      "release_ms": 1742536220352,
+      "article_code": "db7ad1c7aa6248cda735102cdcdc4b8d",
+      "title": "Binance Will Delist AERGO, AST, BURGER, COMBO, LINA on 2025-03-28",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "COMBO",
+      "release_ms": 1742536220352,
+      "article_code": "db7ad1c7aa6248cda735102cdcdc4b8d",
+      "title": "Binance Will Delist AERGO, AST, BURGER, COMBO, LINA on 2025-03-28",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "LINA",
+      "release_ms": 1742536220352,
+      "article_code": "db7ad1c7aa6248cda735102cdcdc4b8d",
+      "title": "Binance Will Delist AERGO, AST, BURGER, COMBO, LINA on 2025-03-28",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BADGER",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BAL",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BETA",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CREAM",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "CTXC",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ELF",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "FIRO",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "HARD",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "NULS",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PROS",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SNT",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TROY",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "UFT",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "VIDT",
+      "release_ms": 1744092007355,
+      "article_code": "fac9c3e401da4cc8b604566fd261d70c",
+      "title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ALPACA",
+      "release_ms": 1745467205257,
+      "article_code": "0274f9d47da1437990bc13eb17b0ec99",
+      "title": "Binance Will Delist ALPACA, PDA, VIB, WING on 2025-05-02",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "PDA",
+      "release_ms": 1745467205257,
+      "article_code": "0274f9d47da1437990bc13eb17b0ec99",
+      "title": "Binance Will Delist ALPACA, PDA, VIB, WING on 2025-05-02",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "VIB",
+      "release_ms": 1745467205257,
+      "article_code": "0274f9d47da1437990bc13eb17b0ec99",
+      "title": "Binance Will Delist ALPACA, PDA, VIB, WING on 2025-05-02",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "WING",
+      "release_ms": 1745467205257,
+      "article_code": "0274f9d47da1437990bc13eb17b0ec99",
+      "title": "Binance Will Delist ALPACA, PDA, VIB, WING on 2025-05-02",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BSW",
+      "release_ms": 1750921209887,
+      "article_code": "173b2a63c03141009029407ecfebd14a",
+      "title": "Binance Will Delist ALPHA, BSW, KMD, LEVER, LTO on 2025-07-04",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "KMD",
+      "release_ms": 1750921209887,
+      "article_code": "173b2a63c03141009029407ecfebd14a",
+      "title": "Binance Will Delist ALPHA, BSW, KMD, LEVER, LTO on 2025-07-04",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LEVER",
+      "release_ms": 1750921209887,
+      "article_code": "173b2a63c03141009029407ecfebd14a",
+      "title": "Binance Will Delist ALPHA, BSW, KMD, LEVER, LTO on 2025-07-04",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "LTO",
+      "release_ms": 1750921209887,
+      "article_code": "173b2a63c03141009029407ecfebd14a",
+      "title": "Binance Will Delist ALPHA, BSW, KMD, LEVER, LTO on 2025-07-04",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DEFI",
+      "release_ms": 1754465406291,
+      "article_code": "21e399dcea734230a3c181daf5407b64",
+      "title": "Binance Futures Will Delist USDⓈ-M DEFIUSDT and MEMEFI Perpetual Contracts (2025-08-11)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "MEMEFI",
+      "release_ms": 1754465406291,
+      "article_code": "21e399dcea734230a3c181daf5407b64",
+      "title": "Binance Futures Will Delist USDⓈ-M DEFIUSDT and MEMEFI Perpetual Contracts (2025-08-11)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "LEVER",
+      "release_ms": 1756465212480,
+      "article_code": "d5fc5fdda5c74e3e8780050ed0841267",
+      "title": "Binance Futures Will Delist USDⓈ-M LEVERUSDT Perpetual Contract (2025-09-03)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BAKE",
+      "release_ms": 1756868394550,
+      "article_code": "b601f1d986ad403b8c667dd0ca17e2e7",
+      "title": "Binance Will Delist BAKE, HIFI, SLF on 2025-09-17",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "HIFI",
+      "release_ms": 1756868394550,
+      "article_code": "b601f1d986ad403b8c667dd0ca17e2e7",
+      "title": "Binance Will Delist BAKE, HIFI, SLF on 2025-09-17",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "SLF",
+      "release_ms": 1756868394550,
+      "article_code": "b601f1d986ad403b8c667dd0ca17e2e7",
+      "title": "Binance Will Delist BAKE, HIFI, SLF on 2025-09-17",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BSW",
+      "release_ms": 1757499283992,
+      "article_code": "c95b56efd290471ba11c6cb850208d07",
+      "title": "Binance Futures Will Delist USDⓈ-M BSWUSDT Perpetual Contract (2025-09-15)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "UXLINK",
+      "release_ms": 1758715205980,
+      "article_code": "5a4fddd83a25401cabc2ae6271b532a2",
+      "title": "Binance Futures Will Delist USDⓈ-M UXLINKUSDT Perpetual Contract (2025-09-26)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BAKE",
+      "release_ms": 1759146319511,
+      "article_code": "82df1b55a0d84c288fa396d5a5cead48",
+      "title": "Binance Futures Will Delist USDⓈ-M HIFIUSDT and BAKEUSDT Perpetual Contracts (2025-10-03)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "HIFI",
+      "release_ms": 1759146319511,
+      "article_code": "82df1b55a0d84c288fa396d5a5cead48",
+      "title": "Binance Futures Will Delist USDⓈ-M HIFIUSDT and BAKEUSDT Perpetual Contracts (2025-10-03)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "CHZUSD",
+      "release_ms": 1760759930952,
+      "article_code": "c045753243994cfcba6a22563389e910",
+      "title": "Binance Futures Will Delist USDⓈ-M SLERFUSDT and COIN-M CHZUSD Perpetual Contracts (2025-10-20 & 2025-10-21)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "COIN",
+      "release_ms": 1760759930952,
+      "article_code": "c045753243994cfcba6a22563389e910",
+      "title": "Binance Futures Will Delist USDⓈ-M SLERFUSDT and COIN-M CHZUSD Perpetual Contracts (2025-10-20 & 2025-10-21)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SLERF",
+      "release_ms": 1760759930952,
+      "article_code": "c045753243994cfcba6a22563389e910",
+      "title": "Binance Futures Will Delist USDⓈ-M SLERFUSDT and COIN-M CHZUSD Perpetual Contracts (2025-10-20 & 2025-10-21)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "COIN",
+      "release_ms": 1761219095905,
+      "article_code": "fe8c53fbe54540b88cff9caa193ffd60",
+      "title": "Binance Futures Will Delist COIN-M GMTUSD and DOGSUSD Perpetual Contracts (2025-10-28)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DOGSUSD",
+      "release_ms": 1761219095905,
+      "article_code": "fe8c53fbe54540b88cff9caa193ffd60",
+      "title": "Binance Futures Will Delist COIN-M GMTUSD and DOGSUSD Perpetual Contracts (2025-10-28)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "GMTUSD",
+      "release_ms": 1761219095905,
+      "article_code": "fe8c53fbe54540b88cff9caa193ffd60",
+      "title": "Binance Futures Will Delist COIN-M GMTUSD and DOGSUSD Perpetual Contracts (2025-10-28)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "FLM",
+      "release_ms": 1761706804123,
+      "article_code": "a6c810fc36424548917e146dbe21469a",
+      "title": "Binance Will Delist FLM, KDA, PERP on 2025-11-12",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "KDA",
+      "release_ms": 1761706804123,
+      "article_code": "a6c810fc36424548917e146dbe21469a",
+      "title": "Binance Will Delist FLM, KDA, PERP on 2025-11-12",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "PERP",
+      "release_ms": 1761706804123,
+      "article_code": "a6c810fc36424548917e146dbe21469a",
+      "title": "Binance Will Delist FLM, KDA, PERP on 2025-11-12",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "COIN",
+      "release_ms": 1762507832708,
+      "article_code": "f73071bd329f4a31ba0218ac675bea67",
+      "title": "Binance Futures Will Delist COIN-M MANAUSD and EGLDUSD Perpetual Contracts (2025-11-13)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "EGLDUSD",
+      "release_ms": 1762507832708,
+      "article_code": "f73071bd329f4a31ba0218ac675bea67",
+      "title": "Binance Futures Will Delist COIN-M MANAUSD and EGLDUSD Perpetual Contracts (2025-11-13)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MANAUSD",
+      "release_ms": 1762507832708,
+      "article_code": "f73071bd329f4a31ba0218ac675bea67",
+      "title": "Binance Futures Will Delist COIN-M MANAUSD and EGLDUSD Perpetual Contracts (2025-11-13)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MYRO",
+      "release_ms": 1762782300002,
+      "article_code": "869c1c15564048e29ae6139578637cd4",
+      "title": "Binance Futures Will Delist USDⓈ-M MYROUSDT and 1000XUSDT Perpetual Contracts (2025-11-14)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "COIN",
+      "release_ms": 1763105419907,
+      "article_code": "4e11bae0efbb4811842ff1b2d37d1389",
+      "title": "Binance Futures Will Delist COIN-M RUNEUSD Perpetual Contract (2025-11-19)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "RUNEUSD",
+      "release_ms": 1763105419907,
+      "article_code": "4e11bae0efbb4811842ff1b2d37d1389",
+      "title": "Binance Futures Will Delist COIN-M RUNEUSD Perpetual Contract (2025-11-19)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "PORT3",
+      "release_ms": 1763877454108,
+      "article_code": "aa3cc74779bf456e8b100304905b9cc2",
+      "title": "Binance Futures Will Delist USDⓈ-M PORT3USDT Perpetual Contract (2025-11-23)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "FIS",
+      "release_ms": 1764743396380,
+      "article_code": "f958d031b39f46b1ab3947b1d53fa736",
+      "title": "Binance Will Delist FIS, REI, VOXEL on 2025-12-17",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "REI",
+      "release_ms": 1764743396380,
+      "article_code": "f958d031b39f46b1ab3947b1d53fa736",
+      "title": "Binance Will Delist FIS, REI, VOXEL on 2025-12-17",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "VOXEL",
+      "release_ms": 1764743396380,
+      "article_code": "f958d031b39f46b1ab3947b1d53fa736",
+      "title": "Binance Will Delist FIS, REI, VOXEL on 2025-12-17",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "AIA",
+      "release_ms": 1765453426582,
+      "article_code": "20eee4109e06448992f0557bf798bb36",
+      "title": "Binance Futures Will Delist AIAUSDT USDⓈ-M Perpetual Contract (2025-12-11)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BUZZ",
+      "release_ms": 1766127601801,
+      "article_code": "871615e225e0474f8151ea57460ef026",
+      "title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DARK",
+      "release_ms": 1766127601801,
+      "article_code": "871615e225e0474f8151ea57460ef026",
+      "title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "FROG",
+      "release_ms": 1766127601801,
+      "article_code": "871615e225e0474f8151ea57460ef026",
+      "title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "GORK",
+      "release_ms": 1766127601801,
+      "article_code": "871615e225e0474f8151ea57460ef026",
+      "title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MIRAI",
+      "release_ms": 1766127601801,
+      "article_code": "871615e225e0474f8151ea57460ef026",
+      "title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PERRY",
+      "release_ms": 1766127601801,
+      "article_code": "871615e225e0474f8151ea57460ef026",
+      "title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "RFC",
+      "release_ms": 1766127601801,
+      "article_code": "871615e225e0474f8151ea57460ef026",
+      "title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SNAI",
+      "release_ms": 1766127601801,
+      "article_code": "871615e225e0474f8151ea57460ef026",
+      "title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TERMINUS",
+      "release_ms": 1766127601801,
+      "article_code": "871615e225e0474f8151ea57460ef026",
+      "title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "RON",
+      "release_ms": 1767348211827,
+      "article_code": "9a45b229f3ab4bd5b09617297d4d6e95",
+      "title": "Upcoming Changes to RON Spot Trading on Binance",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BOMB",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BOOST",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BRIC",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "FWOG",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MORE",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PORT3",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SHOGGOTH",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "UFD",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "UPTOP",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "WIZARD",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "XNAP",
+      "release_ms": 1769666419390,
+      "article_code": "482d63d2b376420e808ddbe160c488bb",
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ACA",
+      "release_ms": 1770022792762,
+      "article_code": "87a9bdf137f348668a85575ee02b8a27",
+      "title": "Binance Will Delist ACA, CHESS, DATA, DF, GHST, NKN on 2026-02-13",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "CHESS",
+      "release_ms": 1770022792762,
+      "article_code": "87a9bdf137f348668a85575ee02b8a27",
+      "title": "Binance Will Delist ACA, CHESS, DATA, DF, GHST, NKN on 2026-02-13",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "DATA",
+      "release_ms": 1770022792762,
+      "article_code": "87a9bdf137f348668a85575ee02b8a27",
+      "title": "Binance Will Delist ACA, CHESS, DATA, DF, GHST, NKN on 2026-02-13",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DF",
+      "release_ms": 1770022792762,
+      "article_code": "87a9bdf137f348668a85575ee02b8a27",
+      "title": "Binance Will Delist ACA, CHESS, DATA, DF, GHST, NKN on 2026-02-13",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "GHST",
+      "release_ms": 1770022792762,
+      "article_code": "87a9bdf137f348668a85575ee02b8a27",
+      "title": "Binance Will Delist ACA, CHESS, DATA, DF, GHST, NKN on 2026-02-13",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "NKN",
+      "release_ms": 1770022792762,
+      "article_code": "87a9bdf137f348668a85575ee02b8a27",
+      "title": "Binance Will Delist ACA, CHESS, DATA, DF, GHST, NKN on 2026-02-13",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "CZK",
+      "release_ms": 1770091201874,
+      "article_code": "987ca051aa2145bc8538e98cb1eda9b6",
+      "title": "Upcoming Changes to CZK Spot Trading on Binance",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "RVV",
+      "release_ms": 1770275659503,
+      "article_code": "9ac36fb4f2ad4bf2b3b27f9c9224739c",
+      "title": "Binance Futures Will Delist USDⓈ-M RVVUSDT and YALAUSDT Perpetual Contracts (2026-02-10)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "YALA",
+      "release_ms": 1770275659503,
+      "article_code": "9ac36fb4f2ad4bf2b3b27f9c9224739c",
+      "title": "Binance Futures Will Delist USDⓈ-M RVVUSDT and YALAUSDT Perpetual Contracts (2026-02-10)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "ARDR",
+      "release_ms": 1773118801491,
+      "article_code": "37a8026d1bbb4385916513623135ee2b",
+      "title": "Binance Margin Will Delist ARDR on 2026-03-12",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AFT",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "AGON",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BNB",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BOT",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "COA",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DGC",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ELDE",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "FST",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MILK",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MIRROR",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "OOOO",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PFVS",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PLANCK",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "RDO",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SGC",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SHARDS",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SSS",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SUBHUB",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TAT",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TGT",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ULTI",
+      "release_ms": 1773316809568,
+      "article_code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ALCX",
+      "release_ms": 1773367204369,
+      "article_code": "6643b898afa54f3a9d96a53f432e068d",
+      "title": "Binance VIP Loan Will Delist TUSD and ALCX from Eligible Collateral Asset List - 2026-03-30",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "VIP",
+      "release_ms": 1773367204369,
+      "article_code": "6643b898afa54f3a9d96a53f432e068d",
+      "title": "Binance VIP Loan Will Delist TUSD and ALCX from Eligible Collateral Asset List - 2026-03-30",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "COIN",
+      "release_ms": 1773411259653,
+      "article_code": "f6ebc17e4dbd451b873d9ef25c801237",
+      "title": "Binance Futures Will Delist Multiple USDⓈ-M and COIN-M Perpetual Contracts (2026-03-17 & 2026-03-18)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "A2Z",
+      "release_ms": 1773824408667,
+      "article_code": "ddac99c0e5044c13a13c7c113e530e2b",
+      "title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "FORTH",
+      "release_ms": 1773824408667,
+      "article_code": "ddac99c0e5044c13a13c7c113e530e2b",
+      "title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "HOOK",
+      "release_ms": 1773824408667,
+      "article_code": "ddac99c0e5044c13a13c7c113e530e2b",
+      "title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "IDEX",
+      "release_ms": 1773824408667,
+      "article_code": "ddac99c0e5044c13a13c7c113e530e2b",
+      "title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "LRC",
+      "release_ms": 1773824408667,
+      "article_code": "ddac99c0e5044c13a13c7c113e530e2b",
+      "title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "NTRN",
+      "release_ms": 1773824408667,
+      "article_code": "ddac99c0e5044c13a13c7c113e530e2b",
+      "title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "RDNT",
+      "release_ms": 1773824408667,
+      "article_code": "ddac99c0e5044c13a13c7c113e530e2b",
+      "title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SXP",
+      "release_ms": 1773824408667,
+      "article_code": "ddac99c0e5044c13a13c7c113e530e2b",
+      "title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "APTUSD",
+      "release_ms": 1774016064610,
+      "article_code": "48f99309fd5442d7b44491c76483223e",
+      "title": "Binance Futures Will Delist COIN-M APTUSD and OPUSD Perpetual Contracts (2026-03-25)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "COIN",
+      "release_ms": 1774016064610,
+      "article_code": "48f99309fd5442d7b44491c76483223e",
+      "title": "Binance Futures Will Delist COIN-M APTUSD and OPUSD Perpetual Contracts (2026-03-25)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "OPUSD",
+      "release_ms": 1774016064610,
+      "article_code": "48f99309fd5442d7b44491c76483223e",
+      "title": "Binance Futures Will Delist COIN-M APTUSD and OPUSD Perpetual Contracts (2026-03-25)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "UTK",
+      "release_ms": 1774494003206,
+      "article_code": "cb0ce24d50ac4db782f7484dbc6377b5",
+      "title": "Binance Margin Will Delist UTK on 2026-03-30",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "WAN",
+      "release_ms": 1775552407906,
+      "article_code": "f263d2f8ac7e488ead84b181b12bb69d",
+      "title": "Binance Margin Will Delist WAN on 2026-04-10",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BIFI",
+      "release_ms": 1775714405744,
+      "article_code": "d26a627649ee44fca27e07672add9ac2",
+      "title": "Binance Will Delist BIFI, FIO, FUN, MDT, OXT, WAN on 2026-04-23",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "FIO",
+      "release_ms": 1775714405744,
+      "article_code": "d26a627649ee44fca27e07672add9ac2",
+      "title": "Binance Will Delist BIFI, FIO, FUN, MDT, OXT, WAN on 2026-04-23",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "FUN",
+      "release_ms": 1775714405744,
+      "article_code": "d26a627649ee44fca27e07672add9ac2",
+      "title": "Binance Will Delist BIFI, FIO, FUN, MDT, OXT, WAN on 2026-04-23",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "MDT",
+      "release_ms": 1775714405744,
+      "article_code": "d26a627649ee44fca27e07672add9ac2",
+      "title": "Binance Will Delist BIFI, FIO, FUN, MDT, OXT, WAN on 2026-04-23",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "OXT",
+      "release_ms": 1775714405744,
+      "article_code": "d26a627649ee44fca27e07672add9ac2",
+      "title": "Binance Will Delist BIFI, FIO, FUN, MDT, OXT, WAN on 2026-04-23",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "WAN",
+      "release_ms": 1775714405744,
+      "article_code": "d26a627649ee44fca27e07672add9ac2",
+      "title": "Binance Will Delist BIFI, FIO, FUN, MDT, OXT, WAN on 2026-04-23",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "UTK",
+      "release_ms": 1776132001137,
+      "article_code": "895c114d247a41159cc7e4c913f42c36",
+      "title": "Binance Will Delist UTK and Support Rebranding and Airdrop Plan on Binance Alpha",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BAR",
+      "release_ms": 1776137401903,
+      "article_code": "bb7238d13db14c9ebce9fa8704e3098f",
+      "title": "Binance Margin And Loan Will Delist BAR, PIVX, XVG on 2026-04-17",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "PIVX",
+      "release_ms": 1776137401903,
+      "article_code": "bb7238d13db14c9ebce9fa8704e3098f",
+      "title": "Binance Margin And Loan Will Delist BAR, PIVX, XVG on 2026-04-17",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "XVG",
+      "release_ms": 1776137401903,
+      "article_code": "bb7238d13db14c9ebce9fa8704e3098f",
+      "title": "Binance Margin And Loan Will Delist BAR, PIVX, XVG on 2026-04-17",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "DEGO",
+      "release_ms": 1776416406263,
+      "article_code": "d067b373496c44a4ab8d28f3e90b66ad",
+      "title": "Binance Will Delist DEGO, DENT, TRU on 2026-04-28",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "DENT",
+      "release_ms": 1776416406263,
+      "article_code": "d067b373496c44a4ab8d28f3e90b66ad",
+      "title": "Binance Will Delist DEGO, DENT, TRU on 2026-04-28",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "TRU",
+      "release_ms": 1776416406263,
+      "article_code": "d067b373496c44a4ab8d28f3e90b66ad",
+      "title": "Binance Will Delist DEGO, DENT, TRU on 2026-04-28",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "AICELL",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BUBB",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DARKSTAR",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "EDGEN",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "FAIR3",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MM",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "OVL",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PHY",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "RCADE",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "RDAC",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "REX",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SIGHT",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SKATE",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SLAY",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SVSA",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TANSSI",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "no_pre_announcement_volume"
+    },
+    {
+      "symbol": "VLR",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "WBAI",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "XLAB",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "XO",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "YALA",
+      "release_ms": 1777541595547,
+      "article_code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ATA",
+      "release_ms": 1778659204681,
+      "article_code": "a42f51022cb649aea0b4cb808205fd76",
+      "title": "Binance Will Delist ATA, FARM, MLN, PHB, SYS on 2026-05-27",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "FARM",
+      "release_ms": 1778659204681,
+      "article_code": "a42f51022cb649aea0b4cb808205fd76",
+      "title": "Binance Will Delist ATA, FARM, MLN, PHB, SYS on 2026-05-27",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "MLN",
+      "release_ms": 1778659204681,
+      "article_code": "a42f51022cb649aea0b4cb808205fd76",
+      "title": "Binance Will Delist ATA, FARM, MLN, PHB, SYS on 2026-05-27",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "PHB",
+      "release_ms": 1778659204681,
+      "article_code": "a42f51022cb649aea0b4cb808205fd76",
+      "title": "Binance Will Delist ATA, FARM, MLN, PHB, SYS on 2026-05-27",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SYS",
+      "release_ms": 1778659204681,
+      "article_code": "a42f51022cb649aea0b4cb808205fd76",
+      "title": "Binance Will Delist ATA, FARM, MLN, PHB, SYS on 2026-05-27",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ARIAIP",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "COMMON",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "no_pre_announcement_volume"
+    },
+    {
+      "symbol": "CORL",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DELABS",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DONKEY",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ECHO",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "FIR",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "GATA",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "GM",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "GORILLA",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "JANITOR",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "KLINK",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "LITKEY",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "LONG",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PINGPONG",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "PRAI",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SWTCH",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TAKER",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "WHY",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ZKWASM",
+      "release_ms": 1778738402917,
+      "article_code": "03e842182ca341699fd34fe1769ae413",
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "AEUR",
+      "release_ms": 1779159608915,
+      "article_code": "6492bd3434204b29a1709e64f72e2ee6",
+      "title": "Binance Margin And Binance Loans Will Delist AEUR and AI on 2026-05-22",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AI",
+      "release_ms": 1779159608915,
+      "article_code": "6492bd3434204b29a1709e64f72e2ee6",
+      "title": "Binance Margin And Binance Loans Will Delist AEUR and AI on 2026-05-22",
+      "status": "no_pre_announcement_volume"
+    },
+    {
+      "symbol": "BNBXBT",
+      "release_ms": 1780034402285,
+      "article_code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BOOM",
+      "release_ms": 1780034402285,
+      "article_code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DIGI",
+      "release_ms": 1780034402285,
+      "article_code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "HIPPO",
+      "release_ms": 1780034402285,
+      "article_code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "JOJO",
+      "release_ms": 1780034402285,
+      "article_code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "LN",
+      "release_ms": 1780034402285,
+      "article_code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PAL",
+      "release_ms": 1780034402285,
+      "article_code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PLAYSOLANA",
+      "release_ms": 1780034402285,
+      "article_code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SKI",
+      "release_ms": 1780034402285,
+      "article_code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TYCOON",
+      "release_ms": 1780034402285,
+      "article_code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "COS",
+      "release_ms": 1780642807472,
+      "article_code": "24aced8c698649d9a552a47eeead5e34",
+      "title": "Binance Will Delist COS, D, HIGH, MBOX on 2026-06-19",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "HIGH",
+      "release_ms": 1780642807472,
+      "article_code": "24aced8c698649d9a552a47eeead5e34",
+      "title": "Binance Will Delist COS, D, HIGH, MBOX on 2026-06-19",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "MBOX",
+      "release_ms": 1780642807472,
+      "article_code": "24aced8c698649d9a552a47eeead5e34",
+      "title": "Binance Will Delist COS, D, HIGH, MBOX on 2026-06-19",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "DGB",
+      "release_ms": 1780912804311,
+      "article_code": "d5d69ae4b2f0497aa45d06da33796f9d",
+      "title": "Binance Margin And Loan Will Delist XNO, IQ, QUICK, DGB on 2026-06-12",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "IQ",
+      "release_ms": 1780912804311,
+      "article_code": "d5d69ae4b2f0497aa45d06da33796f9d",
+      "title": "Binance Margin And Loan Will Delist XNO, IQ, QUICK, DGB on 2026-06-12",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "QUICK",
+      "release_ms": 1780912804311,
+      "article_code": "d5d69ae4b2f0497aa45d06da33796f9d",
+      "title": "Binance Margin And Loan Will Delist XNO, IQ, QUICK, DGB on 2026-06-12",
+      "status": "no_pre_announcement_volume"
+    },
+    {
+      "symbol": "XNO",
+      "release_ms": 1780912804311,
+      "article_code": "d5d69ae4b2f0497aa45d06da33796f9d",
+      "title": "Binance Margin And Loan Will Delist XNO, IQ, QUICK, DGB on 2026-06-12",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ACT",
+      "release_ms": 1781766018693,
+      "article_code": "2ce2c4973d85405a9bb5fffc475c99dc",
+      "title": "Binance Will Extend the Monitoring Tag to Include ACT, BLUR, PIVX & QKC on 2026-06-18",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "BLUR",
+      "release_ms": 1781766018693,
+      "article_code": "2ce2c4973d85405a9bb5fffc475c99dc",
+      "title": "Binance Will Extend the Monitoring Tag to Include ACT, BLUR, PIVX & QKC on 2026-06-18",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "PIVX",
+      "release_ms": 1781766018693,
+      "article_code": "2ce2c4973d85405a9bb5fffc475c99dc",
+      "title": "Binance Will Extend the Monitoring Tag to Include ACT, BLUR, PIVX & QKC on 2026-06-18",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "QKC",
+      "release_ms": 1781766018693,
+      "article_code": "2ce2c4973d85405a9bb5fffc475c99dc",
+      "title": "Binance Will Extend the Monitoring Tag to Include ACT, BLUR, PIVX & QKC on 2026-06-18",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "IPUSDC",
+      "release_ms": 1782406806669,
+      "article_code": "5702f93568604ea7bfd2f4233f054bd1",
+      "title": "Binance Futures Will Delist USDⓈ-Margined IPUSDT and IPUSDC Perpetual Contracts (2026-06-28)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "IPUSDT",
+      "release_ms": 1782406806669,
+      "article_code": "5702f93568604ea7bfd2f4233f054bd1",
+      "title": "Binance Futures Will Delist USDⓈ-Margined IPUSDT and IPUSDC Perpetual Contracts (2026-06-28)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ALCX",
+      "release_ms": 1782464415053,
+      "article_code": "a9c1a7bb97064c69a660316bff39f2bd",
+      "title": "Binance Will Delist ALCX, ARDR, NFP, POND on 2026-07-10",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ARDR",
+      "release_ms": 1782464415053,
+      "article_code": "a9c1a7bb97064c69a660316bff39f2bd",
+      "title": "Binance Will Delist ALCX, ARDR, NFP, POND on 2026-07-10",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "NFP",
+      "release_ms": 1782464415053,
+      "article_code": "a9c1a7bb97064c69a660316bff39f2bd",
+      "title": "Binance Will Delist ALCX, ARDR, NFP, POND on 2026-07-10",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "POND",
+      "release_ms": 1782464415053,
+      "article_code": "a9c1a7bb97064c69a660316bff39f2bd",
+      "title": "Binance Will Delist ALCX, ARDR, NFP, POND on 2026-07-10",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "HOT",
+      "release_ms": 1782716408506,
+      "article_code": "b703403f123b4d95af7222431d053c7c",
+      "title": "Binance Margin And Loan Will Delist HOT, THE on 2026-07-03",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "CYPR",
+      "release_ms": 1782815410266,
+      "article_code": "dc8c4b58f26549b1b629cbd254115dc0",
+      "title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "DGRAM",
+      "release_ms": 1782815410266,
+      "article_code": "dc8c4b58f26549b1b629cbd254115dc0",
+      "title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "LUNAI",
+      "release_ms": 1782815410266,
+      "article_code": "dc8c4b58f26549b1b629cbd254115dc0",
+      "title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "OIK",
+      "release_ms": 1782815410266,
+      "article_code": "dc8c4b58f26549b1b629cbd254115dc0",
+      "title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "PUP",
+      "release_ms": 1782815410266,
+      "article_code": "dc8c4b58f26549b1b629cbd254115dc0",
+      "title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TOWN",
+      "release_ms": 1782815410266,
+      "article_code": "dc8c4b58f26549b1b629cbd254115dc0",
+      "title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TTD",
+      "release_ms": 1782815410266,
+      "article_code": "dc8c4b58f26549b1b629cbd254115dc0",
+      "title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "VINU",
+      "release_ms": 1782815410266,
+      "article_code": "dc8c4b58f26549b1b629cbd254115dc0",
+      "title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "IOTX",
+      "release_ms": 1783332001595,
+      "article_code": "2733031786ea4b2688696cf578ac339f",
+      "title": "Binance Margin And Loan Will Delist TST & IOTX on 2026-07-10",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "TST",
+      "release_ms": 1783332001595,
+      "article_code": "2733031786ea4b2688696cf578ac339f",
+      "title": "Binance Margin And Loan Will Delist TST & IOTX on 2026-07-10",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "AERGO",
+      "release_ms": 1784643314244,
+      "article_code": "f0e3fc835b9545759e4279c64b200389",
+      "title": "Binance Futures Will Delist USDⓈ-M AERGOUSDT Perpetual Contract (2026-07-24)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "AEUR",
+      "release_ms": 1785376806252,
+      "article_code": "40f303353b5f4789aba90dd972990f7e",
+      "title": "Notice Regarding the Removal of AEUR and Conversion of AEUR to EUR",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "EUR",
+      "release_ms": 1785376806252,
+      "article_code": "40f303353b5f4789aba90dd972990f7e",
+      "title": "Notice Regarding the Removal of AEUR and Conversion of AEUR to EUR",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ACX",
+      "release_ms": 1785727810683,
+      "article_code": "64cf7544b98e4f2ca7f54ba11fd72d9d",
+      "title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "HFT",
+      "release_ms": 1785727810683,
+      "article_code": "64cf7544b98e4f2ca7f54ba11fd72d9d",
+      "title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "PIVX",
+      "release_ms": 1785727810683,
+      "article_code": "64cf7544b98e4f2ca7f54ba11fd72d9d",
+      "title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "PYR",
+      "release_ms": 1785727810683,
+      "article_code": "64cf7544b98e4f2ca7f54ba11fd72d9d",
+      "title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "VANRY",
+      "release_ms": 1785727810683,
+      "article_code": "64cf7544b98e4f2ca7f54ba11fd72d9d",
+      "title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "VIC",
+      "release_ms": 1785727810683,
+      "article_code": "64cf7544b98e4f2ca7f54ba11fd72d9d",
+      "title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BTTC",
+      "release_ms": 1786356004147,
+      "article_code": "948546d989254418a4646db8a6da18c5",
+      "title": "Binance Margin And Loan Will Delist BTTC & POWR on 2026-08-14",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "POWR",
+      "release_ms": 1786356004147,
+      "article_code": "948546d989254418a4646db8a6da18c5",
+      "title": "Binance Margin And Loan Will Delist BTTC & POWR on 2026-08-14",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "ICX",
+      "release_ms": 1787205606608,
+      "article_code": "d72915ed7a60473b92f0818d959a227a",
+      "title": "Binance Will Delist ICX, SCRT, STORJ on 2026-09-03",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "SCRT",
+      "release_ms": 1787205606608,
+      "article_code": "d72915ed7a60473b92f0818d959a227a",
+      "title": "Binance Will Delist ICX, SCRT, STORJ on 2026-09-03",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "STORJ",
+      "release_ms": 1787205606608,
+      "article_code": "d72915ed7a60473b92f0818d959a227a",
+      "title": "Binance Will Delist ICX, SCRT, STORJ on 2026-09-03",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "AIAV",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "BDXN",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BOS",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MAIGA",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MTP",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "ODOS",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PENGUIN",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "RVV",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SAROS",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SERAPH",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SN3",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "TALE",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "TIMI",
+      "release_ms": 1788510602234,
+      "article_code": "454b8004796c46a9b883cc7dab6d6e67",
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "USDP",
+      "release_ms": 1789020012727,
+      "article_code": "8e6fd91b79a34bddbd7643ef002db47e",
+      "title": "Binance Will Delist USDP on 2026-09-24",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "BLUM",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "CAI",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "CDL",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "CUDIS",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "no_pre_announcement_volume"
+    },
+    {
+      "symbol": "DN",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "EPT",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "GAIA",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "KIN",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "KO",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "PYTHIA",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "SLX",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "STRIKE",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "SUP",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "VRA",
+      "release_ms": 1791532805136,
+      "article_code": "56476c15963b4c0cb113ab0e22613c5c",
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "EPIC",
+      "release_ms": 1791957608049,
+      "article_code": "290a660c0b2e4e888c582cd29ecf9ecc",
+      "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "QUICK",
+      "release_ms": 1791957608049,
+      "article_code": "290a660c0b2e4e888c582cd29ecf9ecc",
+      "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
+      "status": "no_pre_announcement_volume"
+    },
+    {
+      "symbol": "MITO",
+      "release_ms": 1792575001882,
+      "article_code": "c30e6891afa54651ba950f8af144f861",
+      "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "PTB",
+      "release_ms": 1792575001882,
+      "article_code": "c30e6891afa54651ba950f8af144f861",
+      "title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)",
+      "status": "has_futures_data"
+    },
+    {
+      "symbol": "AA",
+      "release_ms": 1792747808273,
+      "article_code": "ab3a0eac9e614819b7b6fa0c03504b1f",
+      "title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "DORA",
+      "release_ms": 1792747808273,
+      "article_code": "ab3a0eac9e614819b7b6fa0c03504b1f",
+      "title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "ELIZAOS",
+      "release_ms": 1792747808273,
+      "article_code": "ab3a0eac9e614819b7b6fa0c03504b1f",
+      "title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "MEMES",
+      "release_ms": 1792747808273,
+      "article_code": "ab3a0eac9e614819b7b6fa0c03504b1f",
+      "title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)",
+      "status": "not_fetched"
+    },
+    {
+      "symbol": "OWL",
+      "release_ms": 1792747808273,
+      "article_code": "ab3a0eac9e614819b7b6fa0c03504b1f",
+      "title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)",
+      "status": "unknown_empty_legacy_cache"
+    },
+    {
+      "symbol": "PTB",
+      "release_ms": 1792747808273,
+      "article_code": "ab3a0eac9e614819b7b6fa0c03504b1f",
+      "title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)",
+      "status": "no_pre_announcement_volume"
+    }
+  ]
+}

@@ -164,7 +164,7 @@ def test_symbols() -> None:
 def test_depth() -> None:
     book = {"bids": [[100.0, 1.0], [99.0, 5.0]], "asks": [[101.0, 1.0], [102.0, 5.0]]}
     got = depth_usd(book, 50.0)
-    check("ликвидность: расчёт глубины в полосе ±50 бп", abs(got - 201.0) < 0.01, f"{got}")
+    check("ликвидность: расчёт глубины в полосе ±50 бп", abs(got - 100.0) < 0.01, f"{got}")
     check("ликвидность: пустой/битый стакан -> 0", depth_usd({}, 50.0) == 0.0
           and depth_usd("мусор", 50.0) == 0.0 and depth_usd({"bids": [["x", "y"]], "asks": []}, 50.0) == 0.0)
 
@@ -379,6 +379,7 @@ def test_single_instance(tmp: Path) -> None:
 async def test_conditional_and_lag(tmp: Path) -> None:
     """Условные запросы: 304 не должен ломать цикл, а лаг обнаружения должен попадать в лог."""
     cfg = tmp_cfg(tmp)
+    cfg.use_conditional = True
     bootstrap_state(cfg)
     log, buf = capture_logger()
 
@@ -471,7 +472,8 @@ async def main() -> int:
                test_liquidity_gate, test_conditional_and_lag):
         await fn(Path(tempfile.mkdtemp()))
 
-    await test_live()
+    if "--live" in sys.argv:
+        await test_live()
 
     failed = [r for r in RESULTS if not r[1]]
     print(f"\nитого: {len(RESULTS) - len(failed)}/{len(RESULTS)} проверок пройдено")

@@ -24,6 +24,8 @@ import asyncio
 import fcntl
 import json
 import logging
+import math
+from email.utils import parsedate_to_datetime
 import os
 import random
 import re
@@ -40,7 +42,7 @@ BINANCE_FAPI_TIME = "https://fapi.binance.com/fapi/v1/time"
 BINANCE_FAPI_DEPTH = "https://fapi.binance.com/fapi/v1/depth"
 BINANCE_SPOT_DEPTH = "https://api.binance.com/api/v3/depth"
 
-ROOT = Path.home() / "newsbot"
+ROOT = Path(__file__).resolve().parent
 
 
 @dataclass
@@ -62,12 +64,19 @@ class Config:
     pid_path: Path = ROOT / "state" / "monitor.pid"
     stop_path: Path = ROOT / "STOP"
     log_path: Path = ROOT / "logs" / "bot.log"
+    observations_path: Path | None = None
 
     @classmethod
     def from_env(cls) -> "Config":
         """Настройки без правки кода: NEWS_POLL_INTERVAL, NEWS_STALE_AFTER, NEWS_MIN_DEPTH_USD."""
         cfg = cls()
         env = os.environ
+        root = Path(env.get("NEWS_ROOT", str(ROOT))).expanduser().resolve()
+        cfg.state_path = root / "state" / "seen.json"
+        cfg.pid_path = root / "state" / "monitor.pid"
+        cfg.stop_path = root / "STOP"
+        cfg.log_path = root / "logs" / "bot.log"
+        cfg.observations_path = root / "logs" / "observations.jsonl"
         for key, attr, lo, cast in (
             ("NEWS_POLL_INTERVAL", "poll_interval_s", 0.2, float),
             ("NEWS_STALE_AFTER", "stale_after_s", 1.0, float),
@@ -77,9 +86,12 @@ class Config:
             if raw is None:
                 continue
             try:
-                setattr(cfg, attr, max(lo, cast(raw)))
-            except ValueError:
-                pass
+                value = cast(raw)
+                if not math.isfinite(value) or value < lo:
+                    raise ValueError(f"{key} must be finite and >= {lo}")
+                setattr(cfg, attr, value)
+            except ValueError as exc:
+                raise ValueError(f"Invalid {key}: {raw!r}") from exc
         return cfg
 
 
@@ -141,7 +153,7 @@ def parse_articles(payload: Any) -> list[dict]:
             rel = a.get("releaseDate")
             try:
                 rel_ms = int(rel)
-            except (TypeError, ValueError):
+            except (TypeError, ValueError, OverflowError):
                 rel_ms = 0
             code = a.get("code")
             out.append(
@@ -201,7 +213,7 @@ def categorize(title: str) -> str:
 
 
 def depth_usd(book: Any, band_bps: float) -> float:
-    """Суммарный номинал в USD в полосе ±band_bps от середины. 0.0 при любой ошибке."""
+    """Номинал bids для входа в шорт в полосе от mid. Невалидный стакан → 0."""
     try:
         if not isinstance(book, dict):
             return 0.0
@@ -209,22 +221,27 @@ def depth_usd(book: Any, band_bps: float) -> float:
         asks = book.get("asks") or []
         if not bids or not asks:
             return 0.0
-        best_bid = float(bids[0][0])
-        best_ask = float(asks[0][0])
-        mid = (best_bid + best_ask) / 2.0
-        if mid <= 0:
+        if not math.isfinite(band_bps) or band_bps <= 0:
             return 0.0
+        bids = [(float(p), float(q)) for p, q, *_ in bids]
+        asks = [(float(p), float(q)) for p, q, *_ in asks]
+        if any(not math.isfinite(p) or not math.isfinite(q) or p <= 0 or q < 0
+               for p, q in bids + asks):
+            return 0.0
+        if any(bids[i][0] < bids[i+1][0] for i in range(len(bids)-1)):
+            return 0.0
+        if any(asks[i][0] > asks[i+1][0] for i in range(len(asks)-1)):
+            return 0.0
+        best_bid, best_ask = bids[0][0], asks[0][0]
+        if best_bid >= best_ask:
+            return 0.0
+        mid = (best_bid + best_ask) / 2.0
         lo = mid * (1.0 - band_bps / 10_000.0)
         hi = mid * (1.0 + band_bps / 10_000.0)
-        total = 0.0
-        for level in bids:
-            p, q = float(level[0]), float(level[1])
-            if p >= lo:
-                total += p * q
-        for level in asks:
-            p, q = float(level[0]), float(level[1])
-            if p <= hi:
-                total += p * q
+        # A short sells into bids; asks do not supply entry liquidity.
+        total = sum(p * q for p, q in bids if lo <= p <= hi)
+        if not math.isfinite(total):
+            return 0.0
         return total
     except Exception:
         return 0.0
@@ -259,9 +276,13 @@ class BackoffClient:
         if not raw:
             return None
         try:
-            return max(0.0, float(raw))
+            value = float(raw)
+            return max(0.0, value) if math.isfinite(value) else None
         except (TypeError, ValueError):
-            return None
+            try:
+                return max(0.0, parsedate_to_datetime(raw).timestamp() - time.time())
+            except (TypeError, ValueError, OverflowError):
+                return None
 
     async def request(self, url: str, params: Optional[dict] = None,
                       headers: Optional[dict] = None) -> Optional[httpx.Response]:
@@ -290,8 +311,8 @@ class BackoffClient:
                 if self.attempt >= self.cfg.max_attempts:
                     self.log.error("HTTP %d: giving up after %d attempts", code, self.attempt)
                     return None
-                delay = self._retry_after(resp) or self._delay()
-                delay = min(delay, self.cfg.backoff_max_s)
+                retry_after = self._retry_after(resp)
+                delay = retry_after if retry_after is not None else self._delay()
                 self.last_delays.append(delay)
                 self.log.warning("HTTP %d rate limit — sleep %.1fs (attempt %d/%d)",
                                  code, delay, self.attempt, self.cfg.max_attempts)
@@ -342,16 +363,18 @@ class SeenState:
     def load(self) -> "SeenState":
         try:
             raw = json.loads(self.path.read_text("utf-8"))
-            if isinstance(raw, dict):
-                ids = raw.get("ids")
-                if isinstance(ids, list):
-                    self.ids = [str(i) for i in ids][-self.max_ids:]
-                    self._set = set(self.ids)
-                self.bootstrapped = bool(raw.get("bootstrapped"))
+            if (not isinstance(raw, dict) or not isinstance(raw.get("ids"), list)
+                    or type(raw.get("bootstrapped")) is not bool
+                    or any(not isinstance(i, str) for i in raw["ids"])):
+                raise ValueError("invalid cursor schema")
+            self.ids = list(dict.fromkeys(raw["ids"]))[-self.max_ids:]
+            self._set = set(self.ids)
+            self.bootstrapped = raw["bootstrapped"]
         except FileNotFoundError:
             pass
-        except Exception:
-            pass
+        except (ValueError, TypeError):
+            # Invalid state must bootstrap again, never process the whole old feed.
+            self.ids, self._set, self.bootstrapped = [], set(), False
         return self
 
     def save(self) -> None:
@@ -383,13 +406,15 @@ class SingleInstance:
 
     def acquire(self) -> bool:
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        self._fh = open(self.path, "w")
+        self._fh = open(self.path, "a+")
         try:
             fcntl.flock(self._fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
         except OSError:
             self._fh.close()
             self._fh = None
             return False
+        self._fh.seek(0)
+        self._fh.truncate()
         self._fh.write(str(os.getpid()))
         self._fh.flush()
         return True
@@ -418,7 +443,7 @@ class Monitor:
                  max_loops: Optional[int] = None):
         self.cfg = cfg
         self.log = logger
-        self._sleep = sleep or asyncio.sleep
+        self._sleep = sleep or self.interruptible_sleep
         self.client = client or BackoffClient(cfg, logger, sleep=self._sleep)
         self.state = SeenState(cfg.state_path).load()
         self.clock_offset_ms = 0.0
@@ -433,7 +458,15 @@ class Monitor:
         self._last_heartbeat = 0.0
         self._etag: Optional[str] = None
         self._last_cache: Optional[str] = None
+        self._last_good_feed = time.monotonic()
         self.lags: list[float] = []
+
+    async def interruptible_sleep(self, seconds: float) -> None:
+        deadline = time.monotonic() + seconds
+        while time.monotonic() < deadline:
+            if self.stop_requested():
+                raise asyncio.CancelledError
+            await asyncio.sleep(min(0.25, max(0, deadline - time.monotonic())))
 
     # --- время (защита 5) -------------------------------------------------- #
 
@@ -483,15 +516,12 @@ class Monitor:
 
             book = await self.client.get_json(BINANCE_FAPI_DEPTH, {"symbol": sym, "limit": 50})
             market = "futures"
-            if not isinstance(book, dict) or not book.get("bids"):
-                book = await self.client.get_json(BINANCE_SPOT_DEPTH, {"symbol": sym, "limit": 50})
-                market = "spot"
             usd = depth_usd(book, self.cfg.depth_band_bps)
             results.append({
                 "symbol": sym,
                 "market": market if usd > 0 else None,
                 "depth_usd": usd,
-                "ok": usd >= self.cfg.min_depth_usd,
+                "ok": usd > 0 and usd >= self.cfg.min_depth_usd,
             })
         return results
 
@@ -506,8 +536,13 @@ class Monitor:
         inst = SingleInstance(self.cfg.pid_path)
         if not inst.acquire():
             self.log.error("another instance is running (lock %s) — exit", self.cfg.pid_path)
+            await self.client.client.aclose()
             return 2
         try:
+            self.state = SeenState(self.cfg.state_path).load()
+            if self.stop_requested():
+                self.log.critical("KILL SWITCH before startup — graceful stop")
+                return 0
             if not self.state.bootstrapped:
                 self.log.info("state: no cursor yet, will bootstrap on first poll")
             await self.sync_clock()
@@ -521,12 +556,20 @@ class Monitor:
                     self.log.critical("KILL SWITCH: %s — graceful stop", self.cfg.stop_path)
                     return 0
                 await self.tick()
+                silent = time.monotonic() - self._last_good_feed
+                if silent > self.cfg.stale_after_s:
+                    self.log.error("FEED UNHEALTHY: no valid announcement response for %.0fs", silent)
                 self.loops += 1
                 if self.max_loops is not None and self.loops >= self.max_loops:
                     self.log.info("max_loops=%d reached — stop", self.max_loops)
                     return 0
                 await self._sleep(self.cfg.poll_interval_s)
+        except asyncio.CancelledError:
+            if not self.stop_requested():
+                raise
+            return 0
         finally:
+            await self.client.client.aclose()
             inst.release()
 
     async def tick(self) -> None:
@@ -554,10 +597,8 @@ class Monitor:
             self._last_cache = cache
 
         etag = resp.headers.get("etag")
-        if etag:
-            self._etag = etag
-
         if resp.status_code == 304:
+            self._last_good_feed = time.monotonic()
             self.log.debug("tick: 304 not modified")
             return
 
@@ -572,6 +613,12 @@ class Monitor:
             self.log.warning("tick: announcement list empty or unparsable")
             return
 
+        if etag:
+            self._etag = etag
+        self._last_good_feed = time.monotonic()
+        detected_ms = int(self.server_now() * 1000)
+        for art in arts:
+            art["detected_ms"] = detected_ms
         if not self.state.bootstrapped:
             for a in arts:
                 self.state.add(a["id"])
@@ -586,11 +633,9 @@ class Monitor:
         new = [a for a in arts if not self.state.seen(a["id"])]
         new.sort(key=lambda a: a["release_ms"])
         for art in new:
-            self.state.add(art["id"])
             await self.handle(art)
-        if new:
+            self.state.add(art["id"])
             self.state.save()
-
         if time.time() - self._last_heartbeat > self.cfg.heartbeat_every_s:
             self._last_heartbeat = time.time()
             med = f"{sorted(self.lags)[len(self.lags) // 2]:.1f}s" if self.lags else "n/a"
@@ -613,7 +658,17 @@ class Monitor:
                              art.get("id"), title[:90])
             return
 
-        age = self.server_now() - rel_ms / 1000.0
+        detected_ms = art.get("detected_ms", int(self.server_now() * 1000))
+        age = (detected_ms - rel_ms) / 1000.0
+        if self.cfg.observations_path is not None:
+            path = self.cfg.observations_path
+            path.parent.mkdir(parents=True, exist_ok=True)
+            observation = dict(id=art.get("id"), code=art.get("code"), title=title,
+                               release_ms=rel_ms, detected_ms=detected_ms, detect_lag_s=age,
+                               clock_offset_ms=self.clock_offset_ms, clock_rtt_ms=self.clock_rtt_ms,
+                               clock_synced=self._last_sync > 0)
+            with path.open("a", encoding="utf-8") as f:
+                f.write(json.dumps(observation, ensure_ascii=False) + "\n")
         self.lags.append(age)
         self.lags = self.lags[-50:]
         self.log.info("NEW id=%s detect_lag=%.1fs | %s", art.get("id"), age, title[:90])
@@ -624,6 +679,7 @@ class Monitor:
         if age < -120:
             self.log.warning("CLOCK SKEW: announcement %.0fs in the future, offset=%.0fms | %s",
                              -age, self.clock_offset_ms, title[:90])
+            return
 
         cat = categorize(title)
         if cat == "other":
@@ -640,7 +696,10 @@ class Monitor:
             return
 
         liq = await self.check_liquidity(symbols)
-        ok = [x for x in liq if x.get("ok")]
+        if self.stop_requested():
+            self.log.critical("KILL SWITCH after liquidity check — abort")
+            return
+        ok = [x for x in liq if x.get("ok") and x.get("market") == "futures"]
         summary = ", ".join(
             f"{x['symbol']}[{x.get('market') or 'no-market'}]={x.get('depth_usd', 0.0):.0f}USD"
             for x in liq

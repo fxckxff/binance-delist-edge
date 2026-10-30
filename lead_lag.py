@@ -29,7 +29,7 @@ from pathlib import Path
 import httpx
 
 ROOT = Path(__file__).resolve().parent
-OUT = ROOT / "data" / "lead_lag.json"
+OUT = ROOT / "data" / "lead_lag.v2.json"
 CMS_CACHE = ROOT / "data" / "cms_articles.json"
 
 BYBIT = "https://api.bybit.com/v5/announcements/index"
@@ -43,7 +43,7 @@ def symbols(title: str) -> list[str]:
     t = re.sub(r"\(.*?\)", " ", title)
     out: list[str] = []
     for tok in re.findall(r"\b[A-Z0-9]{2,12}\b", t):
-        if tok in STOP:
+        if tok in STOP or tok.isdigit():
             continue
         if tok.endswith("USDT") and len(tok) > 6:
             tok = tok[:-4]
@@ -52,6 +52,61 @@ def symbols(title: str) -> list[str]:
         if tok not in out:
             out.append(tok)
     return out
+
+
+def market_kind(title: str) -> str:
+    title = title.lower()
+    if "perpetual" in title or "futures" in title:
+        return "futures"
+    if "margin" in title or "loan" in title:
+        return "margin"
+    if "alpha" in title:
+        return "alpha"
+    if "spot" in title:
+        return "spot"
+    return "unknown"
+
+
+def match_announcements(bybit, cms, max_days=30):
+    """Candidate matches only: same market, bounded dates, unique counterpart.
+
+    Matching tickers alone cannot establish identical delisting events or causality.
+    Ambiguous matches are excluded instead of selecting dict iteration's first item.
+    """
+    pairs, excluded = [], 0
+    for b in bybit:
+        if not b.get("publish_ms"):
+            continue
+        kind = market_kind(b["title"])
+        if kind == "unknown":
+            excluded += 1
+            continue
+        for sym in b["syms"]:
+            candidates = [(code, a) for code, a in cms.items()
+                          if a.get("catalog") == 161 and a.get("release_ms")
+                          and market_kind(a["title"]) == kind
+                          and sym in symbols(a["title"])
+                          and abs(b["publish_ms"] - a["release_ms"]) <= max_days * 86400000]
+            if len(candidates) != 1:
+                excluded += 1
+                continue
+            code, a = candidates[0]
+            pairs.append(dict(symbol=sym, bybit_ms=b["publish_ms"], binance_ms=a["release_ms"],
+                              lag_s=(b["publish_ms"]-a["release_ms"])/1000,
+                              bybit_title=b["title"], binance_title=a["title"],
+                              binance_code=code, market=kind))
+    # A Binance event with multiple distinct Bybit counterparts is also ambiguous.
+    counts = {}
+    for p in pairs:
+        key = (p["symbol"], p["binance_code"])
+        counts.setdefault(key, set()).add(p["bybit_ms"])
+    unique = {}
+    for p in pairs:
+        if len(counts[(p["symbol"], p["binance_code"])]) == 1:
+            unique[(p["symbol"], p["binance_code"], p["bybit_ms"])] = p
+        else:
+            excluded += 1
+    return list(unique.values()), excluded
 
 
 def main() -> int:
@@ -86,23 +141,8 @@ def main() -> int:
     print(f"Binance статей в кэше: {len(cms)}")
 
     # --- сопоставление ---
-    pairs = []
-    for b in bybit:
-        if not b["publish_ms"]:
-            continue
-        for sym in b["syms"]:
-            for code, a in cms.items():
-                if a.get("catalog") != 161:
-                    continue
-                rel = a.get("release_ms")
-                if not rel:
-                    continue
-                if sym in symbols(a.get("title", "")):
-                    lag = b["publish_ms"] / 1000.0 - rel / 1000.0
-                    pairs.append({"symbol": sym, "bybit_ms": b["publish_ms"],
-                                  "binance_ms": rel, "lag_s": lag,
-                                  "bybit_title": b["title"], "binance_title": a["title"]})
-                    break
+    pairs, excluded = match_announcements(bybit, cms)
+    print(f"excluded ambiguous/unknown/unmatched: {excluded}")
     print(f"совпадений по токену: {len(pairs)}")
 
     if pairs:
@@ -134,6 +174,8 @@ def main() -> int:
             print(f"  {p['lag_s']/3600:+8.1f} ч | {p['symbol']:10s} | Bybit: {p['bybit_title'][:40]}")
 
         OUT.write_text(json.dumps({
+            "matching": "same explicit market, within 30 days, unique counterpart; candidates require manual review",
+            "excluded": excluded,
             "bybit_delistings": len(bybit), "pairs": len(pairs),
             "faster_share": faster / len(pairs), "median_lag_s": st.median(lags),
             "details": sorted(pairs, key=lambda x: x["lag_s"]),

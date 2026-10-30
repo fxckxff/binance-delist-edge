@@ -15,9 +15,9 @@ interval=1s. Такого интервала у фьючерсов Binance не�
    Если контракта не было — 400, событие выбрасывается (шорт невозможен).
 3. Требует, чтобы до анонса был реальный объём: иначе «цена» — это пустая книга.
 4. Вход: открытие первой минутной свечи после (анонс + лаг). Лаг перебирается.
-   Из-за минутной сетки фактический лаг = lag + до 60 с. Это в минус, не в плюс.
-5. Стоп проверяется по high свечи, исполняется по цене стопа.
-6. Выход: закрытие последней свечи в пределах горизонта.
+   Из-за минутной сетки фактический лаг = lag + до 60 с. Направление смещения доходности заранее неизвестно.
+5. Стоп проверяется по high, гэп открытия исполняется по худшей цене.
+6. Выход: закрытие последней полностью закрытой свечи в пределах горизонта.
 7. Размер позиции считается от ТЕКУЩЕГО капитала (компаундинг), с потолком плеча.
 8. Комиссия round trip по умолчанию 10 бп (тейкер 4+4 на фьючерсах + запас).
 
@@ -31,8 +31,9 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+import math
+from research_core import portfolio
 import re
-import statistics as st
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -101,7 +102,8 @@ async def fetch_announcements(client: httpx.AsyncClient, pages: int) -> list[dic
 async def fetch_1m(client: httpx.AsyncClient, symbol: str, start_ms: int, end_ms: int):
     """1-минутные свечи фьючерса. Возвращает (список, статус).
 
-    статус: 'ok' | 'no_contract' (400) | 'http_<code>'
+    статус: 'ok' | 'no_contract' (API invalid symbol) | 'http_<code>'
+    Invalid symbol сейчас не доказывает отсутствия контракта в прошлом.
     """
     out: list[list] = []
     cur = start_ms
@@ -109,15 +111,23 @@ async def fetch_1m(client: httpx.AsyncClient, symbol: str, start_ms: int, end_ms
         r = await client.get(FUT, params={"symbol": symbol, "interval": "1m",
                                           "startTime": cur, "endTime": end_ms, "limit": 500})
         if r.status_code == 400:
-            return [], "no_contract"
+            try:
+                error = r.json()
+            except ValueError:
+                error = {}
+            return [], "no_contract" if isinstance(error, dict) and error.get("code") == -1121 else "http_400"
         if r.status_code != 200:
             return [], f"http_{r.status_code}"
         try:
             batch = r.json()
         except Exception:
             return [], "bad_json"
-        if not isinstance(batch, list) or not batch:
+        if not isinstance(batch, list):
+            return [], "bad_payload"
+        if not batch:
             break
+        if int(batch[-1][0]) < cur:
+            return [], "nonadvancing_page"
         out.extend(batch)
         if len(batch) < 500:
             break
@@ -130,10 +140,17 @@ def simulate(series: list[list], release_ms: int, lag_s: int, stop_bps: int,
              horizon_s: int, cost_bps: float, stop_from_next: bool = False):
     """Один шорт. Возвращает dict или строку-причину пропуска.
 
-    stop_from_next=False — пессимистично: high минуты входа может сбить стоп
-    (внутри минуты порядок неизвестен, считаем худшее).
-    stop_from_next=True  — оптимистично: стоп начинает действовать со следующей минуты.
+    Вход на открытии: high этой свечи достижим после входа.
+    stop_from_next=True — намеренно оптимистичный стресс-сценарий, игнорирующий
+    стоп в минуту входа, а не равноправная модель исполнения.
     """
+    if lag_s < 0 or horizon_s <= lag_s or stop_bps < 0 or cost_bps < 0:
+        return "invalid_parameters"
+    if any(len(c) < 7 or any(not math.isfinite(float(c[i])) or float(c[i]) <= 0
+                            for i in (1, 2, 3, 4)) for c in series):
+        return "bad_price"
+    if any(int(series[i][0]) >= int(series[i+1][0]) for i in range(len(series)-1)):
+        return "unordered_candles"
     entry_t = release_ms + lag_s * 1000
     entry_candle = None
     for c in series:
@@ -150,6 +167,12 @@ def simulate(series: list[list], release_ms: int, lag_s: int, stop_bps: int,
     exit_deadline = release_ms + horizon_s * 1000
     stop_price = entry * (1 + stop_bps / 10000.0) if stop_bps else None
     entry_open_ms = int(entry_candle[0])
+    if entry_open_ms - entry_t >= 60_000:
+        return "stale_entry"
+    if int(entry_candle[6]) > exit_deadline:
+        return "no_exit"
+    previous_t = None
+    stopped = False
 
     exit_price = None
     exit_t = None
@@ -157,17 +180,25 @@ def simulate(series: list[list], release_ms: int, lag_s: int, stop_bps: int,
         t = int(c[0])
         if t < entry_open_ms:
             continue
-        if t > exit_deadline:
+        close_t = int(c[6])
+        if close_t > exit_deadline:
             break
+        if previous_t is not None and t - previous_t != 60_000:
+            return "missing_candles"
+        previous_t = t
         stop_active = stop_price is not None and (not stop_from_next or t > entry_open_ms)
         if stop_active and float(c[2]) >= stop_price:   # high пробил стоп
-            exit_price = stop_price
-            exit_t = t
+            exit_price = max(stop_price, float(c[1]))
+            exit_t = close_t
+            stopped = True
             break
         exit_price = float(c[4])
-        exit_t = t
+        exit_t = close_t
     if exit_price is None:
         return "no_exit"
+
+    if not stopped and exit_deadline - exit_t >= 60_000:
+        return "incomplete_horizon"
 
     gross_bps = (entry - exit_price) / entry * 10000.0
     return {
@@ -175,64 +206,23 @@ def simulate(series: list[list], release_ms: int, lag_s: int, stop_bps: int,
         "exit": exit_price,
         "gross_bps": gross_bps,
         "net_bps": gross_bps - cost_bps,
-        "hold_s": (exit_t - entry_t) / 1000.0,
-        "entry_t": entry_t,
+        "hold_s": (exit_t - entry_open_ms) / 1000.0,
+        "entry_t": entry_open_ms,
+        "exit_t": exit_t,
     }
 
 
 def run_grid(events: list[dict], cost_bps: float, stop_from_next: bool = False) -> dict:
     """Полный перебор. Капитал компаундится: размер позиции берётся от equity ДО сделки."""
     results = {}
-    ordered = sorted(events, key=lambda e: e["release_ms"])
     for lag in LAGS_S:
         for stop in STOPS_BPS:
             for hor in HORIZONS_S:
-                trades = []
-                skipped: dict[str, int] = {}
-                eq = EQUITY0
-                peak = eq
-                dd = 0.0
-                blown = False
-                for ev in ordered:
-                    if blown:
-                        skipped["account_blown"] = skipped.get("account_blown", 0) + 1
-                        continue
-                    r = simulate(ev["series"], ev["release_ms"], lag, stop, hor, cost_bps,
-                                 stop_from_next=stop_from_next)
-                    if isinstance(r, str):
-                        skipped[r] = skipped.get(r, 0) + 1
-                        continue
-                    # риск 1% от ТЕКУЩЕГО капитала; без стопа риск не ограничен -> полкапитала
-                    if stop:
-                        notional = min(eq * RISK_PCT / (stop / 10000.0), eq * MAX_LEVERAGE)
-                    else:
-                        notional = eq * 0.5
-                    pnl = notional * r["net_bps"] / 10000.0
-                    # ликвидация: убыток больше капитала = счёт умер, а не ушёл в минус
-                    if eq + pnl <= 0:
-                        pnl = -eq
-                        blown = True
-                    trades.append({**r, "ts": ev["release_ms"], "symbol": ev["symbol"],
-                                   "notional": notional, "pnl": pnl, "equity_before": eq})
-                    eq += pnl
-                    peak = max(peak, eq)
-                    dd = max(dd, (peak - eq) / peak if peak > 0 else 0.0)
-                if not trades:
-                    continue
-                nets = [t["net_bps"] for t in trades]
-                results[f"lag{lag}_stop{stop}_h{hor}"] = {
-                    "lag_s": lag, "stop_bps": stop, "horizon_s": hor,
-                    "trades": len(trades),
-                    "skipped": skipped,
-                    "win_rate": sum(1 for x in nets if x > 0) / len(nets),
-                    "median_net_bps": st.median(nets),
-                    "mean_net_bps": st.mean(nets),
-                    "total_pnl_usd": round(eq - EQUITY0, 2),
-                    "final_equity": round(eq, 2),
-                    "max_dd_pct": round(dd * 100, 2),
-                    "avg_notional": round(st.mean([t["notional"] for t in trades]), 0),
-                    "account_blown": blown,
-                }
+                row = portfolio(events, lambda ev: simulate(ev["series"], ev["release_ms"], lag,
+                                stop, hor, cost_bps, stop_from_next), stop, cost_bps,
+                                equity0=EQUITY0, risk=RISK_PCT, leverage=MAX_LEVERAGE)
+                if row:
+                    results[f"lag{lag}_stop{stop}_h{hor}"] = dict(row, lag_s=lag, stop_bps=stop, horizon_s=hor)
     return results
 
 
@@ -246,6 +236,8 @@ async def main() -> int:
     args = ap.parse_args()
 
     global COST_BPS
+    if not math.isfinite(args.cost) or args.cost < 0:
+        ap.error("--cost must be finite and nonnegative")
     COST_BPS = args.cost
     print(f"комиссия round trip: {COST_BPS:.0f} бп")
 
@@ -265,7 +257,7 @@ async def main() -> int:
             title = (a.get("title") or "").strip()
             if not rel or not title:
                 continue
-            for sym in symbols_from_title(title)[:3]:
+            for sym in symbols_from_title(title):
                 key = f"{sym}:{rel}"
                 if key in seen:
                     continue
@@ -278,7 +270,7 @@ async def main() -> int:
 
         async def load(ev: dict) -> None:
             key = f"{ev['symbol']}:{ev['release_ms']}"
-            if key in cache:
+            if cache.get(key):
                 ev["series"] = cache[key]
                 stats["cached"] += 1
                 return
@@ -295,7 +287,8 @@ async def main() -> int:
                 else:
                     stats["ok"] += 1
                     ev["series"] = series
-                cache[key] = ev["series"]
+                if status == "ok" and ev["series"]:
+                    cache[key] = ev["series"]
                 await asyncio.sleep(0.12)
 
         done = 0
@@ -313,7 +306,7 @@ async def main() -> int:
     tradable: list[dict] = []
     for ev in events:
         series = ev.get("series") or []
-        pre = [k for k in series if int(k[0]) < ev["release_ms"]]
+        pre = [k for k in series if int(k[6]) <= ev["release_ms"]]
         post = [k for k in series if int(k[0]) >= ev["release_ms"]]
         if not series:
             continue
@@ -321,10 +314,10 @@ async def main() -> int:
         if pre_vol <= 0 or not post:
             stats["no_pre_volume"] += 1
             continue
-        ev["pre_vol_usd"] = pre_vol
+        ev["pre_vol_base"] = pre_vol
         tradable.append(ev)
 
-    print(f"\nконтракт найден: {stats['ok'] + stats['cached']} | без контракта (400): {stats['no_contract']} "
+    print(f"\nнепустых рядов: {sum(bool(e.get('series')) for e in events)} | invalid symbol: {stats['no_contract']} "
           f"| нет объёма до анонса: {stats['no_pre_volume']} | торгуемо: {len(tradable)}")
 
     if not tradable:
@@ -336,10 +329,11 @@ async def main() -> int:
     grid = run_grid(tradable, COST_BPS, stop_from_next=args.stop_from_next)
     report = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "model_version": 2,
         "source": "Binance CMS catalog 161 + USD-M futures 1m klines (shortable only)",
         "announcements": len(arts),
         "candidates": len(events),
-        "with_contract": stats["ok"] + stats["cached"],
+        "with_contract": sum(bool(e.get("series")) for e in events),
         "no_contract": stats["no_contract"],
         "no_pre_volume": stats["no_pre_volume"],
         "tradable": len(tradable),
@@ -350,15 +344,15 @@ async def main() -> int:
         "max_leverage": MAX_LEVERAGE,
         "grid": grid,
         "caveats": [
-            "1-минутные свечи: фактический вход = лаг + до 60 с (в минус, не в плюс)",
-            "стоп исполняется по цене стопа; реальный гэп может дать хуже",
+            "1-минутные свечи: фактический вход = лаг + до 60 с (направление смещения доходности неизвестно)",
+            "стоп учитывает гэп открытия; intrabar execution/slippage не известны",
             "проскальзывание сверх комиссии не моделируется отдельно",
             "ликвидность проверена только по объёму до анонса, не по глубине стакана",
             "параметры подбираются на ~100 событиях — это переобучение, а не настройка",
             "события коррелированы: один символ может давать 2-3 анонса подряд",
         ],
     }
-    out_path = OUT.with_name(OUT.stem + ("_opt" if args.stop_from_next else "") + ".json")
+    out_path = OUT.with_name(OUT.stem + ".v2" + ("_opt" if args.stop_from_next else "") + ".json")
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), "utf-8")
 
