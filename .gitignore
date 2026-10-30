@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# состояние и логи
+state/
+logs/
+STOP
+
+# БД (легаси, не используется в воспроизведении)
+*.db
+*.db-shm
+*.db-wal
+
+# большие сырые кэши — перекачиваются скриптами из первоисточников
+data/fut_klines_long.json
+data/tick_windows.json
+data/delist_klines.json
+
+# мусор ОС
+.DS_Store

@@ -1,0 +1,976 @@
+{
+  "bybit_delistings": 300,
+  "pairs": 121,
+  "faster_share": 0.49586776859504134,
+  "median_lag_s": 13190.417999982834,
+  "details": [
+    {
+      "symbol": "TST",
+      "bybit_ms": 1752832892000,
+      "binance_ms": 1783332001595,
+      "lag_s": -30499109.59500003,
+      "bybit_title": "Delisting of TST, 5IRE, APTR, ERTHA, GUMMY and PIP",
+      "binance_title": "Binance Margin And Loan Will Delist TST & IOTX on 2026-07-10"
+    },
+    {
+      "symbol": "USDT",
+      "bybit_ms": 1761532178000,
+      "binance_ms": 1790146800000,
+      "lag_s": -28614622.0,
+      "bybit_title": "Delisting of BTC/BRZ and USDT/BRZ",
+      "binance_title": "Binance Will Close UAH Deposits and Withdrawals via Fiat Trade UAH and Delist USDT/UAH Spot Trading Pair"
+    },
+    {
+      "symbol": "QUICK",
+      "bybit_ms": 1764322024000,
+      "binance_ms": 1791957608049,
+      "lag_s": -27635584.049000025,
+      "bybit_title": "Delisting of QUICKUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist EPIC, QUICK on 2026-10-28"
+    },
+    {
+      "symbol": "30",
+      "bybit_ms": 1766478601000,
+      "binance_ms": 1793089800000,
+      "lag_s": -26611199.0,
+      "bybit_title": "Delisting GALA/USDC Spot trading pair on Dec 30, 2025",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-10-30"
+    },
+    {
+      "symbol": "HOT",
+      "bybit_ms": 1760347655000,
+      "binance_ms": 1782716408506,
+      "lag_s": -22368753.506000042,
+      "bybit_title": "Delisting of HOTUSDT Perpetual Contract",
+      "binance_title": "Binance Margin And Loan Will Delist HOT, THE on 2026-07-03"
+    },
+    {
+      "symbol": "ODOS",
+      "bybit_ms": 1767171829000,
+      "binance_ms": 1788510602234,
+      "lag_s": -21338773.233999968,
+      "bybit_title": "Delisting of ELX, ODOS and DMAIL",
+      "binance_title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)"
+    },
+    {
+      "symbol": "VRA",
+      "bybit_ms": 1770796801000,
+      "binance_ms": 1791532805136,
+      "lag_s": -20736004.135999918,
+      "bybit_title": "Delisting of COQ and VRA",
+      "binance_title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)"
+    },
+    {
+      "symbol": "ATA",
+      "bybit_ms": 1759311205000,
+      "binance_ms": 1778659204681,
+      "lag_s": -19347999.680999994,
+      "bybit_title": "Delisting of ATAUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ATA, FARM, MLN, PHB, SYS on 2026-05-27"
+    },
+    {
+      "symbol": "SERAPH",
+      "bybit_ms": 1769437962000,
+      "binance_ms": 1788510602234,
+      "lag_s": -19072640.233999968,
+      "bybit_title": "Delisting of SERAPH, XO, PSTAKE and MASA",
+      "binance_title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)"
+    },
+    {
+      "symbol": "TGT",
+      "bybit_ms": 1755252000000,
+      "binance_ms": 1773316809568,
+      "lag_s": -18064809.56800008,
+      "bybit_title": "Delisting of TGT, GST, NLK and FIRE",
+      "binance_title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)"
+    },
+    {
+      "symbol": "EPT",
+      "bybit_ms": 1773742046000,
+      "binance_ms": 1791532805136,
+      "lag_s": -17790759.135999918,
+      "bybit_title": "Delisting of SFUND, SKATE and EPT",
+      "binance_title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)"
+    },
+    {
+      "symbol": "REX",
+      "bybit_ms": 1760173381000,
+      "binance_ms": 1777541595547,
+      "lag_s": -17368214.54699993,
+      "bybit_title": "Delisting of REXUSDT Perpetual Contract",
+      "binance_title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)"
+    },
+    {
+      "symbol": "23",
+      "bybit_ms": 1776424211000,
+      "binance_ms": 1792485000000,
+      "lag_s": -16060789.0,
+      "bybit_title": "Bybit Alpha: 5 tokens to be removed — Apr 23, 2026",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-10-23"
+    },
+    {
+      "symbol": "PFVS",
+      "bybit_ms": 1760083201000,
+      "binance_ms": 1773316809568,
+      "lag_s": -13233608.568000078,
+      "bybit_title": "Delisting of PFVS, BBQ and MIX",
+      "binance_title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)"
+    },
+    {
+      "symbol": "XNO",
+      "bybit_ms": 1768991856000,
+      "binance_ms": 1780912804311,
+      "lag_s": -11920948.311000109,
+      "bybit_title": "Delisting of XNOUSDT Perpetual Contract",
+      "binance_title": "Binance Margin And Loan Will Delist XNO, IQ, QUICK, DGB on 2026-06-12"
+    },
+    {
+      "symbol": "FORTH",
+      "bybit_ms": 1762942387000,
+      "binance_ms": 1773824408667,
+      "lag_s": -10882021.667000055,
+      "bybit_title": "Delisting of FORTHUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01"
+    },
+    {
+      "symbol": "31",
+      "bybit_ms": 1774427345000,
+      "binance_ms": 1785223800000,
+      "lag_s": -10796455.0,
+      "bybit_title": "Delisting ALGOBTC Spot trading pair on Mar 31, 2026",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-07-31"
+    },
+    {
+      "symbol": "ELDE",
+      "bybit_ms": 1763360671000,
+      "binance_ms": 1773316809568,
+      "lag_s": -9956138.568000078,
+      "bybit_title": "Delisting of MYRIA, G3, MDAO and ELDE",
+      "binance_title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)"
+    },
+    {
+      "symbol": "PHB",
+      "bybit_ms": 1769425546000,
+      "binance_ms": 1778659204681,
+      "lag_s": -9233658.680999994,
+      "bybit_title": "Delisting of PHBUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ATA, FARM, MLN, PHB, SYS on 2026-05-27"
+    },
+    {
+      "symbol": "BDXN",
+      "bybit_ms": 1779361397000,
+      "binance_ms": 1788510602234,
+      "lag_s": -9149205.233999968,
+      "bybit_title": "Delisting of AMI, BDXN, ONE, SIS, XEM and INSP",
+      "binance_title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)"
+    },
+    {
+      "symbol": "CHESS",
+      "bybit_ms": 1761644042000,
+      "binance_ms": 1770022792762,
+      "lag_s": -8378750.762000084,
+      "bybit_title": "Delisting of  CHESSUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ACA, CHESS, DATA, DF, GHST, NKN on 2026-02-13"
+    },
+    {
+      "symbol": "XO",
+      "bybit_ms": 1769437962000,
+      "binance_ms": 1777541595547,
+      "lag_s": -8103633.546999931,
+      "bybit_title": "Delisting of SERAPH, XO, PSTAKE and MASA",
+      "binance_title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)"
+    },
+    {
+      "symbol": "ULTI",
+      "bybit_ms": 1765872001000,
+      "binance_ms": 1773316809568,
+      "lag_s": -7444808.568000078,
+      "bybit_title": "Delisting of FRAG, BOMB, ULTI and TRVL",
+      "binance_title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)"
+    },
+    {
+      "symbol": "YALA",
+      "bybit_ms": 1770284893000,
+      "binance_ms": 1777541595547,
+      "lag_s": -7256702.546999931,
+      "bybit_title": "Delisting of YALAUSDT Perpetual Contract",
+      "binance_title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)"
+    },
+    {
+      "symbol": "NFP",
+      "bybit_ms": 1775541821000,
+      "binance_ms": 1782464415053,
+      "lag_s": -6922594.052999973,
+      "bybit_title": "Delisting of NFPUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ALCX, ARDR, NFP, POND on 2026-07-10"
+    },
+    {
+      "symbol": "PENGUIN",
+      "bybit_ms": 1782201605000,
+      "binance_ms": 1788510602234,
+      "lag_s": -6308997.233999968,
+      "bybit_title": "Delisting of IMU,PENGUIN,SPELL",
+      "binance_title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)"
+    },
+    {
+      "symbol": "DENT",
+      "bybit_ms": 1770194660000,
+      "binance_ms": 1776416406263,
+      "lag_s": -6221746.263000011,
+      "bybit_title": "Delisting of DENTUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist DEGO, DENT, TRU on 2026-04-28"
+    },
+    {
+      "symbol": "LITKEY",
+      "bybit_ms": 1772526122000,
+      "binance_ms": 1778738402917,
+      "lag_s": -6212280.917000055,
+      "bybit_title": "Delisting of X and LITKEY",
+      "binance_title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)"
+    },
+    {
+      "symbol": "SHARDS",
+      "bybit_ms": 1767686401000,
+      "binance_ms": 1773316809568,
+      "lag_s": -5630408.568000078,
+      "bybit_title": "Delisting of LL, SHARDS, SQR, ZKL, ZTX and KASTA",
+      "binance_title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)"
+    },
+    {
+      "symbol": "ELIZAOS",
+      "bybit_ms": 1787223609000,
+      "binance_ms": 1792747808273,
+      "lag_s": -5524199.273000002,
+      "bybit_title": "Delisting of ELIZAOS,PRCL,TUSD",
+      "binance_title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)"
+    },
+    {
+      "symbol": "RFC",
+      "bybit_ms": 1760606307000,
+      "binance_ms": 1766127601801,
+      "lag_s": -5521294.801000118,
+      "bybit_title": "Delisting of RFCUSDT Perpetual Contract",
+      "binance_title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)"
+    },
+    {
+      "symbol": "PYR",
+      "bybit_ms": 1780995612000,
+      "binance_ms": 1785727810683,
+      "lag_s": -4732198.683000088,
+      "bybit_title": "Delisting of PYRUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17"
+    },
+    {
+      "symbol": "CUDIS",
+      "bybit_ms": 1786953609000,
+      "binance_ms": 1791532805136,
+      "lag_s": -4579196.135999918,
+      "bybit_title": "Delisting of CAMP,WHITEWHALE,CUDIS,PIRATE,TAI,SVL",
+      "binance_title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)"
+    },
+    {
+      "symbol": "SAROS",
+      "bybit_ms": 1784201409000,
+      "binance_ms": 1788510602234,
+      "lag_s": -4309193.233999968,
+      "bybit_title": "Delisting of CBK,FLIP,FUEL,OL,PAAL,SAROS,STREAM",
+      "binance_title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)"
+    },
+    {
+      "symbol": "LUNAI",
+      "bybit_ms": 1778580455000,
+      "binance_ms": 1782815410266,
+      "lag_s": -4234955.266000032,
+      "bybit_title": "Delisting of QORPO, OBOL, LUNAI, TUNA and WEETH",
+      "binance_title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)"
+    },
+    {
+      "symbol": "HIPPO",
+      "bybit_ms": 1776157223000,
+      "binance_ms": 1780034402285,
+      "lag_s": -3877179.285000086,
+      "bybit_title": "Delisting of HIPPOUSDT Perpetual Contract",
+      "binance_title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)"
+    },
+    {
+      "symbol": "SKATE",
+      "bybit_ms": 1773742046000,
+      "binance_ms": 1777541595547,
+      "lag_s": -3799549.5469999313,
+      "bybit_title": "Delisting of SFUND, SKATE and EPT",
+      "binance_title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)"
+    },
+    {
+      "symbol": "BOMB",
+      "bybit_ms": 1765872001000,
+      "binance_ms": 1769666419390,
+      "lag_s": -3794418.390000105,
+      "bybit_title": "Delisting of FRAG, BOMB, ULTI and TRVL",
+      "binance_title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)"
+    },
+    {
+      "symbol": "SYS",
+      "bybit_ms": 1775024001000,
+      "binance_ms": 1778659204681,
+      "lag_s": -3635203.6809999943,
+      "bybit_title": "Delisting of SYSUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ATA, FARM, MLN, PHB, SYS on 2026-05-27"
+    },
+    {
+      "symbol": "10",
+      "bybit_ms": 1789847408000,
+      "binance_ms": 1793089800000,
+      "lag_s": -3242392.0,
+      "bybit_title": "Bybit Alpha to Delist 10 Token(s) on Sep 19, 2026",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-10-30"
+    },
+    {
+      "symbol": "VOXEL",
+      "bybit_ms": 1761644023000,
+      "binance_ms": 1764743396380,
+      "lag_s": -3099373.3800001144,
+      "bybit_title": "Delisting of VOXELUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist FIS, REI, VOXEL on 2025-12-17"
+    },
+    {
+      "symbol": "18",
+      "bybit_ms": 1786537370000,
+      "binance_ms": 1789536600000,
+      "lag_s": -2999230.0,
+      "bybit_title": "Delisting of VANRY on Aug 18, 2026",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-09-18"
+    },
+    {
+      "symbol": "MILK",
+      "bybit_ms": 1770366600000,
+      "binance_ms": 1773316809568,
+      "lag_s": -2950209.568000078,
+      "bybit_title": "Delisting of MILK",
+      "binance_title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)"
+    },
+    {
+      "symbol": "DGB",
+      "bybit_ms": 1777968846000,
+      "binance_ms": 1780912804311,
+      "lag_s": -2943958.3110001087,
+      "bybit_title": "Delisting of DGB, HOOK, SLP, RDNT, GAME, PORTALS and USDD",
+      "binance_title": "Binance Margin And Loan Will Delist XNO, IQ, QUICK, DGB on 2026-06-12"
+    },
+    {
+      "symbol": "COMMON",
+      "bybit_ms": 1776071691000,
+      "binance_ms": 1778738402917,
+      "lag_s": -2666711.9170000553,
+      "bybit_title": "Delisting of COMMON, FITFI, NIBI and VENOM",
+      "binance_title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)"
+    },
+    {
+      "symbol": "VINU",
+      "bybit_ms": 1780473601000,
+      "binance_ms": 1782815410266,
+      "lag_s": -2341809.2660000324,
+      "bybit_title": "Delisting of ELON and VINU",
+      "binance_title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)"
+    },
+    {
+      "symbol": "09",
+      "bybit_ms": 1788159608000,
+      "binance_ms": 1790064001264,
+      "lag_s": -1904393.263999939,
+      "bybit_title": "Bybit to Delist 1 Trading Pair(s) on 2026-09-04 08:00:00 UTC",
+      "binance_title": "Notice of Removal of Margin Trading Pairs - 2026-09-25"
+    },
+    {
+      "symbol": "LRC",
+      "bybit_ms": 1771930808000,
+      "binance_ms": 1773824408667,
+      "lag_s": -1893600.6670000553,
+      "bybit_title": "Discontinuation of LRC  as Collateral and Lending Asset",
+      "binance_title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01"
+    },
+    {
+      "symbol": "A2Z",
+      "bybit_ms": 1772017161000,
+      "binance_ms": 1773824408667,
+      "lag_s": -1807247.6670000553,
+      "bybit_title": "Delisting of A2ZUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01"
+    },
+    {
+      "symbol": "IDEX",
+      "bybit_ms": 1772017193000,
+      "binance_ms": 1773824408667,
+      "lag_s": -1807215.6670000553,
+      "bybit_title": "Delisting of IDEXUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01"
+    },
+    {
+      "symbol": "11",
+      "bybit_ms": 1787310308000,
+      "binance_ms": 1788863408750,
+      "lag_s": -1553100.75,
+      "bybit_title": "Bybit Alpha to Delist 1 Token(s) on Aug 21, 2026, 11:00AM UTC",
+      "binance_title": "Notice of Removal of Margin Trading Pairs and Collateral - 2026-09-11"
+    },
+    {
+      "symbol": "SLERF",
+      "bybit_ms": 1759222983000,
+      "binance_ms": 1760759930952,
+      "lag_s": -1536947.9519999027,
+      "bybit_title": "Delisting of SLERFUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M SLERFUSDT and COIN-M CHZUSD Perpetual Contracts (2025-10-20 & 2025-10-21)"
+    },
+    {
+      "symbol": "NEIROETH",
+      "bybit_ms": 1757062269000,
+      "binance_ms": 1758526202610,
+      "lag_s": -1463933.609999895,
+      "bybit_title": "Delisting of NEIROETHUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M NEIROETHUSDT Perpetual Contract (2025-09-26)"
+    },
+    {
+      "symbol": "07",
+      "bybit_ms": 1784620809000,
+      "binance_ms": 1785835800000,
+      "lag_s": -1214991.0,
+      "bybit_title": "Delisting 11 Spot trading pairs on 2026-07-28 08:00:00 UTC",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-08-07"
+    },
+    {
+      "symbol": "FWOG",
+      "bybit_ms": 1768991809000,
+      "binance_ms": 1769666419390,
+      "lag_s": -674610.3900001049,
+      "bybit_title": "Delisting of FWOGUSDT Perpetual Contract",
+      "binance_title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)"
+    },
+    {
+      "symbol": "NKN",
+      "bybit_ms": 1769425536000,
+      "binance_ms": 1770022792762,
+      "lag_s": -597256.7620000839,
+      "bybit_title": "Delisting of NKNUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ACA, CHESS, DATA, DF, GHST, NKN on 2026-02-13"
+    },
+    {
+      "symbol": "2026",
+      "bybit_ms": 1792580408000,
+      "binance_ms": 1793089800000,
+      "lag_s": -509392.0,
+      "bybit_title": "Bybit to Delist 1 Token(s) on Oct 28, 2026",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-10-30"
+    },
+    {
+      "symbol": "KDA",
+      "bybit_ms": 1761292802000,
+      "binance_ms": 1761706804123,
+      "lag_s": -414002.12299990654,
+      "bybit_title": "Delisting of KDA",
+      "binance_title": "Binance Will Delist FLM, KDA, PERP on 2025-11-12"
+    },
+    {
+      "symbol": "IPUSDT",
+      "bybit_ms": 1782198171000,
+      "binance_ms": 1782406806669,
+      "lag_s": -208635.66899991035,
+      "bybit_title": "Delisting of IPUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist USDⓈ-Margined IPUSDT and IPUSDC Perpetual Contracts (2026-06-28)"
+    },
+    {
+      "symbol": "2025",
+      "bybit_ms": 1766478601000,
+      "binance_ms": 1766559600000,
+      "lag_s": -80999.0,
+      "bybit_title": "Delisting GALA/USDC Spot trading pair on Dec 30, 2025",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2025-12-26"
+    },
+    {
+      "symbol": "AIA",
+      "bybit_ms": 1765466617000,
+      "binance_ms": 1765453426582,
+      "lag_s": 13190.417999982834,
+      "bybit_title": "Delisting of AIAUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist AIAUSDT USDⓈ-M Perpetual Contract (2025-12-11)"
+    },
+    {
+      "symbol": "FLM",
+      "bybit_ms": 1761818274000,
+      "binance_ms": 1761706804123,
+      "lag_s": 111469.87700009346,
+      "bybit_title": "Delisting of FLMUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist FLM, KDA, PERP on 2025-11-12"
+    },
+    {
+      "symbol": "06",
+      "bybit_ms": 1782376205000,
+      "binance_ms": 1782203400000,
+      "lag_s": 172805.0,
+      "bybit_title": "Delisting 1  Spot trading pairs on 2026-06-29 08:00:00 UTC",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-06-26"
+    },
+    {
+      "symbol": "AERGO",
+      "bybit_ms": 1784883680000,
+      "binance_ms": 1784643314244,
+      "lag_s": 240365.75600004196,
+      "bybit_title": "Delisting of AERGOUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M AERGOUSDT Perpetual Contract (2026-07-24)"
+    },
+    {
+      "symbol": "21",
+      "bybit_ms": 1787310308000,
+      "binance_ms": 1787041800000,
+      "lag_s": 268508.0,
+      "bybit_title": "Bybit Alpha to Delist 1 Token(s) on Aug 21, 2026, 11:00AM UTC",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-08-21"
+    },
+    {
+      "symbol": "BAKE",
+      "bybit_ms": 1759482696000,
+      "binance_ms": 1759146319511,
+      "lag_s": 336376.489000082,
+      "bybit_title": "Delisting of BAKEUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M HIFIUSDT and BAKEUSDT Perpetual Contracts (2025-10-03)"
+    },
+    {
+      "symbol": "PTB",
+      "bybit_ms": 1793178529000,
+      "binance_ms": 1792747808273,
+      "lag_s": 430720.7269999981,
+      "bybit_title": "Delisting of PTBUSDT Perpetual Contract",
+      "binance_title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)"
+    },
+    {
+      "symbol": "PORT3",
+      "bybit_ms": 1770105601000,
+      "binance_ms": 1769666419390,
+      "lag_s": 439181.6099998951,
+      "bybit_title": "Delisting of PORT3, ROOT and MODE",
+      "binance_title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)"
+    },
+    {
+      "symbol": "MITO",
+      "bybit_ms": 1793178525000,
+      "binance_ms": 1792575001882,
+      "lag_s": 603523.1180000305,
+      "bybit_title": "Delisting of MITOUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist PTBUSDT and MITOUSDT USDⓈ-M Perpetual Contracts (2026-10-23)"
+    },
+    {
+      "symbol": "24",
+      "bybit_ms": 1789639208000,
+      "binance_ms": 1789020012727,
+      "lag_s": 619195.2730000019,
+      "bybit_title": "Bybit to Delist 3 Trading Pair(s) on Sep 24, 2026",
+      "binance_title": "Binance Will Delist USDP on 2026-09-24"
+    },
+    {
+      "symbol": "28",
+      "bybit_ms": 1792580408000,
+      "binance_ms": 1791957608049,
+      "lag_s": 622799.9509999752,
+      "bybit_title": "Bybit to Delist 1 Token(s) on Oct 28, 2026",
+      "binance_title": "Binance Will Delist EPIC, QUICK on 2026-10-28"
+    },
+    {
+      "symbol": "VANRY",
+      "bybit_ms": 1786537370000,
+      "binance_ms": 1785727810683,
+      "lag_s": 809559.3169999123,
+      "bybit_title": "Delisting of VANRY on Aug 18, 2026",
+      "binance_title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17"
+    },
+    {
+      "symbol": "TRU",
+      "bybit_ms": 1777367159000,
+      "binance_ms": 1776416406263,
+      "lag_s": 950752.7369999886,
+      "bybit_title": "Delisting of TRUUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist DEGO, DENT, TRU on 2026-04-28"
+    },
+    {
+      "symbol": "08",
+      "bybit_ms": 1788159608000,
+      "binance_ms": 1787041800000,
+      "lag_s": 1117808.0,
+      "bybit_title": "Bybit to Delist 1 Trading Pair(s) on 2026-09-04 08:00:00 UTC",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-08-21"
+    },
+    {
+      "symbol": "NTRN",
+      "bybit_ms": 1775024073000,
+      "binance_ms": 1773824408667,
+      "lag_s": 1199664.3329999447,
+      "bybit_title": "Delisting of NTRNUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01"
+    },
+    {
+      "symbol": "SXP",
+      "bybit_ms": 1775024140000,
+      "binance_ms": 1773824408667,
+      "lag_s": 1199731.3329999447,
+      "bybit_title": "Delisting of SXPUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01"
+    },
+    {
+      "symbol": "SCRT",
+      "bybit_ms": 1788426109000,
+      "binance_ms": 1787205606608,
+      "lag_s": 1220502.39199996,
+      "bybit_title": "Delisting of SCRTUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ICX, SCRT, STORJ on 2026-09-03"
+    },
+    {
+      "symbol": "EPIC",
+      "bybit_ms": 1793178522000,
+      "binance_ms": 1791957608049,
+      "lag_s": 1220913.9509999752,
+      "bybit_title": "Delisting of EPICUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist EPIC, QUICK on 2026-10-28"
+    },
+    {
+      "symbol": "SLF",
+      "bybit_ms": 1758099672000,
+      "binance_ms": 1756868394550,
+      "lag_s": 1231277.4500000477,
+      "bybit_title": "Delisting of SLFUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist BAKE, HIFI, SLF on 2025-09-17"
+    },
+    {
+      "symbol": "BSW",
+      "bybit_ms": 1759136805000,
+      "binance_ms": 1757499283992,
+      "lag_s": 1637521.007999897,
+      "bybit_title": "Delisting of BSWUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M BSWUSDT Perpetual Contract (2025-09-15)"
+    },
+    {
+      "symbol": "FIO",
+      "bybit_ms": 1777367028000,
+      "binance_ms": 1775714405744,
+      "lag_s": 1652622.256000042,
+      "bybit_title": "Delisting of FIOUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist BIFI, FIO, FUN, MDT, OXT, WAN on 2026-04-23"
+    },
+    {
+      "symbol": "HFT",
+      "bybit_ms": 1787817609000,
+      "binance_ms": 1785727810683,
+      "lag_s": 2089798.3169999123,
+      "bybit_title": "Discontinuation of HFT  as Collateral and Lending Asset",
+      "binance_title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17"
+    },
+    {
+      "symbol": "ACX",
+      "bybit_ms": 1787907954000,
+      "binance_ms": 1785727810683,
+      "lag_s": 2180143.3169999123,
+      "bybit_title": "Delisting of ACXUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17"
+    },
+    {
+      "symbol": "ALPHA",
+      "bybit_ms": 1760347639000,
+      "binance_ms": 1758098727976,
+      "lag_s": 2248911.0239999294,
+      "bybit_title": "Delisting of ALPHAUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M ALPHAUSDT Perpetual Contract (2025-09-23)"
+    },
+    {
+      "symbol": "ICX",
+      "bybit_ms": 1789549309000,
+      "binance_ms": 1787205606608,
+      "lag_s": 2343702.39199996,
+      "bybit_title": "Delisting of ICXUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ICX, SCRT, STORJ on 2026-09-03"
+    },
+    {
+      "symbol": "HIFI",
+      "bybit_ms": 1761644063000,
+      "binance_ms": 1759146319511,
+      "lag_s": 2497743.489000082,
+      "bybit_title": "Delisting of HIFIUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M HIFIUSDT and BAKEUSDT Perpetual Contracts (2025-10-03)"
+    },
+    {
+      "symbol": "OXT",
+      "bybit_ms": 1778580288000,
+      "binance_ms": 1775714405744,
+      "lag_s": 2865882.256000042,
+      "bybit_title": "Delisting of OXTUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist BIFI, FIO, FUN, MDT, OXT, WAN on 2026-04-23"
+    },
+    {
+      "symbol": "MBOX",
+      "bybit_ms": 1783584009000,
+      "binance_ms": 1780642807472,
+      "lag_s": 2941201.5280001163,
+      "bybit_title": "Delisting of ARTY,CTA,GTAI,LBTC,MBOX,NAKA,U",
+      "binance_title": "Binance Will Delist COS, D, HIGH, MBOX on 2026-06-19"
+    },
+    {
+      "symbol": "VIC",
+      "bybit_ms": 1789027808000,
+      "binance_ms": 1785727810683,
+      "lag_s": 3299997.3169999123,
+      "bybit_title": "Delisting of L3,VIC",
+      "binance_title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17"
+    },
+    {
+      "symbol": "HIGH",
+      "bybit_ms": 1784279263000,
+      "binance_ms": 1780642807472,
+      "lag_s": 3636455.5280001163,
+      "bybit_title": "Delisting of HIGHUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist COS, D, HIGH, MBOX on 2026-06-19"
+    },
+    {
+      "symbol": "MLN",
+      "bybit_ms": 1782300707000,
+      "binance_ms": 1778659204681,
+      "lag_s": 3641502.3190000057,
+      "bybit_title": "Delisting of MLNUSDT Perpetual Contract",
+      "binance_title": "Binance Will Delist ATA, FARM, MLN, PHB, SYS on 2026-05-27"
+    },
+    {
+      "symbol": "HOOK",
+      "bybit_ms": 1777968846000,
+      "binance_ms": 1773824408667,
+      "lag_s": 4144437.3329999447,
+      "bybit_title": "Delisting of DGB, HOOK, SLP, RDNT, GAME, PORTALS and USDD",
+      "binance_title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01"
+    },
+    {
+      "symbol": "RDNT",
+      "bybit_ms": 1777968846000,
+      "binance_ms": 1773824408667,
+      "lag_s": 4144437.3329999447,
+      "bybit_title": "Delisting of DGB, HOOK, SLP, RDNT, GAME, PORTALS and USDD",
+      "binance_title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01"
+    },
+    {
+      "symbol": "29",
+      "bybit_ms": 1785312009000,
+      "binance_ms": 1779782400000,
+      "lag_s": 5529609.0,
+      "bybit_title": "Bybit Alpha: Notice of removal of 2 tokens — Jul 29, 2026, 8:00AM UTC",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-05-29"
+    },
+    {
+      "symbol": "14",
+      "bybit_ms": 1791964808000,
+      "binance_ms": 1786434300000,
+      "lag_s": 5530508.0,
+      "bybit_title": "Bybit Alpha to Delist 2 Token(s) on Oct 14, 2026",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-08-14"
+    },
+    {
+      "symbol": "26",
+      "bybit_ms": 1787738409000,
+      "binance_ms": 1782203400000,
+      "lag_s": 5535009.0,
+      "bybit_title": "Bybit Alpha to Delist 1 Token(s) on Aug 26, 2026, 10:00AM UTC",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-06-26"
+    },
+    {
+      "symbol": "1000X",
+      "bybit_ms": 1770627291000,
+      "binance_ms": 1762782300002,
+      "lag_s": 7844990.997999907,
+      "bybit_title": "Delisting of 1000XUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M MYROUSDT and 1000XUSDT Perpetual Contracts (2025-11-14)"
+    },
+    {
+      "symbol": "19",
+      "bybit_ms": 1789847408000,
+      "binance_ms": 1781601300000,
+      "lag_s": 8246108.0,
+      "bybit_title": "Bybit Alpha to Delist 10 Token(s) on Sep 19, 2026",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-06-19"
+    },
+    {
+      "symbol": "BAL",
+      "bybit_ms": 1753780231000,
+      "binance_ms": 1744092007355,
+      "lag_s": 9688223.64499998,
+      "bybit_title": "Delisting of BALUSDT Perpetual  Contract",
+      "binance_title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16"
+    },
+    {
+      "symbol": "PERP",
+      "bybit_ms": 1771489778000,
+      "binance_ms": 1761706804123,
+      "lag_s": 9782973.877000093,
+      "bybit_title": "Delisting of J, WEN and PERP",
+      "binance_title": "Binance Will Delist FLM, KDA, PERP on 2025-11-12"
+    },
+    {
+      "symbol": "04",
+      "bybit_ms": 1788159608000,
+      "binance_ms": 1776756600000,
+      "lag_s": 11403008.0,
+      "bybit_title": "Bybit to Delist 1 Trading Pair(s) on 2026-09-04 08:00:00 UTC",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-04-24"
+    },
+    {
+      "symbol": "TUSD",
+      "bybit_ms": 1787223609000,
+      "binance_ms": 1773367204369,
+      "lag_s": 13856404.631000042,
+      "bybit_title": "Delisting of ELIZAOS,PRCL,TUSD",
+      "binance_title": "Binance VIP Loan Will Delist TUSD and ALCX from Eligible Collateral Asset List - 2026-03-30"
+    },
+    {
+      "symbol": "MEMEFI",
+      "bybit_ms": 1768389576000,
+      "binance_ms": 1754465406291,
+      "lag_s": 13924169.70900011,
+      "bybit_title": "Delisting of MEMEFI, RACA, ART, SPEC, XCAD and MYRO",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M DEFIUSDT and MEMEFI Perpetual Contracts (2025-08-11)"
+    },
+    {
+      "symbol": "16",
+      "bybit_ms": 1784188809000,
+      "binance_ms": 1768442400000,
+      "lag_s": 15746409.0,
+      "bybit_title": "Bybit Alpha: Notice of removal of 1 tokens — Jul 16, 2026, 8:00AM UTC",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-01-16"
+    },
+    {
+      "symbol": "BADGER",
+      "bybit_ms": 1761210500000,
+      "binance_ms": 1744092007355,
+      "lag_s": 17118492.64499998,
+      "bybit_title": "Delisting of BADGERUSDT Perpetual Contract",
+      "binance_title": "Binance Announced the First Batch of Vote to Delist Results and Will Delist BADGER, BAL, BETA, CREAM, CTXC, ELF, FIRO, HARD, NULS, PROS, SNT, TROY, UFT, VIDT on 2025-04-16"
+    },
+    {
+      "symbol": "MYRO",
+      "bybit_ms": 1780653547000,
+      "binance_ms": 1762782300002,
+      "lag_s": 17871246.997999907,
+      "bybit_title": "Withdrawal service termination for MYRO, FITFI and KCAL",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M MYROUSDT and 1000XUSDT Perpetual Contracts (2025-11-14)"
+    },
+    {
+      "symbol": "UXLINK",
+      "bybit_ms": 1776760200000,
+      "binance_ms": 1758715205980,
+      "lag_s": 18044994.01999998,
+      "bybit_title": "Delisting of IZI, TIME, MONPRO and UXLINK",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M UXLINKUSDT Perpetual Contract (2025-09-26)"
+    },
+    {
+      "symbol": "13",
+      "bybit_ms": 1792055732000,
+      "binance_ms": 1773129600000,
+      "lag_s": 18926132.0,
+      "bybit_title": "Bybit to Delist 1 Token(s) on Oct 13, 2026",
+      "binance_title": "Notice of Removal of Spot Trading Pairs - 2026-03-13"
+    },
+    {
+      "symbol": "OMG",
+      "bybit_ms": 1759236026000,
+      "binance_ms": 1734678000929,
+      "lag_s": 24558025.0710001,
+      "bybit_title": "Delisting of VELAR, ELIX, PBUX, OMG, AGLA, XZK and  STG",
+      "binance_title": "Delisting of USDⓈ-M OMGUSDT Perpetual Contract Will Be Further Postponed"
+    },
+    {
+      "symbol": "MBL",
+      "bybit_ms": 1756458572000,
+      "binance_ms": 1714971617942,
+      "lag_s": 41486954.05800009,
+      "bybit_title": "Delisting of MBLUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M STPTUSDT, SNTUSDT, MBLUSDT, RADUSDT and CVXUSDT Perpetual Contracts"
+    },
+    {
+      "symbol": "XEM",
+      "bybit_ms": 1779361397000,
+      "binance_ms": 1732852801809,
+      "lag_s": 46508595.190999985,
+      "bybit_title": "Delisting of AMI, BDXN, ONE, SIS, XEM and INSP",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M XEMUSDT, ORBSUSDT and LOOMUSDT Perpetual Contracts (2024-12-09)"
+    },
+    {
+      "symbol": "AUDIO",
+      "bybit_ms": 1762942376000,
+      "binance_ms": 1715144426574,
+      "lag_s": 47797949.42600012,
+      "bybit_title": "Delisting  of AUDIOUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M IDEXUSDT, SLPUSDT, GLMRUSDT, MDTUSDT and AUDIOUSDT Perpetual Contracts"
+    },
+    {
+      "symbol": "ORBS",
+      "bybit_ms": 1780996017000,
+      "binance_ms": 1732852801809,
+      "lag_s": 48143215.190999985,
+      "bybit_title": "Delisting of ORBSUSDT Perpetual  Contract",
+      "binance_title": "Binance Futures Will Delist USDⓈ-M XEMUSDT, ORBSUSDT and LOOMUSDT Perpetual Contracts (2024-12-09)"
+    },
+    {
+      "symbol": "SLP",
+      "bybit_ms": 1777968846000,
+      "binance_ms": 1715144426574,
+      "lag_s": 62824419.42600012,
+      "bybit_title": "Delisting of DGB, HOOK, SLP, RDNT, GAME, PORTALS and USDD",
+      "binance_title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M IDEXUSDT, SLPUSDT, GLMRUSDT, MDTUSDT and AUDIOUSDT Perpetual Contracts"
+    },
+    {
+      "symbol": "CTK",
+      "bybit_ms": 1776679217000,
+      "binance_ms": 1711341612437,
+      "lag_s": 65337604.562999964,
+      "bybit_title": "Delisting of CTKUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist and Update the Leverage & Margin Tiers of USDⓈ-M ANTUSDT, DGBUSDT and CTKUSDT Perpetual Contracts"
+    },
+    {
+      "symbol": "BTC",
+      "bybit_ms": 1761532178000,
+      "binance_ms": 1693552182147,
+      "lag_s": 67979995.85299993,
+      "bybit_title": "Delisting of BTC/BRZ and USDT/BRZ",
+      "binance_title": "Binance Margin Will Delist ALPHA/BUSD, ANT/BUSD, BAL/BUSD, COS/BTC, DGB/BUSD, FIRO/BUSD, OOKI/BUSD, QI/BTC, RVN/BUSD & TWT/BUSD Isolated Margin Pairs"
+    },
+    {
+      "symbol": "FIDA",
+      "bybit_ms": 1777362488000,
+      "binance_ms": 1693375203152,
+      "lag_s": 83987284.84800005,
+      "bybit_title": "Discontinuation of FIDA, VANRY and C98 as collateral and borrowable assets",
+      "binance_title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs"
+    },
+    {
+      "symbol": "REQ",
+      "bybit_ms": 1780304734000,
+      "binance_ms": 1693375203152,
+      "lag_s": 86929530.84800005,
+      "bybit_title": "Delisting of REQUSDT Perpetual Contract",
+      "binance_title": "Binance Margin Will Delist the AMB/BUSD, DASH/BUSD, FIDA/BUSD, HARD/BUSD, HOT/BUSD, IOST/BTC, NULS/BUSD, PORTO/BUSD and REQ/BUSD Cross Margin & Isolated Margin Pairs"
+    },
+    {
+      "symbol": "SPELL",
+      "bybit_ms": 1782201605000,
+      "binance_ms": 1689760808223,
+      "lag_s": 92440796.77699995,
+      "bybit_title": "Delisting of IMU,PENGUIN,SPELL",
+      "binance_title": "Binance Margin Will Delist the OGN/BUSD, OSMO/BUSD, REI/BUSD and SPELL/BUSD Cross Margin & Isolated Margin Pairs"
+    },
+    {
+      "symbol": "GNO",
+      "bybit_ms": 1780304723000,
+      "binance_ms": 1675749621021,
+      "lag_s": 104555101.97900009,
+      "bybit_title": "Delisting of GNOUSDT Perpetual Contract",
+      "binance_title": "Binance Margin Will Delist FIO, GNO, IRIS, MLN, WTC Trading Pairs From Isolated Margin"
+    },
+    {
+      "symbol": "DODO",
+      "bybit_ms": 1772614948000,
+      "binance_ms": 1652871565804,
+      "lag_s": 119743382.1960001,
+      "bybit_title": "Delisting of DODOUSDT Perpetual Contract",
+      "binance_title": "Binance Futures Will Delist AKRO and DODO USDT-Margined Contracts"
+    }
+  ]
+}

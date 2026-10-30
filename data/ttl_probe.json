@@ -1,0 +1,362 @@
+[
+ {
+  "t": 0.1,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 10.1,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 20.2,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 30.3,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 40.3,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 50.4,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 60.4,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 70.5,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 80.6,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 90.6,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 100.7,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 111.1,
+  "status": 200,
+  "cache": "RefreshHit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 121.2,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 131.2,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 141.3,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 151.3,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 161.4,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 171.5,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 181.6,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 191.6,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 201.7,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 211.8,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 221.8,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 232.1,
+  "status": 200,
+  "cache": "RefreshHit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 242.2,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 252.3,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 262.3,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 272.4,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 282.4,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 292.5,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 302.6,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 312.6,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 322.7,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 332.8,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 342.8,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 353.2,
+  "status": 200,
+  "cache": "RefreshHit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 363.3,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 373.3,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 383.4,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 393.5,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 403.5,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 413.6,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 423.7,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 433.7,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 443.8,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 453.8,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 463.9,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 474.2,
+  "status": 200,
+  "cache": "RefreshHit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 484.3,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 494.3,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 504.4,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 514.5,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 524.5,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 534.6,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 544.7,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 554.7,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 564.8,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 574.9,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 584.9,
+  "status": 200,
+  "cache": "Hit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ },
+ {
+  "t": 595.2,
+  "status": 200,
+  "cache": "RefreshHit",
+  "etag": "W/\"0e52e4bcd70464e1ce1307d88d77e2288\""
+ }
+]

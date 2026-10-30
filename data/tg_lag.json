@@ -1,0 +1,2249 @@
+{
+  "pairs": 280,
+  "median_lag_s": 119.70550000667572,
+  "mean_lag_s": 174.39113214356559,
+  "faster_share": 0.0,
+  "within_5s_share": 0.0,
+  "details": [
+    {
+      "post_id": 7930,
+      "code": "52d33c3e07344e51848368a67b8e584c",
+      "lag_s": 36.0,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2025-11-26",
+      "catalog": 48,
+      "tg_time": "2025-11-14T09:00:36+00:00"
+    },
+    {
+      "post_id": 7936,
+      "code": "01789b3311134a1596cf6d2192a4703a",
+      "lag_s": 36.02900004386902,
+      "title": "Binance Will Add USD on Convert",
+      "catalog": 48,
+      "tg_time": "2025-11-18T03:00:39+00:00"
+    },
+    {
+      "post_id": 7883,
+      "code": "6aa1dc31d9d94e3292dce3c8d0ce0ce1",
+      "lag_s": 46.0,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2025-11-05",
+      "catalog": 48,
+      "tg_time": "2025-11-04T07:30:46+00:00"
+    },
+    {
+      "post_id": 7934,
+      "code": "16e04bb950d347e19b45ab773046d58a",
+      "lag_s": 48.01900005340576,
+      "title": "Binance Adds USDT/USD and USDC/USD Spot Trading Pairs with Zero Trading Fee Promotion",
+      "catalog": 48,
+      "tg_time": "2025-11-17T08:00:49+00:00"
+    },
+    {
+      "post_id": 7927,
+      "code": "3e0d16ee89f84dd7b32868a72e088870",
+      "lag_s": 50.723999977111816,
+      "title": "Binance Will Add Lorenzo Protocol (BANK) and Meteora (MET) on Earn, Buy Crypto, Convert & Margin",
+      "catalog": 48,
+      "tg_time": "2025-11-13T13:30:56+00:00"
+    },
+    {
+      "post_id": 8289,
+      "code": "d99bba308e50404b889f677101ed5112",
+      "lag_s": 51.26099991798401,
+      "title": "Binance Will Add Midnight (NIGHT) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "catalog": 48,
+      "tg_time": "2026-03-11T15:00:53+00:00"
+    },
+    {
+      "post_id": 7921,
+      "code": "2ceeb7bf38f446ab995b94f9ce01a2e0",
+      "lag_s": 53.0,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2025-11-13",
+      "catalog": 48,
+      "tg_time": "2025-11-12T12:00:53+00:00"
+    },
+    {
+      "post_id": 7900,
+      "code": "72b80e50a99d4cbfa1ece53997b7506a",
+      "lag_s": 53.543999910354614,
+      "title": "Binance Will Add Sapien (SAPIEN) on Earn, Buy Crypto, Convert & Margin",
+      "catalog": 48,
+      "tg_time": "2025-11-06T09:30:58+00:00"
+    },
+    {
+      "post_id": 7975,
+      "code": "cd7a4840c0e14877b07f890cdc06baf8",
+      "lag_s": 53.82699990272522,
+      "title": "Notice of Removal of Margin Trading Pairs - 2025-12-04",
+      "catalog": 161,
+      "tg_time": "2025-11-28T02:00:55+00:00"
+    },
+    {
+      "post_id": 7886,
+      "code": "f5698969fc264525a3957baa820b7217",
+      "lag_s": 54.77999997138977,
+      "title": "Notice of Removal of Margin Trading Pairs - 2025-11-04",
+      "catalog": 161,
+      "tg_time": "2025-11-04T11:00:56+00:00"
+    },
+    {
+      "post_id": 7985,
+      "code": "062ade71d2054e979964269723936c6e",
+      "lag_s": 55.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2025-12-05",
+      "catalog": 161,
+      "tg_time": "2025-12-03T03:30:55+00:00"
+    },
+    {
+      "post_id": 7996,
+      "code": "9430eb0ddbc74c21959330f532a8a760",
+      "lag_s": 57.704999923706055,
+      "title": "Notice of Removal of Margin Trading Pairs - 2025-12-11",
+      "catalog": 161,
+      "tg_time": "2025-12-04T05:01:02+00:00"
+    },
+    {
+      "post_id": 7963,
+      "code": "3306bff6bb9e4dd4a49cdbc3ceb8f09a",
+      "lag_s": 59.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2025-11-28",
+      "catalog": 161,
+      "tg_time": "2025-11-26T07:00:59+00:00"
+    },
+    {
+      "post_id": 8074,
+      "code": "aa26b0b569d94830a070ba9d69b0f214",
+      "lag_s": 63.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-01-02",
+      "catalog": 161,
+      "tg_time": "2025-12-31T03:01:03+00:00"
+    },
+    {
+      "post_id": 7974,
+      "code": "2f67d968fb744180b09a3ee01fc75feb",
+      "lag_s": 66.3989999294281,
+      "title": "Binance Will Add APRO (AT) on Earn, Buy Crypto, Convert & Margin",
+      "catalog": 48,
+      "tg_time": "2025-11-27T13:31:30+00:00"
+    },
+    {
+      "post_id": 7933,
+      "code": "d1248236870e4043aa6924718b14aa3f",
+      "lag_s": 68.0,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2025-11-18",
+      "catalog": 48,
+      "tg_time": "2025-11-17T07:01:08+00:00"
+    },
+    {
+      "post_id": 8283,
+      "code": "37a8026d1bbb4385916513623135ee2b",
+      "lag_s": 69.5090000629425,
+      "title": "Binance Margin Will Delist ARDR on 2026-03-12",
+      "catalog": 161,
+      "tg_time": "2026-03-10T05:01:11+00:00"
+    },
+    {
+      "post_id": 8978,
+      "code": "262bbb7dcdc243b09e854742e57e1e8e",
+      "lag_s": 69.73600006103516,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-09-25",
+      "catalog": 161,
+      "tg_time": "2026-09-22T08:01:11+00:00"
+    },
+    {
+      "post_id": 8203,
+      "code": "f7e2e0bbfccf40848e05a6daeb53c9c0",
+      "lag_s": 70.82999992370605,
+      "title": "Binance Margin Will Add New Pairs - 2026-02-10",
+      "catalog": 48,
+      "tg_time": "2026-02-10T04:01:12+00:00"
+    },
+    {
+      "post_id": 8111,
+      "code": "9a5ed5122b2245b1896349d03cbd6732",
+      "lag_s": 70.86700010299683,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-01-15",
+      "catalog": 161,
+      "tg_time": "2026-01-13T04:01:12+00:00"
+    },
+    {
+      "post_id": 8974,
+      "code": "e92a42b474e344a69b620dcee1e9c987",
+      "lag_s": 71.96799993515015,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-09-22",
+      "catalog": 48,
+      "tg_time": "2026-09-21T09:31:13+00:00"
+    },
+    {
+      "post_id": 8347,
+      "code": "16404ccfa2494b38aef6a39b08960d1d",
+      "lag_s": 72.6029999256134,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-03-31",
+      "catalog": 48,
+      "tg_time": "2026-03-30T10:01:14+00:00"
+    },
+    {
+      "post_id": 8857,
+      "code": "fab1676df7fb464a9e4634c6f777659e",
+      "lag_s": 75.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-08-21",
+      "catalog": 161,
+      "tg_time": "2026-08-18T08:31:15+00:00"
+    },
+    {
+      "post_id": 8350,
+      "code": "e24d20cdd61041eca8050482e824a522",
+      "lag_s": 75.46799993515015,
+      "title": "Binance Margin Will Add New Pairs - 2026-03-31",
+      "catalog": 48,
+      "tg_time": "2026-03-31T04:01:17+00:00"
+    },
+    {
+      "post_id": 8119,
+      "code": "10d73e2579b6402e812be232820f0227",
+      "lag_s": 76.13599991798401,
+      "title": "Binance Margin Will Add United Stables (U)",
+      "catalog": 48,
+      "tg_time": "2026-01-15T03:01:18+00:00"
+    },
+    {
+      "post_id": 7960,
+      "code": "fb39f3a27d184d0ba0e8d0c33d891ed2",
+      "lag_s": 76.7739999294281,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2025-11-27 & 2025-11-29",
+      "catalog": 48,
+      "tg_time": "2025-11-26T02:01:26+00:00"
+    },
+    {
+      "post_id": 8126,
+      "code": "4a3ffe0ebaba49c188cec41968b54b80",
+      "lag_s": 77.76799988746643,
+      "title": "Binance Will Add Fogo (FOGO) on Earn, Buy Crypto, Convert, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-01-15T13:43:39+00:00"
+    },
+    {
+      "post_id": 7880,
+      "code": "f8faf1c7fe35412ab7dd54f6ccd398d8",
+      "lag_s": 78.3180000782013,
+      "title": "Binance Will Add Kite (KITE) on Earn, Buy Crypto, Convert, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2025-11-03T12:31:20+00:00"
+    },
+    {
+      "post_id": 8337,
+      "code": "cb0ce24d50ac4db782f7484dbc6377b5",
+      "lag_s": 78.79399991035461,
+      "title": "Binance Margin Will Delist UTK on 2026-03-30",
+      "catalog": 161,
+      "tg_time": "2026-03-26T03:01:22+00:00"
+    },
+    {
+      "post_id": 8522,
+      "code": "eff79d1a82d74b4d9811d90fb2daf899",
+      "lag_s": 79.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-05-29",
+      "catalog": 161,
+      "tg_time": "2026-05-26T08:01:19+00:00"
+    },
+    {
+      "post_id": 8223,
+      "code": "4fccf352384c4f32b54d8f3184fe2af7",
+      "lag_s": 80.0,
+      "title": "Notice of Removal of Margin Token and Trading Pairs - 2026-02-26",
+      "catalog": 161,
+      "tg_time": "2026-02-24T01:01:20+00:00"
+    },
+    {
+      "post_id": 8922,
+      "code": "39fe3154675948fbb164b1e63e036629",
+      "lag_s": 80.85599994659424,
+      "title": "Binance Will Add 牛来 (牛来) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "catalog": 48,
+      "tg_time": "2026-09-09T14:16:36+00:00"
+    },
+    {
+      "post_id": 8158,
+      "code": "5fe5a15ee7cb403fb09f1e9f9b4cd80c",
+      "lag_s": 81.05999994277954,
+      "title": "Binance Will Add Sentient (SENT) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-01-22T12:31:29+00:00"
+    },
+    {
+      "post_id": 7887,
+      "code": "c18b1bfd706648189e9f7ac9097351cc",
+      "lag_s": 81.07800006866455,
+      "title": "Binance Will Add Momentum (MMT) on Earn, Buy Crypto, Convert, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2025-11-04T11:31:46+00:00"
+    },
+    {
+      "post_id": 8281,
+      "code": "b552c16e2c7b45e5849f50518ee62df7",
+      "lag_s": 81.57800006866455,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-03-10",
+      "catalog": 48,
+      "tg_time": "2026-03-09T10:01:29+00:00"
+    },
+    {
+      "post_id": 8185,
+      "code": "99617273605941ae808e420ea947fe46",
+      "lag_s": 81.90499997138977,
+      "title": "Binance Will Add Zama (ZAMA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-02-02T12:31:33+00:00"
+    },
+    {
+      "post_id": 8178,
+      "code": "ed20e109dd4648b7a2f0c4a9ff725c4c",
+      "lag_s": 82.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-01-30",
+      "catalog": 161,
+      "tg_time": "2026-01-29T08:01:22+00:00"
+    },
+    {
+      "post_id": 8632,
+      "code": "3af18ad98b3048a3b959ef1405b9d45b",
+      "lag_s": 82.88700008392334,
+      "title": "Binance Margin Will Add New Pairs - 2026-06-23",
+      "catalog": 48,
+      "tg_time": "2026-06-23T07:01:25+00:00"
+    },
+    {
+      "post_id": 8984,
+      "code": "4f6c7be7767b4e29bb837dea4650ac7a",
+      "lag_s": 83.08899998664856,
+      "title": "Binance Margin Will Add New Pairs - 2026-09-23",
+      "catalog": 48,
+      "tg_time": "2026-09-23T04:31:25+00:00"
+    },
+    {
+      "post_id": 8085,
+      "code": "97f95793c1734acd9200c354ae4b8ec0",
+      "lag_s": 83.48799991607666,
+      "title": "Binance Adds New JPY Spot Trading Pairs and Launches Zero Maker Fee Promotion - 2026-01-09",
+      "catalog": 48,
+      "tg_time": "2026-01-06T08:01:40+00:00"
+    },
+    {
+      "post_id": 8072,
+      "code": "62aea45c9ea44de4bddf550c67f4c483",
+      "lag_s": 83.58999991416931,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-01-06",
+      "catalog": 161,
+      "tg_time": "2025-12-30T05:01:25+00:00"
+    },
+    {
+      "post_id": 8200,
+      "code": "fa494850a7a34b4ebdc6e55beb40f63f",
+      "lag_s": 84.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-02-10",
+      "catalog": 161,
+      "tg_time": "2026-02-09T07:31:24+00:00"
+    },
+    {
+      "post_id": 8537,
+      "code": "318ddd21e0ee4e3690633b5ccd5e41d9",
+      "lag_s": 84.71499991416931,
+      "title": "Binance Alpha Will Remove DIGI, K, SKI, JOJO, PLAYSOLANA, 恶俗企鹅, PAL, TYCOON, HIPPO, LN, BNBXBT, BOOM  (2026-05-29)",
+      "catalog": 161,
+      "tg_time": "2026-05-29T06:01:27+00:00"
+    },
+    {
+      "post_id": 8412,
+      "code": "3f43b46c541c48e18b146574ead1c1f1",
+      "lag_s": 84.98300004005432,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-04-24",
+      "catalog": 161,
+      "tg_time": "2026-04-21T05:01:30+00:00"
+    },
+    {
+      "post_id": 8230,
+      "code": "bc62fa3ea64d4326ac32781b50565519",
+      "lag_s": 85.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-02-27",
+      "catalog": 161,
+      "tg_time": "2026-02-25T06:01:25+00:00"
+    },
+    {
+      "post_id": 7892,
+      "code": "a414fd64592c42d28c881b49ae5b5aca",
+      "lag_s": 86.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2025-11-07",
+      "catalog": 161,
+      "tg_time": "2025-11-05T03:46:26+00:00"
+    },
+    {
+      "post_id": 8441,
+      "code": "51c9c56c7d3141fdac18cb9a152defc8",
+      "lag_s": 86.73900008201599,
+      "title": "Binance Adds USDT/KZT Spot Trading Pair",
+      "catalog": 48,
+      "tg_time": "2026-04-30T05:01:33+00:00"
+    },
+    {
+      "post_id": 8409,
+      "code": "592c10e64f90408d8c553848a35d18fe",
+      "lag_s": 87.03600001335144,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-21",
+      "catalog": 48,
+      "tg_time": "2026-04-20T07:01:33+00:00"
+    },
+    {
+      "post_id": 8251,
+      "code": "031a5a6bef924bbe96e407dbfc23e6dc",
+      "lag_s": 87.78900003433228,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-03-05",
+      "catalog": 161,
+      "tg_time": "2026-03-03T05:01:43+00:00"
+    },
+    {
+      "post_id": 9006,
+      "code": "63415de54a164619aaaf245850349654",
+      "lag_s": 88.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-10-02",
+      "catalog": 161,
+      "tg_time": "2026-09-29T09:16:28+00:00"
+    },
+    {
+      "post_id": 8977,
+      "code": "545ca5ad28254999b793bcf1ddd51f93",
+      "lag_s": 88.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-09-25",
+      "catalog": 161,
+      "tg_time": "2026-09-22T06:01:28+00:00"
+    },
+    {
+      "post_id": 8413,
+      "code": "c498db770fa844e188bbad8cc5986674",
+      "lag_s": 88.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-04-24",
+      "catalog": 161,
+      "tg_time": "2026-04-21T07:31:28+00:00"
+    },
+    {
+      "post_id": 8089,
+      "code": "fa653f7b3585491f96d5723cfe683319",
+      "lag_s": 88.0550000667572,
+      "title": "Binance Will Add Brevis (BREV) on Earn, Buy Crypto, Convert, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-01-06T13:31:46+00:00"
+    },
+    {
+      "post_id": 8199,
+      "code": "a79548cf58c34b779731403610c7e7bb",
+      "lag_s": 88.51300001144409,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-02-10",
+      "catalog": 48,
+      "tg_time": "2026-02-09T07:01:54+00:00"
+    },
+    {
+      "post_id": 7988,
+      "code": "1836f3db22cd4bf696c0efef21f791d3",
+      "lag_s": 88.8420000076294,
+      "title": "Notice of Removal of Margin Trading Pairs - 2025-12-04",
+      "catalog": 161,
+      "tg_time": "2025-12-03T05:01:35+00:00"
+    },
+    {
+      "post_id": 8171,
+      "code": "fb18d08c2d8b48cfb92aec286b100572",
+      "lag_s": 89.28699994087219,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-01-30",
+      "catalog": 161,
+      "tg_time": "2026-01-27T04:31:43+00:00"
+    },
+    {
+      "post_id": 9082,
+      "code": "ab3a0eac9e614819b7b6fa0c03504b1f",
+      "lag_s": 89.72699999809265,
+      "title": "Binance Alpha Will Remove PTB, AA, OWL, DORA, ELIZAOS, MEMES, 哭哭马  (2026-10-23)",
+      "catalog": 161,
+      "tg_time": "2026-10-23T09:31:38+00:00"
+    },
+    {
+      "post_id": 9027,
+      "code": "a1a7996170f246da90ea49f199a61bcd",
+      "lag_s": 89.94899988174438,
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07",
+      "catalog": 48,
+      "tg_time": "2026-10-07T04:01:38+00:00"
+    },
+    {
+      "post_id": 8112,
+      "code": "2ab881e09c10437abae9465ca33e7fd5",
+      "lag_s": 91.81299996376038,
+      "title": "Binance Will Add United Stables (U) on Earn, Buy Crypto & Convert",
+      "catalog": 48,
+      "tg_time": "2026-01-13T07:31:35+00:00"
+    },
+    {
+      "post_id": 8170,
+      "code": "c015d6b3a0af42499c2f3c4c340d1c23",
+      "lag_s": 91.875,
+      "title": "Binance Margin Will Add New Pairs - 2026-01-27",
+      "catalog": 48,
+      "tg_time": "2026-01-27T03:01:33+00:00"
+    },
+    {
+      "post_id": 7906,
+      "code": "15be46d7fb674c50ab80736f322a742d",
+      "lag_s": 92.0,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2025-11-11",
+      "catalog": 48,
+      "tg_time": "2025-11-10T08:31:32+00:00"
+    },
+    {
+      "post_id": 8082,
+      "code": "a523baf0ac1c433f8938f53ca6a04909",
+      "lag_s": 93.6800000667572,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-01-06",
+      "catalog": 48,
+      "tg_time": "2026-01-05T07:01:37+00:00"
+    },
+    {
+      "post_id": 8938,
+      "code": "437f116183e243ce8759ac8cc580881f",
+      "lag_s": 94.2170000076294,
+      "title": "Binance Will Add BNCB bStocks Tokenized Securities as Collateral Asset - 2026-09-14",
+      "catalog": 48,
+      "tg_time": "2026-09-14T09:31:41+00:00"
+    },
+    {
+      "post_id": 8133,
+      "code": "9fa9574a9aaa47279b43d1c7cd46abf7",
+      "lag_s": 94.73600006103516,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-01-20",
+      "catalog": 48,
+      "tg_time": "2026-01-19T08:01:36+00:00"
+    },
+    {
+      "post_id": 8094,
+      "code": "c47daaed214a48ebb549e80578f90658",
+      "lag_s": 94.95499992370605,
+      "title": "Binance Will Add 币安人生 (币安人生) and zkPass (ZKP) on Earn, Buy Crypto, Convert & Margin",
+      "catalog": 48,
+      "tg_time": "2026-01-07T13:31:41+00:00"
+    },
+    {
+      "post_id": 8634,
+      "code": "f91d022b57e549a19bab454148082694",
+      "lag_s": 95.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-06-26",
+      "catalog": 161,
+      "tg_time": "2026-06-23T08:31:35+00:00"
+    },
+    {
+      "post_id": 8053,
+      "code": "69689d93dade4eaebbdd9d2d8582da17",
+      "lag_s": 95.0,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2025-12-24",
+      "catalog": 48,
+      "tg_time": "2025-12-22T07:16:35+00:00"
+    },
+    {
+      "post_id": 8430,
+      "code": "13d3b15fdb0c41a89542ba1114be13da",
+      "lag_s": 95.22900009155273,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-05-01",
+      "catalog": 161,
+      "tg_time": "2026-04-28T05:01:42+00:00"
+    },
+    {
+      "post_id": 8138,
+      "code": "6e7a47d225324d4ab009192f835376b7",
+      "lag_s": 96.29500007629395,
+      "title": "Binance Margin Will Add New Pairs - 2026-01-20",
+      "catalog": 48,
+      "tg_time": "2026-01-20T03:01:39+00:00"
+    },
+    {
+      "post_id": 8514,
+      "code": "6b7d36a6472f4f60803a1d048d1c33e8",
+      "lag_s": 96.44199991226196,
+      "title": "Binance Will Add Genius Terminal (GENIUS) and OpenGradient (OPG) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "catalog": 48,
+      "tg_time": "2026-05-22T11:46:43+00:00"
+    },
+    {
+      "post_id": 8056,
+      "code": "af09179f54b145fca4e1bf192be97876",
+      "lag_s": 96.76799988746643,
+      "title": "Notice of Removal of Margin Trading Pairs - 2025-12-30",
+      "catalog": 161,
+      "tg_time": "2025-12-23T04:01:54+00:00"
+    },
+    {
+      "post_id": 9089,
+      "code": "de45689cbd7b4e1fa87055cdf5a85997",
+      "lag_s": 98.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-10-30",
+      "catalog": 161,
+      "tg_time": "2026-10-27T08:31:38+00:00"
+    },
+    {
+      "post_id": 9073,
+      "code": "3afa938f499d403382d01d0c0644507e",
+      "lag_s": 98.71399998664856,
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21",
+      "catalog": 48,
+      "tg_time": "2026-10-21T03:32:50+00:00"
+    },
+    {
+      "post_id": 8282,
+      "code": "1e02785d237c472a9d20bdbb32c46f3c",
+      "lag_s": 99.08800005912781,
+      "title": "Binance Margin Will Add New Pairs - 2026-03-10",
+      "catalog": 48,
+      "tg_time": "2026-03-10T04:01:40+00:00"
+    },
+    {
+      "post_id": 8229,
+      "code": "9be0d662b9434e44a59aea700038b274",
+      "lag_s": 99.32500004768372,
+      "title": "Binance Margin Will Add New Pairs - 2026-02-25",
+      "catalog": 48,
+      "tg_time": "2026-02-25T04:01:56+00:00"
+    },
+    {
+      "post_id": 9050,
+      "code": "e52ef13311eb4e1a96f07099152e61d5",
+      "lag_s": 99.63199996948242,
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14",
+      "catalog": 48,
+      "tg_time": "2026-10-14T03:31:48+00:00"
+    },
+    {
+      "post_id": 8467,
+      "code": "9d96b17988bd41e9bd8898c586f68744",
+      "lag_s": 99.75399994850159,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-05-12",
+      "catalog": 48,
+      "tg_time": "2026-05-11T06:01:45+00:00"
+    },
+    {
+      "post_id": 8304,
+      "code": "2cc9b5f11acb432383be9fbeb4d3d327",
+      "lag_s": 99.9300000667572,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-03-17",
+      "catalog": 48,
+      "tg_time": "2026-03-16T10:01:43+00:00"
+    },
+    {
+      "post_id": 8483,
+      "code": "03e842182ca341699fd34fe1769ae413",
+      "lag_s": 100.08299994468689,
+      "title": "Binance Alpha Will Remove PRAI, COMMON, PINGPONG, TAKER, JANITOR, GATA, KLINK, CORL, SWTCH, ARIAIP, LONG, ZKWASM, GORILLA, ECHO, LITKEY, FIR, GM, DELABS, DONKEY, WHY (2026-05-14)",
+      "catalog": 161,
+      "tg_time": "2026-05-14T06:01:43+00:00"
+    },
+    {
+      "post_id": 8830,
+      "code": "3f884f8f195a419eb855510d203def2a",
+      "lag_s": 100.77900004386902,
+      "title": "Binance Exchange Adds 1 bStocks Trading Pair on Binance Spot - 2026-08-12",
+      "catalog": 48,
+      "tg_time": "2026-08-12T03:31:43+00:00"
+    },
+    {
+      "post_id": 8061,
+      "code": "1351888d07104a7b93b60afae7d503c9",
+      "lag_s": 101.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2025-12-26",
+      "catalog": 161,
+      "tg_time": "2025-12-24T07:01:41+00:00"
+    },
+    {
+      "post_id": 9012,
+      "code": "1a94597986cf476f939609c02b87ee79",
+      "lag_s": 101.4449999332428,
+      "title": "Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30",
+      "catalog": 48,
+      "tg_time": "2026-09-30T03:31:43+00:00"
+    },
+    {
+      "post_id": 8434,
+      "code": "47db7c6e460c4978b2c0e479c4123716",
+      "lag_s": 102.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-05-01",
+      "catalog": 161,
+      "tg_time": "2026-04-28T09:31:42+00:00"
+    },
+    {
+      "post_id": 8472,
+      "code": "7a7a2466e68d4762b982e955f98dfcf7",
+      "lag_s": 103.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-05-15",
+      "catalog": 161,
+      "tg_time": "2026-05-12T04:46:43+00:00"
+    },
+    {
+      "post_id": 8106,
+      "code": "a93a57d6695d4cb1bffcae92d0f07375",
+      "lag_s": 103.0,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-01-13",
+      "catalog": 48,
+      "tg_time": "2026-01-12T07:01:43+00:00"
+    },
+    {
+      "post_id": 8810,
+      "code": "29e4ac8fb01d4a63837045a660e7d03b",
+      "lag_s": 103.16199994087219,
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets - 2026-08-05",
+      "catalog": 48,
+      "tg_time": "2026-08-05T09:01:53+00:00"
+    },
+    {
+      "post_id": 8327,
+      "code": "cc3a7e5882674ca4a8d296ef150ac0e8",
+      "lag_s": 103.82599997520447,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-03-27",
+      "catalog": 161,
+      "tg_time": "2026-03-24T03:01:58+00:00"
+    },
+    {
+      "post_id": 8121,
+      "code": "d3a87ea5cd69421884932ef7f91d6c5b",
+      "lag_s": 103.8840000629425,
+      "title": "Binance Will Add Frax (FRAX) on Earn, Buy Crypto, Convert, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-01-15T07:31:50+00:00"
+    },
+    {
+      "post_id": 8937,
+      "code": "d625f87897a843febc1f4c139740d875",
+      "lag_s": 103.95600008964539,
+      "title": "Binance Exchange Adds CEA Industries (BNCB) bStocks Trading Pair on Binance Spot/Convert - 2026-09-14",
+      "catalog": 48,
+      "tg_time": "2026-09-14T09:01:48+00:00"
+    },
+    {
+      "post_id": 8166,
+      "code": "9faa3bdf8c614aa6a1dac40e9f38acef",
+      "lag_s": 104.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-01-27",
+      "catalog": 161,
+      "tg_time": "2026-01-26T07:31:44+00:00"
+    },
+    {
+      "post_id": 8946,
+      "code": "da7f14dd847f436ea92330a024ce0245",
+      "lag_s": 104.03200006484985,
+      "title": "Binance Exchange Adds GoPro (GPROB) and Reddit (RDDTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-16",
+      "catalog": 48,
+      "tg_time": "2026-09-16T03:01:45+00:00"
+    },
+    {
+      "post_id": 8371,
+      "code": "f263d2f8ac7e488ead84b181b12bb69d",
+      "lag_s": 104.09400010108948,
+      "title": "Binance Margin Will Delist WAN on 2026-04-10",
+      "catalog": 161,
+      "tg_time": "2026-04-07T09:01:52+00:00"
+    },
+    {
+      "post_id": 7912,
+      "code": "828c72283f7d430dab612bfd579f0640",
+      "lag_s": 104.53600001335144,
+      "title": "Binance Will Add Allora (ALLO) on Earn, Buy Crypto, Convert, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2025-11-11T13:31:50+00:00"
+    },
+    {
+      "post_id": 8062,
+      "code": "caaa09b168874ce4884dda4a52d99556",
+      "lag_s": 104.85700011253357,
+      "title": "Binance Will Add KGST (KGST) on Earn, Buy Crypto & Convert",
+      "catalog": 48,
+      "tg_time": "2025-12-24T07:31:52+00:00"
+    },
+    {
+      "post_id": 8778,
+      "code": "30b76da5daf8469a9f71b09a7441691e",
+      "lag_s": 105.0,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-07-30",
+      "catalog": 48,
+      "tg_time": "2026-07-28T06:01:45+00:00"
+    },
+    {
+      "post_id": 8721,
+      "code": "154a1621547b4862a56eebddf401bb95",
+      "lag_s": 105.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-07-17",
+      "catalog": 161,
+      "tg_time": "2026-07-14T07:01:45+00:00"
+    },
+    {
+      "post_id": 8285,
+      "code": "cdc24bc5c7444ccebee3253a169cb67e",
+      "lag_s": 106.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-03-13",
+      "catalog": 161,
+      "tg_time": "2026-03-10T08:01:46+00:00"
+    },
+    {
+      "post_id": 8887,
+      "code": "6f1643be398749c5b79ac876e10df3d7",
+      "lag_s": 106.79999995231628,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-09-03",
+      "catalog": 161,
+      "tg_time": "2026-08-31T10:01:50+00:00"
+    },
+    {
+      "post_id": 8032,
+      "code": "8da6b25a3e60425da7209eb64626695a",
+      "lag_s": 107.34999990463257,
+      "title": "Notice of Removal of Margin Trading Pairs - 2025-12-23",
+      "catalog": 161,
+      "tg_time": "2025-12-16T05:01:49+00:00"
+    },
+    {
+      "post_id": 8107,
+      "code": "54de0a1147d04cf382707002a30901fd",
+      "lag_s": 107.36199998855591,
+      "title": "Binance Will List United Stables (U) and Introduce U Zero Trading Fee Promotion",
+      "catalog": 48,
+      "tg_time": "2026-01-12T07:31:55+00:00"
+    },
+    {
+      "post_id": 8225,
+      "code": "e248c61ffac44634805f37e3b12e4da5",
+      "lag_s": 107.95700001716614,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-02-25",
+      "catalog": 48,
+      "tg_time": "2026-02-24T08:32:03+00:00"
+    },
+    {
+      "post_id": 8546,
+      "code": "38737d4df3a8429d88bed7f057d03297",
+      "lag_s": 108.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-06-05",
+      "catalog": 161,
+      "tg_time": "2026-06-02T05:16:48+00:00"
+    },
+    {
+      "post_id": 8080,
+      "code": "d03c598a9a7146f49bb9091a66a8e4fd",
+      "lag_s": 108.66599988937378,
+      "title": "Notice of Removal of Margin Trading Pair - 2026-01-03",
+      "catalog": 161,
+      "tg_time": "2026-01-02T13:01:50+00:00"
+    },
+    {
+      "post_id": 8627,
+      "code": "f0c763fc49934c1b9b4e4ce1653e67dc",
+      "lag_s": 109.10999989509583,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-23",
+      "catalog": 48,
+      "tg_time": "2026-06-22T06:01:52+00:00"
+    },
+    {
+      "post_id": 9088,
+      "code": "b4015154ce33445ebf7b98d1bc12c072",
+      "lag_s": 109.82399988174438,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-10-30",
+      "catalog": 161,
+      "tg_time": "2026-10-27T08:01:59+00:00"
+    },
+    {
+      "post_id": 8729,
+      "code": "62c2a684d09f445295b87797acc71ae8",
+      "lag_s": 109.9670000076294,
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "catalog": 48,
+      "tg_time": "2026-07-15T07:01:52+00:00"
+    },
+    {
+      "post_id": 8213,
+      "code": "d2c0b9f4c1e94260b04be48036522cfe",
+      "lag_s": 110.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-02-13",
+      "catalog": 161,
+      "tg_time": "2026-02-12T07:46:50+00:00"
+    },
+    {
+      "post_id": 8096,
+      "code": "54bb43542d164f4ca6de56280cf20e92",
+      "lag_s": 110.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-01-09",
+      "catalog": 161,
+      "tg_time": "2026-01-08T05:31:50+00:00"
+    },
+    {
+      "post_id": 8079,
+      "code": "a3cc1da2ec104a33a05bd9da6c3e3552",
+      "lag_s": 110.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-01-03",
+      "catalog": 161,
+      "tg_time": "2026-01-02T12:31:50+00:00"
+    },
+    {
+      "post_id": 8823,
+      "code": "b2d783892ef54b4daddecf142076a8cf",
+      "lag_s": 111.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-08-14",
+      "catalog": 161,
+      "tg_time": "2026-08-11T07:46:51+00:00"
+    },
+    {
+      "post_id": 8779,
+      "code": "3501cd0873414c2db75870813dccbd58",
+      "lag_s": 111.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-07-31",
+      "catalog": 161,
+      "tg_time": "2026-07-28T07:31:51+00:00"
+    },
+    {
+      "post_id": 8752,
+      "code": "c591721ed8494806bc3d7a2ae8f79170",
+      "lag_s": 111.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-07-24",
+      "catalog": 161,
+      "tg_time": "2026-07-21T07:31:51+00:00"
+    },
+    {
+      "post_id": 8132,
+      "code": "811fb1daf8804536bcfa3a0bafcc6cec",
+      "lag_s": 111.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-01-20",
+      "catalog": 161,
+      "tg_time": "2026-01-19T07:31:51+00:00"
+    },
+    {
+      "post_id": 8037,
+      "code": "7a009775ccbb469da109f99a030feb66",
+      "lag_s": 111.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2025-12-19",
+      "catalog": 161,
+      "tg_time": "2025-12-17T07:31:51+00:00"
+    },
+    {
+      "post_id": 8807,
+      "code": "ae96da838d754f91bced1501de728f03",
+      "lag_s": 111.01399993896484,
+      "title": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-08-05",
+      "catalog": 48,
+      "tg_time": "2026-08-05T02:31:53+00:00"
+    },
+    {
+      "post_id": 9068,
+      "code": "ad54863d7b0446ebae48bbf3b868ee20",
+      "lag_s": 112.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-10-23",
+      "catalog": 161,
+      "tg_time": "2026-10-20T08:31:52+00:00"
+    },
+    {
+      "post_id": 8894,
+      "code": "8f5c893fa654432883f481b120b0a016",
+      "lag_s": 112.38700008392334,
+      "title": "Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-09-02",
+      "catalog": 48,
+      "tg_time": "2026-09-02T09:32:04+00:00"
+    },
+    {
+      "post_id": 8519,
+      "code": "86bf0d14db4c44d5a88bf2e7c861db13",
+      "lag_s": 112.61899995803833,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-05-29",
+      "catalog": 161,
+      "tg_time": "2026-05-25T11:01:55+00:00"
+    },
+    {
+      "post_id": 8052,
+      "code": "bfe438851d504c89b27df2ad25bb0cf6",
+      "lag_s": 112.70700001716614,
+      "title": "Binance Will List KGST & Enable Trading Bots Services on Binance Spot - 2025-12-24",
+      "catalog": 48,
+      "tg_time": "2025-12-22T07:01:54+00:00"
+    },
+    {
+      "post_id": 8986,
+      "code": "c61f3c18a3004f968b53fb09841f7bc7",
+      "lag_s": 112.92000007629395,
+      "title": "Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23",
+      "catalog": 48,
+      "tg_time": "2026-09-23T05:31:55+00:00"
+    },
+    {
+      "post_id": 8012,
+      "code": "4c79639f9d264dbfaa82f6b291d2e52a",
+      "lag_s": 113.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2025-12-12",
+      "catalog": 161,
+      "tg_time": "2025-12-10T03:01:53+00:00"
+    },
+    {
+      "post_id": 8352,
+      "code": "262ee892d2db4fb6b4d2f152db53001c",
+      "lag_s": 114.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-04-02",
+      "catalog": 161,
+      "tg_time": "2026-03-31T07:31:54+00:00"
+    },
+    {
+      "post_id": 8388,
+      "code": "895c114d247a41159cc7e4c913f42c36",
+      "lag_s": 114.86299991607666,
+      "title": "Binance Will Delist UTK and Support Rebranding and Airdrop Plan on Binance Alpha",
+      "catalog": 161,
+      "tg_time": "2026-04-14T02:01:56+00:00"
+    },
+    {
+      "post_id": 8651,
+      "code": "8057e105f5724d9bbf29ba416f14149e",
+      "lag_s": 114.91000008583069,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-06-30",
+      "catalog": 48,
+      "tg_time": "2026-06-29T09:31:58+00:00"
+    },
+    {
+      "post_id": 8118,
+      "code": "c1d4248f495a413685155eaf10f73381",
+      "lag_s": 115.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-01-16",
+      "catalog": 161,
+      "tg_time": "2026-01-15T02:01:55+00:00"
+    },
+    {
+      "post_id": 8914,
+      "code": "6951f54839734dfb93be3541756c6454",
+      "lag_s": 115.25,
+      "title": "Notice of Removal of Margin Trading Pairs and Collateral - 2026-09-11",
+      "catalog": 161,
+      "tg_time": "2026-09-08T10:32:04+00:00"
+    },
+    {
+      "post_id": 8188,
+      "code": "511c2fbe48a6429f91ad28d99cffc826",
+      "lag_s": 116.06900000572205,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-02-06",
+      "catalog": 161,
+      "tg_time": "2026-02-03T05:32:05+00:00"
+    },
+    {
+      "post_id": 8493,
+      "code": "6492bd3434204b29a1709e64f72e2ee6",
+      "lag_s": 116.08500003814697,
+      "title": "Binance Margin And Binance Loans Will Delist AEUR and AI on 2026-05-22",
+      "catalog": 161,
+      "tg_time": "2026-05-19T03:02:05+00:00"
+    },
+    {
+      "post_id": 8307,
+      "code": "f826d6e2bfe34f309f203553c4778076",
+      "lag_s": 116.28800010681152,
+      "title": "Binance Margin Will Add New Pairs - 2026-03-17",
+      "catalog": 48,
+      "tg_time": "2026-03-17T03:01:58+00:00"
+    },
+    {
+      "post_id": 8429,
+      "code": "52ca7793dcdd43ad822f43cfacc42231",
+      "lag_s": 116.30599999427795,
+      "title": "Binance Margin Will Add New Pairs - 2026-04-28",
+      "catalog": 48,
+      "tg_time": "2026-04-28T04:01:59+00:00"
+    },
+    {
+      "post_id": 8690,
+      "code": "6a55706a042c4a7ebedc2a0899744088",
+      "lag_s": 116.40199995040894,
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07",
+      "catalog": 48,
+      "tg_time": "2026-07-07T06:32:03+00:00"
+    },
+    {
+      "post_id": 8576,
+      "code": "d5d69ae4b2f0497aa45d06da33796f9d",
+      "lag_s": 116.68899989128113,
+      "title": "Binance Margin And Loan Will Delist XNO, IQ, QUICK, DGB on 2026-06-12",
+      "catalog": 161,
+      "tg_time": "2026-06-08T10:02:01+00:00"
+    },
+    {
+      "post_id": 8913,
+      "code": "b9198262dd5f4071a1119b9f52cbe00c",
+      "lag_s": 117.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-09-11",
+      "catalog": 161,
+      "tg_time": "2026-09-08T10:16:57+00:00"
+    },
+    {
+      "post_id": 8456,
+      "code": "3a8fb2daed2b4f949d0bb4b943076155",
+      "lag_s": 117.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-05-08",
+      "catalog": 161,
+      "tg_time": "2026-05-05T08:31:57+00:00"
+    },
+    {
+      "post_id": 8411,
+      "code": "dc394582165d4c6da83c54b78791687f",
+      "lag_s": 117.70099997520447,
+      "title": "Binance Margin Will Add New Pairs - 2026-04-21",
+      "catalog": 48,
+      "tg_time": "2026-04-21T03:02:06+00:00"
+    },
+    {
+      "post_id": 8654,
+      "code": "d8400c84767448a2bcb71b7bf3864a97",
+      "lag_s": 118.58899998664856,
+      "title": "Binance Margin Will Add New Pairs - 2026-06-30",
+      "catalog": 48,
+      "tg_time": "2026-06-30T04:32:18+00:00"
+    },
+    {
+      "post_id": 8657,
+      "code": "5a086ab9b6844ebd89838fbc8e5ac266",
+      "lag_s": 119.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-07-03",
+      "catalog": 161,
+      "tg_time": "2026-06-30T07:31:59+00:00"
+    },
+    {
+      "post_id": 8031,
+      "code": "ef62c53a747d4bb6bceb799db929a0ec",
+      "lag_s": 119.19600009918213,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2025-12-16",
+      "catalog": 48,
+      "tg_time": "2025-12-15T07:32:03+00:00"
+    },
+    {
+      "post_id": 8623,
+      "code": "005d1ef77538417cbe69d4703deb1969",
+      "lag_s": 119.20199990272522,
+      "title": "Binance Will Add Re (RE) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-06-18T13:47:04+00:00"
+    },
+    {
+      "post_id": 8568,
+      "code": "02dd55ca2aa74d1cb34fe65d461df2b7",
+      "lag_s": 119.66700005531311,
+      "title": "Binance Will Cease Support for Selected Stocks on 2026-06-05",
+      "catalog": 161,
+      "tg_time": "2026-06-05T03:02:01+00:00"
+    },
+    {
+      "post_id": 8259,
+      "code": "6e0cd5fcbb5746db84ba0b2f2f055d2b",
+      "lag_s": 119.74399995803833,
+      "title": "Binance Margin Will Add New Pairs - 2026-03-05",
+      "catalog": 48,
+      "tg_time": "2026-03-04T06:02:01+00:00"
+    },
+    {
+      "post_id": 8152,
+      "code": "4d4ddded708c4ff19cc9edf9be781649",
+      "lag_s": 120.08699989318848,
+      "title": "Binance Will Add Ripple USD (RLUSD) on Earn, Buy Crypto, Convert, Margin & VIP Loan",
+      "catalog": 48,
+      "tg_time": "2026-01-22T07:32:04+00:00"
+    },
+    {
+      "post_id": 8604,
+      "code": "965d2d68914b4f95b57ac426ea9e497e",
+      "lag_s": 121.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-06-19",
+      "catalog": 161,
+      "tg_time": "2026-06-16T09:17:01+00:00"
+    },
+    {
+      "post_id": 8485,
+      "code": "71f44e5e014c445697bb6a6f70315e35",
+      "lag_s": 121.32399988174438,
+      "title": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-05-14T10:02:05+00:00"
+    },
+    {
+      "post_id": 8603,
+      "code": "0ca7d76b3b5a42c390262ad4d23e4ff9",
+      "lag_s": 121.90300011634827,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-06-19",
+      "catalog": 161,
+      "tg_time": "2026-06-15T11:02:04+00:00"
+    },
+    {
+      "post_id": 8252,
+      "code": "ef499f7320c14852b4fd3328f948caaf",
+      "lag_s": 122.79299998283386,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-03-05",
+      "catalog": 48,
+      "tg_time": "2026-03-03T06:02:08+00:00"
+    },
+    {
+      "post_id": 8334,
+      "code": "c8fb39371ed44553b27d9e4419ca86d0",
+      "lag_s": 123.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-03-27",
+      "catalog": 161,
+      "tg_time": "2026-03-25T06:47:03+00:00"
+    },
+    {
+      "post_id": 8202,
+      "code": "42fa3f9c987b406b83f35f4460ca2714",
+      "lag_s": 123.2260000705719,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-02-13",
+      "catalog": 161,
+      "tg_time": "2026-02-10T03:02:16+00:00"
+    },
+    {
+      "post_id": 9091,
+      "code": "5a326408b6404d69b474f3fab7acfa66",
+      "lag_s": 123.62100005149841,
+      "title": "Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hynix Daily ETF (SKDDB) and GraniteShares 2x Long SK Hynix Daily ETF (SKUUB) bStocks Trading Pairs on Binance Spot/Convert and Extends Zero Maker Fee Promotion - 2026-10-28",
+      "catalog": 48,
+      "tg_time": "2026-10-28T03:02:21+00:00"
+    },
+    {
+      "post_id": 9004,
+      "code": "55310e70fc4b4d7c9fc4aa133700a958",
+      "lag_s": 123.65899991989136,
+      "title": "Binance Margin And Loans Token Delist on 2026-10-02",
+      "catalog": 161,
+      "tg_time": "2026-09-29T08:02:05+00:00"
+    },
+    {
+      "post_id": 9002,
+      "code": "d3a2cc0c1b5f42a2aee9a8bda2bd8e94",
+      "lag_s": 123.8970000743866,
+      "title": "Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28",
+      "catalog": 48,
+      "tg_time": "2026-09-28T10:02:17+00:00"
+    },
+    {
+      "post_id": 8853,
+      "code": "0a8103c40a4c4abb9c57724ed9d0a6c1",
+      "lag_s": 124.62299990653992,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-08-21",
+      "catalog": 161,
+      "tg_time": "2026-08-17T10:02:18+00:00"
+    },
+    {
+      "post_id": 8416,
+      "code": "cc3774b86f974052a01ab88d8a08be55",
+      "lag_s": 124.98000001907349,
+      "title": "Binance Will Add Chip (CHIP) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-04-21T13:02:12+00:00"
+    },
+    {
+      "post_id": 8578,
+      "code": "b150e2ec801b4be1addd89533b8f6217",
+      "lag_s": 125.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-06-12",
+      "catalog": 161,
+      "tg_time": "2026-06-09T08:32:05+00:00"
+    },
+    {
+      "post_id": 8449,
+      "code": "cd5899547cf34fb0a09cdc9a1eddee9f",
+      "lag_s": 125.28200006484985,
+      "title": "Binance Will Add MegaETH (MEGA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-04-30T10:50:04+00:00"
+    },
+    {
+      "post_id": 8689,
+      "code": "2733031786ea4b2688696cf578ac339f",
+      "lag_s": 125.40499997138977,
+      "title": "Binance Margin And Loan Will Delist TST & IOTX on 2026-07-10",
+      "catalog": 161,
+      "tg_time": "2026-07-06T10:02:07+00:00"
+    },
+    {
+      "post_id": 8076,
+      "code": "b153c46c899a4e539478630c2b42f09c",
+      "lag_s": 125.6930000782013,
+      "title": "Notice of Removal of Spot Trading Pair (BTC/RON) - 2026-01-02",
+      "catalog": 161,
+      "tg_time": "2026-01-01T10:02:07+00:00"
+    },
+    {
+      "post_id": 8495,
+      "code": "9e237a2623354411a65c70cbd66937c8",
+      "lag_s": 126.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-05-22",
+      "catalog": 161,
+      "tg_time": "2026-05-19T08:02:06+00:00"
+    },
+    {
+      "post_id": 8470,
+      "code": "b4eb8e22deba433583fe18e327e382e0",
+      "lag_s": 126.22399997711182,
+      "title": "Binance Margin Will Add New Pairs - 2026-05-12",
+      "catalog": 48,
+      "tg_time": "2026-05-12T03:32:10+00:00"
+    },
+    {
+      "post_id": 8108,
+      "code": "94f1030719d24fa7bfd3f88aa9d9f4bc",
+      "lag_s": 128.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-01-13",
+      "catalog": 161,
+      "tg_time": "2026-01-12T10:02:08+00:00"
+    },
+    {
+      "post_id": 8875,
+      "code": "8837d1a33b97422597c14d38ead5dc82",
+      "lag_s": 129.10400009155273,
+      "title": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26",
+      "catalog": 48,
+      "tg_time": "2026-08-26T07:02:11+00:00"
+    },
+    {
+      "post_id": 8552,
+      "code": "66d54f75b3a041ff991ddd179ab6ed39",
+      "lag_s": 129.5350000858307,
+      "title": "Binance Adds USDT/AED Spot Trading Pair",
+      "catalog": 48,
+      "tg_time": "2026-06-03T03:02:11+00:00"
+    },
+    {
+      "post_id": 8892,
+      "code": "b3ba5cf68daf4264a1260c8da11eef6d",
+      "lag_s": 129.75300002098083,
+      "title": "Binance Exchange Adds 4 bStocks Trading Pairs on Binance Spot/Convert - 2026-09-02",
+      "catalog": 48,
+      "tg_time": "2026-09-02T08:32:11+00:00"
+    },
+    {
+      "post_id": 8714,
+      "code": "dbc90c04fc654d848f08b0b974fec233",
+      "lag_s": 129.9449999332428,
+      "title": "Binance Will Add SKHYB Tokenized Securities as Collateral Assets",
+      "catalog": 48,
+      "tg_time": "2026-07-13T09:02:12+00:00"
+    },
+    {
+      "post_id": 8184,
+      "code": "39afd25e6e09454bb29d06e972b7a033",
+      "lag_s": 130.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-02-03",
+      "catalog": 161,
+      "tg_time": "2026-02-02T09:32:10+00:00"
+    },
+    {
+      "post_id": 8985,
+      "code": "3cc589ca05904ca28e6ddebeb14148db",
+      "lag_s": 130.66400003433228,
+      "title": "Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-23",
+      "catalog": 48,
+      "tg_time": "2026-09-23T05:02:12+00:00"
+    },
+    {
+      "post_id": 8312,
+      "code": "8991527b47dd414ba4f90fd31d75cd13",
+      "lag_s": 131.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-03-20",
+      "catalog": 161,
+      "tg_time": "2026-03-18T07:47:11+00:00"
+    },
+    {
+      "post_id": 7990,
+      "code": "6f4c5397413f47bb832a79ee54423eb7",
+      "lag_s": 131.0,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2025-12-04",
+      "catalog": 48,
+      "tg_time": "2025-12-03T06:02:11+00:00"
+    },
+    {
+      "post_id": 8728,
+      "code": "f198d9602f3b4604a9b15cd0a1529e32",
+      "lag_s": 133.69799995422363,
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15",
+      "catalog": 48,
+      "tg_time": "2026-07-15T06:32:17+00:00"
+    },
+    {
+      "post_id": 8694,
+      "code": "277c0e32800b40c3b8ed88a46ceac791",
+      "lag_s": 134.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-07-10",
+      "catalog": 161,
+      "tg_time": "2026-07-07T09:17:14+00:00"
+    },
+    {
+      "post_id": 8760,
+      "code": "dd18d9850f504666b7c91b5c74fe8c10",
+      "lag_s": 134.44899988174438,
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22",
+      "catalog": 48,
+      "tg_time": "2026-07-22T10:02:28+00:00"
+    },
+    {
+      "post_id": 7944,
+      "code": "4e544f84e3794ebc892bb4ada8f009b7",
+      "lag_s": 135.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2025-11-21",
+      "catalog": 161,
+      "tg_time": "2025-11-19T07:02:15+00:00"
+    },
+    {
+      "post_id": 8297,
+      "code": "6643b898afa54f3a9d96a53f432e068d",
+      "lag_s": 135.63100004196167,
+      "title": "Binance VIP Loan Will Delist TUSD and ALCX from Eligible Collateral Asset List - 2026-03-30",
+      "catalog": 161,
+      "tg_time": "2026-03-13T02:02:20+00:00"
+    },
+    {
+      "post_id": 8400,
+      "code": "c621ffe8d8474540b63c521568a5b95c",
+      "lag_s": 136.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-04-17",
+      "catalog": 161,
+      "tg_time": "2026-04-15T10:02:16+00:00"
+    },
+    {
+      "post_id": 8273,
+      "code": "b3ef81d0193c42e791d517481867b558",
+      "lag_s": 136.40100002288818,
+      "title": "Binance Will Add Opinion (OPN) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-03-05T12:32:50+00:00"
+    },
+    {
+      "post_id": 8660,
+      "code": "dc8c4b58f26549b1b629cbd254115dc0",
+      "lag_s": 136.73399996757507,
+      "title": "Binance Alpha Will Remove TTD, OIK, LUNAI, TOWN, VINU, PUP, CYPR, DGRAM (2026-06-30)",
+      "catalog": 161,
+      "tg_time": "2026-06-30T10:32:27+00:00"
+    },
+    {
+      "post_id": 8903,
+      "code": "454b8004796c46a9b883cc7dab6d6e67",
+      "lag_s": 136.76600003242493,
+      "title": "Binance Alpha Will Remove MTP, BDXN, TALE, BOS, MAIGA, TIMI, SAROS, U (Union), SERAPH, RVV, AIAV, PENGUIN, ODOS, SN3 (2026-09-04)",
+      "catalog": 161,
+      "tg_time": "2026-09-04T08:32:19+00:00"
+    },
+    {
+      "post_id": 9035,
+      "code": "56476c15963b4c0cb113ab0e22613c5c",
+      "lag_s": 136.864000082016,
+      "title": "Binance Alpha Will Remove SUP, CUDIS, PYTHIA, BLUM, KIN, DN, GAIA, STRIKE, CDL, KO, VRA, EPT, SLX (SLIMEX), CAI (2026-10-09)",
+      "catalog": 161,
+      "tg_time": "2026-10-09T08:02:22+00:00"
+    },
+    {
+      "post_id": 8048,
+      "code": "871615e225e0474f8151ea57460ef026",
+      "lag_s": 137.19899988174438,
+      "title": "Binance Alpha Will Remove BUZZ, DARK, FROG, GORK, MIRAI, PERRY, RFC, SNAI, TERMINUS (2025-12-19)",
+      "catalog": 161,
+      "tg_time": "2025-12-19T07:02:19+00:00"
+    },
+    {
+      "post_id": 8870,
+      "code": "9bf3e55d2add4e74a6c644b899864413",
+      "lag_s": 138.61700010299683,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-08-26",
+      "catalog": 48,
+      "tg_time": "2026-08-25T10:02:27+00:00"
+    },
+    {
+      "post_id": 8378,
+      "code": "0a9581bcaef24410a1dace51722112c8",
+      "lag_s": 138.92700004577637,
+      "title": "Binance Will Add USDS (USDS) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "catalog": 48,
+      "tg_time": "2026-04-09T07:32:31+00:00"
+    },
+    {
+      "post_id": 8785,
+      "code": "6a167ac6ee74496b83a820675aea1dbe",
+      "lag_s": 141.4539999961853,
+      "title": "Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets",
+      "catalog": 48,
+      "tg_time": "2026-07-29T09:02:23+00:00"
+    },
+    {
+      "post_id": 8468,
+      "code": "4df13a8c24be4abca874a4ff44f3e4ce",
+      "lag_s": 141.70499992370605,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-05-15",
+      "catalog": 161,
+      "tg_time": "2026-05-11T07:02:25+00:00"
+    },
+    {
+      "post_id": 8919,
+      "code": "026d4dfdc82940a5924b22442bcb651e",
+      "lag_s": 142.42300009727478,
+      "title": "Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-09",
+      "catalog": 48,
+      "tg_time": "2026-09-09T07:02:39+00:00"
+    },
+    {
+      "post_id": 8831,
+      "code": "2e02db3c8dcd4a03a365655c501aa7c9",
+      "lag_s": 142.7869999408722,
+      "title": "Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-12",
+      "catalog": 48,
+      "tg_time": "2026-08-12T04:02:57+00:00"
+    },
+    {
+      "post_id": 8972,
+      "code": "a0adb246c4a24f108fd0d1f51dfd3d1d",
+      "lag_s": 142.84299993515015,
+      "title": "Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21",
+      "catalog": 48,
+      "tg_time": "2026-09-21T07:02:24+00:00"
+    },
+    {
+      "post_id": 8294,
+      "code": "e27183f5c08c48bd940bdd2d7f81eca4",
+      "lag_s": 143.4319999217987,
+      "title": "Binance Alpha Will Remove MIRROR, SHARDS, FST, DGC, COA, ULTI, TGT, AGON, BNB Card, AFT, PFVS, SGC, RDO, ELDE, MILK, TAT, BOT, SSS, SUBHUB, PLANCK, OOOO (2026-03-12)",
+      "catalog": 161,
+      "tg_time": "2026-03-12T12:02:33+00:00"
+    },
+    {
+      "post_id": 9044,
+      "code": "1dfe10f0e0fb4e7ab0eb8874e9fdab0e",
+      "lag_s": 143.8420000076294,
+      "title": "Binance Will List RWUSD and Introduce RWUSD Zero Trading Fee Promotion",
+      "catalog": 48,
+      "tg_time": "2026-10-13T03:32:25+00:00"
+    },
+    {
+      "post_id": 8775,
+      "code": "ecbbd582470a46df92a27b51322a6301",
+      "lag_s": 143.90199995040894,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-07-30",
+      "catalog": 161,
+      "tg_time": "2026-07-27T10:02:38+00:00"
+    },
+    {
+      "post_id": 8146,
+      "code": "29ba8e4cfa1b45ea88653c029cedd0cd",
+      "lag_s": 144.28800010681152,
+      "title": "Binance Will List Ripple USD (RLUSD) and Introduce RLUSD Zero Trading Fee Promotion",
+      "catalog": 48,
+      "tg_time": "2026-01-21T08:32:26+00:00"
+    },
+    {
+      "post_id": 8672,
+      "code": "3da0bd5b07bf497db5788fed38d478b0",
+      "lag_s": 145.75600004196167,
+      "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-07-02T07:47:43+00:00"
+    },
+    {
+      "post_id": 8916,
+      "code": "7880bcb7f4744d8bbbba88cbbcd43124",
+      "lag_s": 146.11800003051758,
+      "title": "Binance Exchange Adds Salesforce (CRMB) and Hims & Hers Health (HIMSB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-09",
+      "catalog": 48,
+      "tg_time": "2026-09-09T03:02:28+00:00"
+    },
+    {
+      "post_id": 8214,
+      "code": "b4a7618315fc4e32acbea2f68143f11d",
+      "lag_s": 146.33899998664856,
+      "title": "Binance Will Add Espresso (ESP) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-02-12T12:32:57+00:00"
+    },
+    {
+      "post_id": 8907,
+      "code": "b8c68539ef9f4925a8d97202d82d98e9",
+      "lag_s": 146.92799997329712,
+      "title": "Binance Will Add MarsCoin (MARSCOIN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "catalog": 48,
+      "tg_time": "2026-09-04T12:47:29+00:00"
+    },
+    {
+      "post_id": 8655,
+      "code": "b026c9829d28459cb1f1a95000960a08",
+      "lag_s": 148.87199997901917,
+      "title": "Introducing OpenGradient (OPG) on Binance HODLer Airdrops! Earn OPG With Retroactive BNB Simple Earn Subscriptions",
+      "catalog": 48,
+      "tg_time": "2026-06-30T05:02:32+00:00"
+    },
+    {
+      "post_id": 8316,
+      "code": "10f29f9f250542f596169c09a883890f",
+      "lag_s": 150.25,
+      "title": "Binance Will Add Katana (KAT) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-03-18T12:40:13+00:00"
+    },
+    {
+      "post_id": 8629,
+      "code": "51ca50f3c3ed444eacec1fa46ffdbcde",
+      "lag_s": 150.9909999370575,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-06-26",
+      "catalog": 161,
+      "tg_time": "2026-06-22T09:02:42+00:00"
+    },
+    {
+      "post_id": 8871,
+      "code": "653dce6a74234b999d7a189c0fa49a80",
+      "lag_s": 151.96600008010864,
+      "title": "Binance Exchange Adds Trump Media & Technology Group (DJTB) bStocks on Binance Spot - 2026-08-26",
+      "catalog": 48,
+      "tg_time": "2026-08-26T01:02:34+00:00"
+    },
+    {
+      "post_id": 9011,
+      "code": "172e44302d6143578e40acc48570a2e5",
+      "lag_s": 152.30800008773804,
+      "title": "Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI (SHAZB), Wendy's (WENB) and Zoom (ZMB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-30",
+      "catalog": 48,
+      "tg_time": "2026-09-30T03:02:37+00:00"
+    },
+    {
+      "post_id": 8506,
+      "code": "8c6cfaeddbd04f1595f658ac1dfbd0e7",
+      "lag_s": 154.13100004196167,
+      "title": "Introducing Gensyn (AIGENSYN) on Binance HODLer Airdrops! Earn AIGENSYN With Retroactive BNB Simple Earn Subscriptions",
+      "catalog": 48,
+      "tg_time": "2026-05-21T11:02:37+00:00"
+    },
+    {
+      "post_id": 8881,
+      "code": "4fea39f8b6e54e1b88e388fc90ce323e",
+      "lag_s": 154.43700003623962,
+      "title": "Binance Adds bStocks to Spot Trading Bots and Extends Zero Maker Fee Promotion - 2026-08-28",
+      "catalog": 48,
+      "tg_time": "2026-08-28T02:02:40+00:00"
+    },
+    {
+      "post_id": 8538,
+      "code": "455eedc320bd43e28e2326f58d4aac2a",
+      "lag_s": 154.44600009918213,
+      "title": "Introducing Genius Terminal (GENIUS) on Binance HODLer Airdrops! Earn GENIUS With Retroactive BNB Simple Earn Subscriptions",
+      "catalog": 48,
+      "tg_time": "2026-05-29T08:02:38+00:00"
+    },
+    {
+      "post_id": 8757,
+      "code": "ea42cf41150f4e9ab7f1631fa21bba1e",
+      "lag_s": 154.80399990081787,
+      "title": "Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22",
+      "catalog": 48,
+      "tg_time": "2026-07-22T06:32:39+00:00"
+    },
+    {
+      "post_id": 9072,
+      "code": "b965e028041c4d0fbb4291372f55e4d4",
+      "lag_s": 156.04800009727478,
+      "title": "Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direxion Daily 20 Year Treasury Bull 3X ETF (TMFB) and Vistra Corp (VSTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-21",
+      "catalog": 48,
+      "tg_time": "2026-10-21T03:02:49+00:00"
+    },
+    {
+      "post_id": 9049,
+      "code": "927d3a7b5d6c43fb888e38f110005906",
+      "lag_s": 157.9670000076294,
+      "title": "Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-Term Futures ETF (UVXYB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-14",
+      "catalog": 48,
+      "tg_time": "2026-10-14T03:02:42+00:00"
+    },
+    {
+      "post_id": 9026,
+      "code": "9c34999b27234dfe9c43d2ac33cebde4",
+      "lag_s": 159.0550000667572,
+      "title": "Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStocks Trading Pairs on Binance Spot/Convert - 2026-10-07",
+      "catalog": 48,
+      "tg_time": "2026-10-07T03:02:46+00:00"
+    },
+    {
+      "post_id": 8247,
+      "code": "9693980663654676be7a7b3234c35c91",
+      "lag_s": 162.0,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-03-03",
+      "catalog": 48,
+      "tg_time": "2026-03-02T11:02:42+00:00"
+    },
+    {
+      "post_id": 8177,
+      "code": "482d63d2b376420e808ddbe160c488bb",
+      "lag_s": 162.60999989509583,
+      "title": "Binance Alpha Will Remove WIZARD, SHOGGOTH, G, FWOG, UFD, BRIC, UPTOP, PORT3, XNAP, MORE, BOMB, BOOST (2026-01-29)",
+      "catalog": 161,
+      "tg_time": "2026-01-29T06:03:02+00:00"
+    },
+    {
+      "post_id": 8656,
+      "code": "03b264b679a646119d1a2415b9097bd6",
+      "lag_s": 163.58100008964539,
+      "title": "Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust (QQQB) Trading Pair(s) on Binance Spot - 2026-06-30",
+      "catalog": 48,
+      "tg_time": "2026-06-30T05:33:09+00:00"
+    },
+    {
+      "post_id": 8713,
+      "code": "c2e92c3c6c8347c197b9091851ec285e",
+      "lag_s": 164.36500000953674,
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+      "catalog": 48,
+      "tg_time": "2026-07-13T08:02:51+00:00"
+    },
+    {
+      "post_id": 8544,
+      "code": "af69ba2e070e48a29fcc12515fc60742",
+      "lag_s": 165.61100006103516,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-06-05",
+      "catalog": 161,
+      "tg_time": "2026-06-01T09:32:51+00:00"
+    },
+    {
+      "post_id": 8268,
+      "code": "caec3d0eff0546be94e5b56844e0c432",
+      "lag_s": 170.32200002670288,
+      "title": "Binance Will Add Fabric Protocol (ROBO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "catalog": 48,
+      "tg_time": "2026-03-04T16:02:59+00:00"
+    },
+    {
+      "post_id": 8370,
+      "code": "946c744172a942399a6ce96506e03fce",
+      "lag_s": 171.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-04-10",
+      "catalog": 161,
+      "tg_time": "2026-04-07T08:02:51+00:00"
+    },
+    {
+      "post_id": 8748,
+      "code": "71519fe12cd243bb96b46460e58f44f3",
+      "lag_s": 173.6600000858307,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-07-24",
+      "catalog": 161,
+      "tg_time": "2026-07-20T09:02:59+00:00"
+    },
+    {
+      "post_id": 8390,
+      "code": "bb7238d13db14c9ebce9fa8704e3098f",
+      "lag_s": 174.09699988365173,
+      "title": "Binance Margin And Loan Will Delist BAR, PIVX, XVG on 2026-04-17",
+      "catalog": 161,
+      "tg_time": "2026-04-14T03:32:56+00:00"
+    },
+    {
+      "post_id": 8342,
+      "code": "82f7055dabfd4f37aa507bc32f28613c",
+      "lag_s": 175.8619999885559,
+      "title": "Tether Gold (XAUt) Listing Will Be Postponed",
+      "catalog": 48,
+      "tg_time": "2026-03-26T13:16:53+00:00"
+    },
+    {
+      "post_id": 7917,
+      "code": "947ed0e631d442e8bf06fcd8fc7cdba8",
+      "lag_s": 179.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2025-11-14",
+      "catalog": 161,
+      "tg_time": "2025-11-12T07:32:59+00:00"
+    },
+    {
+      "post_id": 8196,
+      "code": "53d255cc249741b7965558493b46f5e6",
+      "lag_s": 180.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-02-06",
+      "catalog": 161,
+      "tg_time": "2026-02-05T08:03:00+00:00"
+    },
+    {
+      "post_id": 8781,
+      "code": "fd3c0f17a7504eb5be1cb1911c6da0cd",
+      "lag_s": 182.02800011634827,
+      "title": "Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-07-29",
+      "catalog": 48,
+      "tg_time": "2026-07-29T06:33:05+00:00"
+    },
+    {
+      "post_id": 8966,
+      "code": "7df43402f0094e79b293bd7fbb574474",
+      "lag_s": 182.12800002098083,
+      "title": "Binance Will Support the Broadcom (AVGO), Invesco QQQ Trust (QQQ), Meta (META), and Seagate (STX) Cash Dividend Distribution via bStocks",
+      "catalog": 48,
+      "tg_time": "2026-09-18T05:03:13+00:00"
+    },
+    {
+      "post_id": 8591,
+      "code": "5646e3f9ea6b4c989cb76aa18bd99245",
+      "lag_s": 182.30200004577637,
+      "title": "Binance Exchange Adds bStocks Tokenized Securities Trading Pair(s) & Trading Bots Services on Binance Spot - 2026-06-11",
+      "catalog": 48,
+      "tg_time": "2026-06-11T14:08:09+00:00"
+    },
+    {
+      "post_id": 7910,
+      "code": "ea6c4d237ad14eb38169221c01fbd992",
+      "lag_s": 185.25200009346008,
+      "title": "Introducing Allora (ALLO) on Binance HODLer Airdrops! Earn ALLO With Retroactive BNB Simple Earn Subscriptions",
+      "catalog": 48,
+      "tg_time": "2025-11-11T05:01:36+00:00"
+    },
+    {
+      "post_id": 8446,
+      "code": "506a7482e6b94bc58f3e275cb15c2861",
+      "lag_s": 185.2960000038147,
+      "title": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-04-30T09:10:35+00:00"
+    },
+    {
+      "post_id": 8649,
+      "code": "b703403f123b4d95af7222431d053c7c",
+      "lag_s": 185.49399995803833,
+      "title": "Binance Margin And Loan Will Delist HOT, THE on 2026-07-03",
+      "catalog": 161,
+      "tg_time": "2026-06-29T07:03:14+00:00"
+    },
+    {
+      "post_id": 8309,
+      "code": "20ac487755434d559568552e9812cbf0",
+      "lag_s": 186.73200011253357,
+      "title": "Introducing Fabric Protocol (ROBO) on Binance HODLer Airdrops! Earn ROBO With Retroactive BNB Simple Earn Subscriptions",
+      "catalog": 48,
+      "tg_time": "2026-03-18T03:33:21+00:00"
+    },
+    {
+      "post_id": 8715,
+      "code": "148235767ff84acfb9096d60c6eedd01",
+      "lag_s": 190.72399997711182,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-07-17",
+      "catalog": 161,
+      "tg_time": "2026-07-13T10:03:21+00:00"
+    },
+    {
+      "post_id": 8266,
+      "code": "82c9c8166a2a434681c20a23a346a5b8",
+      "lag_s": 191.54800009727478,
+      "title": "Binance Will List Fabric Protocol (ROBO) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-03-04T13:16:26+00:00"
+    },
+    {
+      "post_id": 8013,
+      "code": "ca5e0dbf84dd4f929ca6a309daeff1b3",
+      "lag_s": 192.1710000038147,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot and Update to B-Token Collateral - 2025-12-11",
+      "catalog": 48,
+      "tg_time": "2025-12-10T05:33:15+00:00"
+    },
+    {
+      "post_id": 8149,
+      "code": "1ced2fdbcfeb49c9a27c70015aab3aba",
+      "lag_s": 195.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-01-23",
+      "catalog": 161,
+      "tg_time": "2026-01-22T03:03:15+00:00"
+    },
+    {
+      "post_id": 8165,
+      "code": "4b7538cd0646462d8579a8c5a7d675f0",
+      "lag_s": 195.65700006484985,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-01-27",
+      "catalog": 48,
+      "tg_time": "2026-01-26T07:03:20+00:00"
+    },
+    {
+      "post_id": 8212,
+      "code": "c8f9e4e1e7de458482a2af3cf64c9093",
+      "lag_s": 212.82399988174438,
+      "title": "Binance Will List Espresso (ESP) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-02-12T07:31:56+00:00"
+    },
+    {
+      "post_id": 8261,
+      "code": "e2571aedb19d4e66876089fcc7a8f601",
+      "lag_s": 215.6470000743866,
+      "title": "Binance Will Add MANTRA (MANTRA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-03-04T07:33:37+00:00"
+    },
+    {
+      "post_id": 8631,
+      "code": "d1343e10bc2648cd8302c83a5b1223a9",
+      "lag_s": 218.40899991989136,
+      "title": "Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Strategy (MSTRB) Trading Pair(s) on Binance Spot - 2026-06-23",
+      "catalog": 48,
+      "tg_time": "2026-06-23T06:35:39+00:00"
+    },
+    {
+      "post_id": 8924,
+      "code": "8e6fd91b79a34bddbd7643ef002db47e",
+      "lag_s": 219.27300000190735,
+      "title": "Binance Will Delist USDP on 2026-09-24",
+      "catalog": 161,
+      "tg_time": "2026-09-10T06:03:52+00:00"
+    },
+    {
+      "post_id": 8433,
+      "code": "c8d2380a71ee4b56980cf7798d2e3d8f",
+      "lag_s": 220.65599989891052,
+      "title": "Introducing USD.AI (CHIP) on Binance HODLer Airdrops! Earn CHIP With Retroactive BNB Simple Earn Subscriptions",
+      "catalog": 48,
+      "tg_time": "2026-04-28T08:03:44+00:00"
+    },
+    {
+      "post_id": 8820,
+      "code": "948546d989254418a4646db8a6da18c5",
+      "lag_s": 223.8529999256134,
+      "title": "Binance Margin And Loan Will Delist BTTC & POWR on 2026-08-14",
+      "catalog": 161,
+      "tg_time": "2026-08-10T10:03:48+00:00"
+    },
+    {
+      "post_id": 8489,
+      "code": "875f9acd516c443b8752e800aa94b4b1",
+      "lag_s": 225.15700006484985,
+      "title": "Binance Will Add Gensyn (AIGENSYN) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "catalog": 48,
+      "tg_time": "2026-05-14T17:08:16+00:00"
+    },
+    {
+      "post_id": 8110,
+      "code": "4ba222e6a62e4544a408ff1689682404",
+      "lag_s": 234.70600008964539,
+      "title": "Binance Will List Fogo (FOGO) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-01-12T12:54:48+00:00"
+    },
+    {
+      "post_id": 8600,
+      "code": "191cb96109f24c5c85362631a55a45d3",
+      "lag_s": 235.0829999446869,
+      "title": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
+      "catalog": 48,
+      "tg_time": "2026-06-12T16:03:56+00:00"
+    },
+    {
+      "post_id": 8618,
+      "code": "2ce2c4973d85405a9bb5fffc475c99dc",
+      "lag_s": 251.3069999217987,
+      "title": "Binance Will Extend the Monitoring Tag to Include ACT, BLUR, PIVX & QKC on 2026-06-18",
+      "catalog": 161,
+      "tg_time": "2026-06-18T07:04:30+00:00"
+    },
+    {
+      "post_id": 8183,
+      "code": "87a9bdf137f348668a85575ee02b8a27",
+      "lag_s": 254.23799991607666,
+      "title": "Binance Will Delist ACA, CHESS, DATA, DF, GHST, NKN on 2026-02-13",
+      "catalog": 161,
+      "tg_time": "2026-02-02T09:04:07+00:00"
+    },
+    {
+      "post_id": 8306,
+      "code": "de6b9988ebb24d718e35ee5d6864de05",
+      "lag_s": 265.654000043869,
+      "title": "Binance Will Add Centrifuge (CFG) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+      "catalog": 48,
+      "tg_time": "2026-03-16T12:34:35+00:00"
+    },
+    {
+      "post_id": 8415,
+      "code": "fd57a395639b466ab8bfc792670c679d",
+      "lag_s": 267.8680000305176,
+      "title": "Binance Will List Chip (CHIP) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-04-21T12:05:00+00:00"
+    },
+    {
+      "post_id": 8746,
+      "code": "5c52a77daddf4e0d9769b87cdc91fae4",
+      "lag_s": 274.0169999599457,
+      "title": "Binance Will Add Aerodrome (AERO) on Earn, Buy Crypto, Convert, VIP Loan & Margin",
+      "catalog": 48,
+      "tg_time": "2026-07-17T15:49:39+00:00"
+    },
+    {
+      "post_id": 8479,
+      "code": "a42f51022cb649aea0b4cb808205fd76",
+      "lag_s": 280.31900000572205,
+      "title": "Binance Will Delist ATA, FARM, MLN, PHB, SYS on 2026-05-27",
+      "catalog": 161,
+      "tg_time": "2026-05-13T08:04:45+00:00"
+    },
+    {
+      "post_id": 8664,
+      "code": "323b8b8ebe79436ca833cc1e870158af",
+      "lag_s": 281.80999994277954,
+      "title": "Updated Notice of Removal of Spot Trading Pairs - 2026-07-01",
+      "catalog": 161,
+      "tg_time": "2026-07-01T08:34:53+00:00"
+    },
+    {
+      "post_id": 7926,
+      "code": "fd835b4cd95f4af89c461070994e684d",
+      "lag_s": 283.49900007247925,
+      "title": "Binance Will List Lorenzo Protocol (BANK) and Meteora (MET) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2025-11-13T10:05:10+00:00"
+    },
+    {
+      "post_id": 9053,
+      "code": "290a660c0b2e4e888c582cd29ecf9ecc",
+      "lag_s": 297.95099997520447,
+      "title": "Binance Will Delist EPIC, QUICK on 2026-10-28",
+      "catalog": 161,
+      "tg_time": "2026-10-14T06:05:06+00:00"
+    },
+    {
+      "post_id": 8296,
+      "code": "01f1ef18ab314cc78cd3744760e4dc1f",
+      "lag_s": 305.6630001068115,
+      "title": "Binance Will List Katana (KAT) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-03-13T01:50:42+00:00"
+    },
+    {
+      "post_id": 8150,
+      "code": "85af9e52f60547dd8f7b67fd3dc2f7b4",
+      "lag_s": 307.76200008392334,
+      "title": "Binance Will List Sentient (SENT) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-01-22T05:31:02+00:00"
+    },
+    {
+      "post_id": 8427,
+      "code": "75a90e75150c4917b54c5251cba87225",
+      "lag_s": 333.4579999446869,
+      "title": "Notice on New Trading Pairs & Trading Bots Services on Binance Spot - 2026-04-28",
+      "catalog": 48,
+      "tg_time": "2026-04-27T08:06:11+00:00"
+    },
+    {
+      "post_id": 8377,
+      "code": "d26a627649ee44fca27e07672add9ac2",
+      "lag_s": 341.25600004196167,
+      "title": "Binance Will Delist BIFI, FIO, FUN, MDT, OXT, WAN on 2026-04-23",
+      "catalog": 161,
+      "tg_time": "2026-04-09T06:05:47+00:00"
+    },
+    {
+      "post_id": 8181,
+      "code": "c411646abd94488bba084537c5563beb",
+      "lag_s": 343.7760000228882,
+      "title": "Binance Will List Zama (ZAMA) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-02-02T04:34:27+00:00"
+    },
+    {
+      "post_id": 8739,
+      "code": "1631198cd282431bbb5fbd333106a413",
+      "lag_s": 345.03600001335144,
+      "title": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-07-17T07:35:47+00:00"
+    },
+    {
+      "post_id": 8137,
+      "code": "e02cbd00b40b4c4198ff14791777091b",
+      "lag_s": 349.00300002098083,
+      "title": "Notice of Removal of Margin Trading Pairs - 2026-01-23",
+      "catalog": 161,
+      "tg_time": "2026-01-20T02:05:51+00:00"
+    },
+    {
+      "post_id": 7992,
+      "code": "f958d031b39f46b1ab3947b1d53fa736",
+      "lag_s": 367.6199998855591,
+      "title": "Binance Will Delist FIS, REI, VOXEL on 2025-12-17",
+      "catalog": 161,
+      "tg_time": "2025-12-03T06:36:04+00:00"
+    },
+    {
+      "post_id": 8288,
+      "code": "e4af642d375846d793615f1a51f6ad77",
+      "lag_s": 373.7170000076294,
+      "title": "Introducing Midnight (NIGHT) on Binance HODLer Airdrops! Earn NIGHT With Retroactive BNB Simple Earn Subscriptions",
+      "catalog": 48,
+      "tg_time": "2026-03-11T11:37:35+00:00"
+    },
+    {
+      "post_id": 8801,
+      "code": "64cf7544b98e4f2ca7f54ba11fd72d9d",
+      "lag_s": 386.31699991226196,
+      "title": "Binance Will Delist ACX, HFT, PIVX, PYR, VANRY, VIC on 2026-08-17",
+      "catalog": 161,
+      "tg_time": "2026-08-03T03:36:37+00:00"
+    },
+    {
+      "post_id": 8921,
+      "code": "6133e417dcfe43a8ad20c0db1b53c7e8",
+      "lag_s": 390.4869999885559,
+      "title": "Binance Will List 牛来 (牛来) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-09-09T11:36:50+00:00"
+    },
+    {
+      "post_id": 8315,
+      "code": "ddac99c0e5044c13a13c7c113e530e2b",
+      "lag_s": 392.3329999446869,
+      "title": "Binance Will Delist A2Z, FORTH, HOOK, IDEX, LRC, NTRN, RDNT, SXP on 2026-04-01",
+      "catalog": 161,
+      "tg_time": "2026-03-18T09:06:41+00:00"
+    },
+    {
+      "post_id": 8862,
+      "code": "d72915ed7a60473b92f0818d959a227a",
+      "lag_s": 392.3919999599457,
+      "title": "Binance Will Delist ICX, SCRT, STORJ on 2026-09-03",
+      "catalog": 161,
+      "tg_time": "2026-08-20T06:06:39+00:00"
+    },
+    {
+      "post_id": 8340,
+      "code": "20861b38a9c246ff92db218bae2e83fa",
+      "lag_s": 394.85700011253357,
+      "title": "Binance Will List Tether Gold (XAUt) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-03-26T10:52:03+00:00"
+    },
+    {
+      "post_id": 7898,
+      "code": "55ba4e6b3da34b50a637a6000a13a46b",
+      "lag_s": 413.3310000896454,
+      "title": "Introducing Sapien (SAPIEN) on Binance HODLer Airdrops! Earn SAPIEN With Retroactive BNB Simple Earn Subscriptions",
+      "catalog": 48,
+      "tg_time": "2025-11-06T04:52:35+00:00"
+    },
+    {
+      "post_id": 9098,
+      "code": "a259777ee4104befa3daba5c1eadc7b5",
+      "lag_s": 413.6710000038147,
+      "title": "Binance Will List Predict (PREDICT) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-10-29T11:55:46+00:00"
+    },
+    {
+      "post_id": 8248,
+      "code": "d5810276f8c44fa7ade2b93746cd6a0a",
+      "lag_s": 416.18099999427795,
+      "title": "Introducing Opinion (OPN) on Binance Launchpool! Farm OPN by Locking BNB, USDC, U, and USD1",
+      "catalog": 48,
+      "tg_time": "2026-03-02T12:52:48+00:00"
+    },
+    {
+      "post_id": 8994,
+      "code": "d49de208bb6d4a26b02677d7c3d89b5d",
+      "lag_s": 426.3919999599457,
+      "title": "Binance Will List Hyperliquid (HYPE) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-09-24T07:37:45+00:00"
+    },
+    {
+      "post_id": 7972,
+      "code": "b0c65316e2bc4878838852b16291d07b",
+      "lag_s": 436.6010000705719,
+      "title": "Introducing APRO (AT) on Binance HODLer Airdrops! Earn AT With Retroactive BNB Simple Earn Subscriptions",
+      "catalog": 48,
+      "tg_time": "2025-11-27T08:45:35+00:00"
+    },
+    {
+      "post_id": 8620,
+      "code": "4f90bec2f7984f71aaa9465830b1c6a6",
+      "lag_s": 451.57599997520447,
+      "title": "Binance Will List Re (RE) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-06-18T09:54:53+00:00"
+    },
+    {
+      "post_id": 8905,
+      "code": "c2eaa763831745b2b1701dab45e20225",
+      "lag_s": 472.1300001144409,
+      "title": "Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-09-04T10:22:54+00:00"
+    },
+    {
+      "post_id": 8509,
+      "code": "4de6272354be421ba51ea042fd273a8d",
+      "lag_s": 474.0390000343323,
+      "title": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-05-22T07:26:30+00:00"
+    },
+    {
+      "post_id": 8305,
+      "code": "bcd4473a511948bf8b305f0f6a695313",
+      "lag_s": 506.74000000953674,
+      "title": "Binance Will List Centrifuge (CFG) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-03-16T10:31:06+00:00"
+    },
+    {
+      "post_id": 8092,
+      "code": "51881f9d018242ce80bed6ce015de2a7",
+      "lag_s": 551.420000076294,
+      "title": "Binance Will List 币安人生 (币安人生) and zkPass (ZKP) with Seed Tag Applied",
+      "catalog": 48,
+      "tg_time": "2026-01-07T10:48:18+00:00"
+    },
+    {
+      "post_id": 7871,
+      "code": "48da65d095eb44e093d856948552c402",
+      "lag_s": 595.0299999713898,
+      "title": "Introducing Kite (KITE) on Binance Launchpool! Farm KITE by Locking BNB, FDUSD and USDC",
+      "catalog": 48,
+      "tg_time": "2025-10-31T08:19:24+00:00"
+    },
+    {
+      "post_id": 9092,
+      "code": "3f180bddad424ea5b7a00148433721dc",
+      "lag_s": 640.4690001010895,
+      "title": "Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28",
+      "catalog": 48,
+      "tg_time": "2026-10-28T03:40:54+00:00"
+    },
+    {
+      "post_id": 8447,
+      "code": "9b3112ca2a4b4d8098403d9cc4a1a855",
+      "lag_s": 727.4530000686646,
+      "title": "Binance Alpha Will Remove REX, XO, TANSSI, DARKSTAR, YALA, RCADE, RDAC, SKATE, OVL, SLAY, Ghibli (SOL), Ghibli (BSC), PHY, VLR, SVSA, WBAI, EDGEN, FAIR3, MM, BUBB, AICELL, XLAB, SIGHT (2026-04-30)",
+      "catalog": 161,
+      "tg_time": "2026-04-30T09:45:23+00:00"
+    },
+    {
+      "post_id": 8084,
+      "code": "59a69279ee4148d5b267934a92319d33",
+      "lag_s": 739.2760000228882,
+      "title": "Introducing Brevis (BREV) on Binance HODLer Airdrops! Earn BREV With Retroactive BNB Simple Earn Subscriptions",
+      "catalog": 48,
+      "tg_time": "2026-01-05T10:16:34+00:00"
+    },
+    {
+      "post_id": 8987,
+      "code": "7d17add1ffe6416391f65a001734e1c7",
+      "lag_s": 856.0,
+      "title": "Binance Will Close UAH Deposits and Withdrawals via Fiat Trade UAH and Delist USDT/UAH Spot Trading Pair",
+      "catalog": 161,
+      "tg_time": "2026-09-23T07:14:16+00:00"
+    },
+    {
+      "post_id": 8789,
+      "code": "40f303353b5f4789aba90dd972990f7e",
+      "lag_s": 864.7479999065399,
+      "title": "Notice Regarding the Removal of AEUR and Conversion of AEUR to EUR",
+      "catalog": 161,
+      "tg_time": "2026-07-30T02:14:31+00:00"
+    },
+    {
+      "post_id": 8254,
+      "code": "7bd34bbcdd994fe5920b33dc347db0ff",
+      "lag_s": 1549.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-03-06",
+      "catalog": 161,
+      "tg_time": "2026-03-03T09:55:49+00:00"
+    },
+    {
+      "post_id": 8804,
+      "code": "23504a5454d545998414c9ad3e8832f3",
+      "lag_s": 2476.0,
+      "title": "Notice of Removal of Spot Trading Pairs - 2026-08-07",
+      "catalog": 161,
+      "tg_time": "2026-08-04T10:11:16+00:00"
+    }
+  ]
+}
